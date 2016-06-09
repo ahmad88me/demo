@@ -1,7 +1,7 @@
 digraph ar2dtool_diagram { 
 rankdir=LR;
 size="1501"
-node [shape = rectangle, color="orange"]; "base:Hotel" "schema:Hostel" "base:Hostal" "cruzar:Alojamiento" "base:Alojamiento" "schema:BedAndBreakfast" "geonames:Feature" "base:Apartahotel" "schema:Motel" "schema:LodgingBusiness" "skos:Concept" "schema:Hotel" "base:Albergue" "-59725491:1553780d71b:-7ffb" "-59725491:1553780d71b:-7ffc" ; /*classes style*/
+node [shape = rectangle, color="orange"]; "base:Hotel" "schema:Hostel" "base:Hostal" "cruzar:Alojamiento" "base:Alojamiento" "schema:BedAndBreakfast" "geonames:Feature" "base:Apartahotel" "schema:Motel" "schema:LodgingBusiness" "skos:Concept" "schema:Hotel" "base:Albergue" "4d230d00:15537842b43:-7ffb" "4d230d00:15537842b43:-7ffc" ; /*classes style*/
 	"http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento" -> "base:" [ label = "vann:preferredNamespaceUri" ];
 	"http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento" -> "http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento.owl" [ label = "dcterms:hasFormat" ];
 	"http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento" -> "http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento/0.1" [ label = "owl:versionIRI" ];
