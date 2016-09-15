@@ -1,0 +1,22 @@
+@prefix :        <http://geo.linkeddata.es/ontology/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov:    <http://www.w3.org/ns/prov#> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix vann:    <http://purl.org/vocab/vann/> .
+@prefix dcterms:  <http://purl.org/dc/terms/> .
+
+:     a       owl:Ontology ;
+      rdfs:comment "Geo.linkeddata.es ontology network"@en , "Red de ontologías geo.linkeddata.es"@es ;
+      dcterms:contributor "http://delicias.dia.fi.upm.es/members/DGarijo/#me"^^xsd:anyURI ;
+      dcterms:creator "Luis Manuel Vilches-Blázquez"^^xsd:string ;
+      dcterms:license "http://creativecommons.org/licenses/by-nc-sa/2.0/" ;
+      dcterms:publisher "Ontology Engineering Group"@en ;
+      dcterms:title "Red de ontologías geo.linkeddata.es"@es ;
+      vann:preferredNamespacePrefix
+              "geoes" ;
+      vann:preferredNamespaceUri
+              "http://geo.linkeddata.es/ontology/" ;
+      owl:imports <http://geo.linkeddata.es/ontology/transportes.owl> , <http://geo.linkeddata.es/ontology/geopolitica.owl> , <http://geo.linkeddata.es/ontology/hydro.owl> ;
+      owl:versionInfo "v0.1"^^xsd:string .
