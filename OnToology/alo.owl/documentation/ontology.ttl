@@ -86,6 +86,8 @@ geonames:Feature
 rdfs:comment
       a       owl:AnnotationProperty .
 
+[]    rdfs:label "HTML" .
+
 skos:Concept
       a       owl:Class .
 
@@ -128,8 +130,7 @@ geonames:featureClass
       a       owl:ObjectProperty ;
       rdfs:subPropertyOf dcterms:type .
 
-geonames:S
-      a       owl:NamedIndividual , skos:Concept .
+[]    rdfs:label "RDF" .
 
 :Hotel
       a       owl:Class ;
@@ -139,11 +140,12 @@ geonames:S
       rdfs:subClassOf schema:Hotel , :Alojamiento ;
       dcterms:issued "2015-03-06"^^xsd:dateTime .
 
+geonames:S
+      a       owl:NamedIndividual , skos:Concept .
+
 schema:Hostel
       a       owl:Class ;
       rdfs:subClassOf schema:LodgingBusiness .
-
-[]    rdfs:label "RDF" .
 
 cruzar:Alojamiento
       a       owl:Class .
@@ -155,8 +157,6 @@ cruzar:Alojamiento
       rdfs:label "Apartahotel"@es ;
       rdfs:subClassOf schema:LodgingBusiness , :Alojamiento ;
       dcterms:issued "2015-03-06"^^xsd:dateTime .
-
-[]    rdfs:label "HTML" .
 
 dcterms:issued
       a       owl:AnnotationProperty .
