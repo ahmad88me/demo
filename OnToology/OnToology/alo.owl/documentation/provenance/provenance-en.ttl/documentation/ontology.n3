@@ -1,0 +1,6 @@
+_:A544e5d84X3aX159f57e1198X3aXX2dX7ffc <http://xmlns.com/foaf/0.1/name> "Oscar Corcho (Ontology Engineering Group - Universidad Polit\u00E9cnica de Madrid, LocaliData)" .
+_:A544e5d84X3aX159f57e1198X3aXX2dX7ffc <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Agent> .
+<http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento/0.1> <http://purl.org/dc/terms/title> "Vocabulario para la representaci\u00F3n de datos sobre alojamiento" .
+<http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento/0.1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
+_:A544e5d84X3aX159f57e1198X3aXX2dX7ffb <http://xmlns.com/foaf/0.1/name> "Oscar Corcho (Ontology Engineering Group - Universidad Polit\u00E9cnica de Madrid, LocaliData)" .
+_:A544e5d84X3aX159f57e1198X3aXX2dX7ffb <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Agent> .
