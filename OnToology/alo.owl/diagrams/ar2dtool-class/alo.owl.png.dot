@@ -8,10 +8,10 @@ node [shape = rectangle, color="orange"]; "base:Alojamiento" "skos:Concept" ; /*
 	"http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento" -> "http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento.html" [ label = "dcterms:hasFormat" ];
 	"http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento" -> "http://creativecommons.org/licenses/by/4.0/" [ label = "cc:license" ];
 	"geonames:featureClass" -> "dcterms:type" [ label = "rdfs:subPropertyOf" ];
-	"NULL" -> "geonames:S.HTL" [ label = "owl:hasValue" ];
-	"NULL" -> "geonames:featureCode" [ label = "owl:onProperty" ];
 	"NULL" -> "geonames:S" [ label = "owl:hasValue" ];
 	"NULL" -> "geonames:featureClass" [ label = "owl:onProperty" ];
+	"NULL" -> "geonames:S.HTL" [ label = "owl:hasValue" ];
+	"NULL" -> "geonames:featureCode" [ label = "owl:onProperty" ];
 	"geonames:featureCode" -> "dcterms:type" [ label = "rdfs:subPropertyOf" ];
 	"base:Alojamiento" -> "xsd:integer" [ label = "base:numHabitaciones" ];
 	"base:Alojamiento" -> "xsd:integer" [ label = "base:numCamas" ];
