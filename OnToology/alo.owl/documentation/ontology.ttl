@@ -56,8 +56,6 @@ Esta ontología sufrirá cambios continuados hasta que se consiga un acuerdo suf
       rdfs:subClassOf :Alojamiento , schema:Hostel ;
       dcterms:issued "2015-03-06"^^xsd:dateTime .
 
-[]    rdfs:label "HTML" .
-
 rdfs:label
       a       owl:AnnotationProperty .
 
@@ -75,18 +73,20 @@ geonames:Feature
       rdfs:subClassOf cruzar:Alojamiento , schema:LodgingBusiness , geonames:Feature ;
       rdfs:subClassOf
               [ a       owl:Restriction ;
-                owl:hasValue <http://geonames.org/ontology#S.HTL> ;
-                owl:onProperty geonames:featureCode
+                owl:hasValue geonames:S ;
+                owl:onProperty geonames:featureClass
               ] ;
       rdfs:subClassOf
               [ a       owl:Restriction ;
-                owl:hasValue geonames:S ;
-                owl:onProperty geonames:featureClass
+                owl:hasValue <http://geonames.org/ontology#S.HTL> ;
+                owl:onProperty geonames:featureCode
               ] ;
       dcterms:issued "2014-09-15"^^xsd:dateTime .
 
 rdfs:comment
       a       owl:AnnotationProperty .
+
+[]    rdfs:label "RDF" .
 
 skos:Concept
       a       owl:Class .
@@ -130,7 +130,8 @@ geonames:featureClass
       a       owl:ObjectProperty ;
       rdfs:subPropertyOf dcterms:type .
 
-[]    rdfs:label "RDF" .
+geonames:S
+      a       owl:NamedIndividual , skos:Concept .
 
 :Hotel
       a       owl:Class ;
@@ -139,9 +140,6 @@ geonames:featureClass
       rdfs:label "Hotel"@es ;
       rdfs:subClassOf schema:Hotel , :Alojamiento ;
       dcterms:issued "2015-03-06"^^xsd:dateTime .
-
-geonames:S
-      a       owl:NamedIndividual , skos:Concept .
 
 schema:Hostel
       a       owl:Class ;
@@ -173,6 +171,8 @@ dcterms:issued
 schema:Motel
       a       owl:Class ;
       rdfs:subClassOf schema:LodgingBusiness .
+
+[]    rdfs:label "HTML" .
 
 geonames:featureCode
       a       owl:ObjectProperty ;
