@@ -17,8 +17,6 @@
 @prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
 @prefix cc:      <http://creativecommons.org/ns#> .
 
-[]    rdfs:label "RDF" .
-
 <http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento>
       a       owl:Ontology ;
       rdfs:comment """Vocabulario para la representación de datos sobre alojamientos en España
@@ -42,6 +40,8 @@ Esta ontología sufrirá cambios continuados hasta que se consiga un acuerdo suf
       owl:versionIRI <http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento/0.1> ;
       owl:versionInfo "Esta ontología surge de la necesidad de representar información detallada sobre alojamientos en una ciudad"@es .
 
+[]    rdfs:label "HTML" .
+
 :Hostal
       a       owl:Class ;
       rdfs:comment "Hostal"@es ;
@@ -57,8 +57,6 @@ Esta ontología sufrirá cambios continuados hasta que se consiga un acuerdo suf
       rdfs:label "Albergue"@es ;
       rdfs:subClassOf :Alojamiento , schema:Hostel ;
       dcterms:issued "2015-03-06"^^xsd:dateTime .
-
-[]    rdfs:label "HTML" .
 
 rdfs:label
       a       owl:AnnotationProperty .
@@ -77,13 +75,13 @@ geonames:Feature
       rdfs:subClassOf cruzar:Alojamiento , schema:LodgingBusiness , geonames:Feature ;
       rdfs:subClassOf
               [ a       owl:Restriction ;
-                owl:hasValue <http://geonames.org/ontology#S.HTL> ;
-                owl:onProperty geonames:featureCode
+                owl:hasValue geonames:S ;
+                owl:onProperty geonames:featureClass
               ] ;
       rdfs:subClassOf
               [ a       owl:Restriction ;
-                owl:hasValue geonames:S ;
-                owl:onProperty geonames:featureClass
+                owl:hasValue <http://geonames.org/ontology#S.HTL> ;
+                owl:onProperty geonames:featureCode
               ] ;
       dcterms:issued "2014-09-15"^^xsd:dateTime .
 
@@ -104,6 +102,8 @@ skos:Concept
 
 rdfs:isDefinedBy
       a       owl:AnnotationProperty .
+
+[]    rdfs:label "RDF" .
 
 schema:LodgingBusiness
       a       owl:Class .
