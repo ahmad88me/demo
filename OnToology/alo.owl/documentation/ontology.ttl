@@ -86,8 +86,6 @@ geonames:Feature
 rdfs:comment
       a       owl:AnnotationProperty .
 
-[]    rdfs:label "RDF" .
-
 skos:Concept
       a       owl:Class .
 
@@ -159,6 +157,8 @@ cruzar:Alojamiento
 dcterms:issued
       a       owl:AnnotationProperty .
 
+[]    rdfs:label "RDF" .
+
 :numCamas
       a       owl:DatatypeProperty ;
       rdfs:comment "Número de camas de un alojamiento"@es ;
@@ -168,11 +168,11 @@ dcterms:issued
       rdfs:range xsd:integer ;
       dcterms:issued "2014-09-14"^^xsd:dateTime .
 
+[]    rdfs:label "HTML" .
+
 schema:Motel
       a       owl:Class ;
       rdfs:subClassOf schema:LodgingBusiness .
-
-[]    rdfs:label "HTML" .
 
 geonames:featureCode
       a       owl:ObjectProperty ;
