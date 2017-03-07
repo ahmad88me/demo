@@ -17,6 +17,8 @@
 @prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
 @prefix cc:      <http://creativecommons.org/ns#> .
 
+[]    rdfs:label "RDF" .
+
 <http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento>
       a       owl:Ontology ;
       rdfs:comment """Vocabulario para la representación de datos sobre alojamientos en España
@@ -56,6 +58,8 @@ Esta ontología sufrirá cambios continuados hasta que se consiga un acuerdo suf
       rdfs:subClassOf :Alojamiento , schema:Hostel ;
       dcterms:issued "2015-03-06"^^xsd:dateTime .
 
+[]    rdfs:label "HTML" .
+
 rdfs:label
       a       owl:AnnotationProperty .
 
@@ -73,20 +77,18 @@ geonames:Feature
       rdfs:subClassOf cruzar:Alojamiento , schema:LodgingBusiness , geonames:Feature ;
       rdfs:subClassOf
               [ a       owl:Restriction ;
-                owl:hasValue geonames:S ;
-                owl:onProperty geonames:featureClass
+                owl:hasValue <http://geonames.org/ontology#S.HTL> ;
+                owl:onProperty geonames:featureCode
               ] ;
       rdfs:subClassOf
               [ a       owl:Restriction ;
-                owl:hasValue <http://geonames.org/ontology#S.HTL> ;
-                owl:onProperty geonames:featureCode
+                owl:hasValue geonames:S ;
+                owl:onProperty geonames:featureClass
               ] ;
       dcterms:issued "2014-09-15"^^xsd:dateTime .
 
 rdfs:comment
       a       owl:AnnotationProperty .
-
-[]    rdfs:label "RDF" .
 
 skos:Concept
       a       owl:Class .
@@ -171,8 +173,6 @@ dcterms:issued
 schema:Motel
       a       owl:Class ;
       rdfs:subClassOf schema:LodgingBusiness .
-
-[]    rdfs:label "HTML" .
 
 geonames:featureCode
       a       owl:ObjectProperty ;

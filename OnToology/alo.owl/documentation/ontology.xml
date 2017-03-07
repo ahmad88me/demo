@@ -17,6 +17,9 @@
     xmlns:dctype="http://purl.org/dc/dcmitype/"
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
     xmlns:cruzar="http://idi.fundacionctic.org/cruzar/turismo#" > 
+  <rdf:Description rdf:nodeID="A0">
+    <rdfs:label>RDF</rdfs:label>
+  </rdf:Description>
   <rdf:Description rdf:about="http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento">
     <dc:title xml:lang="es">Vocabulario para la representación de datos sobre alojamiento</dc:title>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
@@ -42,6 +45,11 @@ Esta ontología sufrirá cambios continuados hasta que se consiga un acuerdo suf
     <dcterms:hasFormat rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento.html"/>
     <cc:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
   </rdf:Description>
+  <rdf:Description rdf:nodeID="A1">
+    <owl:hasValue rdf:resource="http://geonames.org/ontology#S"/>
+    <owl:onProperty rdf:resource="http://geonames.org/ontology#featureClass"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
   <rdf:Description rdf:about="http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento#Hostal">
     <rdfs:isDefinedBy rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento"/>
     <rdfs:comment xml:lang="es">Hostal</rdfs:comment>
@@ -60,6 +68,9 @@ Esta ontología sufrirá cambios continuados hasta que se consiga un acuerdo suf
     <rdfs:label xml:lang="es">Albergue</rdfs:label>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
   </rdf:Description>
+  <rdf:Description rdf:nodeID="A2">
+    <rdfs:label>HTML</rdfs:label>
+  </rdf:Description>
   <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#label">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
   </rdf:Description>
@@ -72,12 +83,12 @@ Esta ontología sufrirá cambios continuados hasta que se consiga un acuerdo suf
   </rdf:Description>
   <rdf:Description rdf:about="http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento#Alojamiento">
     <rdfs:comment xml:lang="es">Cualquier tipo de alojamiento. Esta clase no es disjunta con clases de schema.org como schema:BedAndBreakfast, Hostel, Hotel, Motel</rdfs:comment>
-    <rdfs:subClassOf rdf:nodeID="A0"/>
-    <rdfs:subClassOf rdf:nodeID="A1"/>
     <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-15</dcterms:issued>
     <rdfs:subClassOf rdf:resource="http://idi.fundacionctic.org/cruzar/turismo#Alojamiento"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:nodeID="A3"/>
     <rdfs:isDefinedBy rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento"/>
+    <rdfs:subClassOf rdf:nodeID="A1"/>
     <rdfs:subClassOf rdf:resource="http://geonames.org/ontology#Feature"/>
     <rdfs:label xml:lang="es">Alojamiento</rdfs:label>
     <rdfs:subClassOf rdf:resource="http://schema.org/LodgingBusiness"/>
@@ -85,16 +96,8 @@ Esta ontología sufrirá cambios continuados hasta que se consiga un acuerdo suf
   <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#comment">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="A2">
-    <rdfs:label>RDF</rdfs:label>
-  </rdf:Description>
   <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#Concept">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="A1">
-    <owl:hasValue rdf:resource="http://geonames.org/ontology#S"/>
-    <owl:onProperty rdf:resource="http://geonames.org/ontology#featureClass"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento#numHabitaciones">
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
@@ -113,6 +116,11 @@ Esta ontología sufrirá cambios continuados hasta que se consiga un acuerdo suf
   </rdf:Description>
   <rdf:Description rdf:about="http://purl.org/dc/terms/type">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A3">
+    <owl:hasValue rdf:resource="http://geonames.org/ontology#S.HTL"/>
+    <owl:onProperty rdf:resource="http://geonames.org/ontology#featureCode"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://schema.org/Hotel">
     <rdfs:subClassOf rdf:resource="http://schema.org/LodgingBusiness"/>
@@ -179,14 +187,6 @@ Esta ontología sufrirá cambios continuados hasta que se consiga un acuerdo suf
   <rdf:Description rdf:about="http://schema.org/Motel">
     <rdfs:subClassOf rdf:resource="http://schema.org/LodgingBusiness"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="A3">
-    <rdfs:label>HTML</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="A0">
-    <owl:hasValue rdf:resource="http://geonames.org/ontology#S.HTL"/>
-    <owl:onProperty rdf:resource="http://geonames.org/ontology#featureCode"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://geonames.org/ontology#featureCode">
     <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/type"/>
