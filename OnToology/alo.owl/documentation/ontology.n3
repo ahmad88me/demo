@@ -12,14 +12,11 @@
 <http://www.w3.org/2004/02/skos/core#Concept> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://geonames.org/ontology#S> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://geonames.org/ontology#S> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+_:A2cc8ecddX3aX15b1037ad9cX3aXX2dX7ffa <http://www.w3.org/2000/01/rdf-schema#label> "RDF" .
 <http://www.w3.org/2000/01/rdf-schema#label> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
-_:AX2dX705b4f89X3aX15b10331848X3aXX2dX7ff9 <http://www.w3.org/2000/01/rdf-schema#label> "HTML" .
 <http://purl.org/dc/terms/issued> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 <http://schema.org/Hostel> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/LodgingBusiness> .
 <http://schema.org/Hostel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-_:AX2dX705b4f89X3aX15b10331848X3aXX2dX7ffc <http://www.w3.org/2002/07/owl#hasValue> <http://geonames.org/ontology#S> .
-_:AX2dX705b4f89X3aX15b10331848X3aXX2dX7ffc <http://www.w3.org/2002/07/owl#onProperty> <http://geonames.org/ontology#featureClass> .
-_:AX2dX705b4f89X3aX15b10331848X3aXX2dX7ffc <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento#numHabitaciones> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
 <http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento#numHabitaciones> <http://www.w3.org/2000/01/rdf-schema#domain> <http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento#Alojamiento> .
 <http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento#numHabitaciones> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento> .
@@ -36,9 +33,6 @@ _:AX2dX705b4f89X3aX15b10331848X3aXX2dX7ffc <http://www.w3.org/1999/02/22-rdf-syn
 <http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento#numCamas> <http://purl.org/dc/terms/issued> "2014-09-14"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento#numCamas> <http://www.w3.org/2000/01/rdf-schema#label> "n\u00FAmero de camas"@es .
 <http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento#numCamas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-_:AX2dX705b4f89X3aX15b10331848X3aXX2dX7ffb <http://www.w3.org/2002/07/owl#hasValue> <http://geonames.org/ontology#S.HTL> .
-_:AX2dX705b4f89X3aX15b10331848X3aXX2dX7ffb <http://www.w3.org/2002/07/owl#onProperty> <http://geonames.org/ontology#featureCode> .
-_:AX2dX705b4f89X3aX15b10331848X3aXX2dX7ffb <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento#Hostal> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento> .
 <http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento#Hostal> <http://www.w3.org/2000/01/rdf-schema#comment> "Hostal"@es .
 <http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento#Hostal> <http://purl.org/dc/terms/issued> "2015-03-06"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
@@ -62,7 +56,7 @@ _:AX2dX705b4f89X3aX15b10331848X3aXX2dX7ffb <http://www.w3.org/1999/02/22-rdf-syn
 <http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento#Apartahotel> <http://www.w3.org/2000/01/rdf-schema#label> "Apartahotel"@es .
 <http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento#Apartahotel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://purl.org/dc/terms/type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-_:AX2dX705b4f89X3aX15b10331848X3aXX2dX7ffa <http://www.w3.org/2000/01/rdf-schema#label> "RDF" .
+_:A2cc8ecddX3aX15b1037ad9cX3aXX2dX7ff9 <http://www.w3.org/2000/01/rdf-schema#label> "HTML" .
 <http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento#Hotel> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento> .
 <http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento#Hotel> <http://www.w3.org/2000/01/rdf-schema#comment> "Hotel"@es .
 <http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento#Hotel> <http://purl.org/dc/terms/issued> "2015-03-06"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
@@ -70,6 +64,9 @@ _:AX2dX705b4f89X3aX15b10331848X3aXX2dX7ffa <http://www.w3.org/2000/01/rdf-schema
 <http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento#Hotel> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/Hotel> .
 <http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento#Hotel> <http://www.w3.org/2000/01/rdf-schema#label> "Hotel"@es .
 <http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento#Hotel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:A2cc8ecddX3aX15b1037ad9cX3aXX2dX7ffc <http://www.w3.org/2002/07/owl#hasValue> <http://geonames.org/ontology#S> .
+_:A2cc8ecddX3aX15b1037ad9cX3aXX2dX7ffc <http://www.w3.org/2002/07/owl#onProperty> <http://geonames.org/ontology#featureClass> .
+_:A2cc8ecddX3aX15b1037ad9cX3aXX2dX7ffc <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento> <http://purl.org/dc/elements/1.1/title> "Vocabulario para la representaci\u00F3n de datos sobre alojamiento"@es .
 <http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
 <http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento> <http://www.w3.org/2000/01/rdf-schema#comment> "Vocabulario para la representaci\u00F3n de datos sobre alojamientos en Espa\u00F1a\nEste vocabulario ha sido desarrollado en el contexto del grupo sobre Turismo, Cultura y Ocio, y Comercio de AENOR. El estado del vocabulario es todav\u00EDa muy inicial y sufrir\u00E1 cambios\nReutiliza t\u00E9rminos de varios vocabularios y modelos que actualmente se utilizan para prop\u00F3sitos similares (y por tanto se ir\u00E1 actualizando de acuerdo con la evoluci\u00F3n de estos vocabularios), incluyendo:\n- schema.org\n- geoNames\n- cruzar\n\nEsta ontolog\u00EDa sufrir\u00E1 cambios continuados hasta que se consiga un acuerdo suficiente sobre los t\u00E9rminos que se incluyen en ella. "^^<http://www.w3.org/2001/XMLSchema#dateTime> .
@@ -88,17 +85,20 @@ _:AX2dX705b4f89X3aX15b10331848X3aXX2dX7ffa <http://www.w3.org/2000/01/rdf-schema
 <http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento> <http://creativecommons.org/ns#license> <http://creativecommons.org/licenses/by/4.0/> .
 <http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento#Alojamiento> <http://www.w3.org/2000/01/rdf-schema#comment> "Cualquier tipo de alojamiento. Esta clase no es disjunta con clases de schema.org como schema:BedAndBreakfast, Hostel, Hotel, Motel"@es .
 <http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento#Alojamiento> <http://purl.org/dc/terms/issued> "2014-09-15"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
-<http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento#Alojamiento> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:AX2dX705b4f89X3aX15b10331848X3aXX2dX7ffc .
 <http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento#Alojamiento> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://idi.fundacionctic.org/cruzar/turismo#Alojamiento> .
 <http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento#Alojamiento> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento#Alojamiento> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:A2cc8ecddX3aX15b1037ad9cX3aXX2dX7ffb .
 <http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento#Alojamiento> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento> .
 <http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento#Alojamiento> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://geonames.org/ontology#Feature> .
 <http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento#Alojamiento> <http://www.w3.org/2000/01/rdf-schema#label> "Alojamiento"@es .
 <http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento#Alojamiento> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/LodgingBusiness> .
-<http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento#Alojamiento> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:AX2dX705b4f89X3aX15b10331848X3aXX2dX7ffb .
+<http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento#Alojamiento> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:A2cc8ecddX3aX15b1037ad9cX3aXX2dX7ffc .
 <http://idi.fundacionctic.org/cruzar/turismo#Alojamiento> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://schema.org/BedAndBreakfast> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/LodgingBusiness> .
 <http://schema.org/BedAndBreakfast> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:A2cc8ecddX3aX15b1037ad9cX3aXX2dX7ffb <http://www.w3.org/2002/07/owl#hasValue> <http://geonames.org/ontology#S.HTL> .
+_:A2cc8ecddX3aX15b1037ad9cX3aXX2dX7ffb <http://www.w3.org/2002/07/owl#onProperty> <http://geonames.org/ontology#featureCode> .
+_:A2cc8ecddX3aX15b1037ad9cX3aXX2dX7ffb <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento#Albergue> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento> .
 <http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento#Albergue> <http://www.w3.org/2000/01/rdf-schema#comment> "Albergue"@es .
 <http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento#Albergue> <http://purl.org/dc/terms/issued> "2015-03-06"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
