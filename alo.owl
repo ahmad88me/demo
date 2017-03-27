@@ -13,6 +13,7 @@ testing new cross reference
 another line
 testing new widoco
 new widoc
+testing -crossRef option
 -->
 
 <!DOCTYPE rdf:RDF [
