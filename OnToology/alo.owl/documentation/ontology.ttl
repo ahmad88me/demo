@@ -62,8 +62,6 @@ rdfs:label
 <http://geonames.org/ontology#S.HTL>
       a       owl:NamedIndividual , skos:Concept .
 
-[]    rdfs:label "HTML" .
-
 geonames:Feature
       a       owl:Class .
 
@@ -102,6 +100,8 @@ skos:Concept
 
 rdfs:isDefinedBy
       a       owl:AnnotationProperty .
+
+[]    rdfs:label "HTML" .
 
 schema:LodgingBusiness
       a       owl:Class .
@@ -156,10 +156,10 @@ cruzar:Alojamiento
       rdfs:subClassOf schema:LodgingBusiness , :Alojamiento ;
       dcterms:issued "2015-03-06"^^xsd:dateTime .
 
-[]    rdfs:label "RDF" .
-
 dcterms:issued
       a       owl:AnnotationProperty .
+
+[]    rdfs:label "RDF" .
 
 :numCamas
       a       owl:DatatypeProperty ;
