@@ -17,6 +17,7 @@ testing -crossRef option
 testing new server
 again testing new server
 again testing new server
+Fixing with the new java version
 -->
 
 <!DOCTYPE rdf:RDF [
