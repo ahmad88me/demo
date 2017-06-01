@@ -25,6 +25,7 @@ y adding more logs
 tyyphe correct .ssh configuration
 tyyphe correct .ssh configuration
 with .sshlink o
+fixit changing www-data group
 -->
 
 <!DOCTYPE rdf:RDF [
