@@ -1,0 +1,369 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento#"
+     xml:base="http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:ns="http://creativecommons.org/ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:vann="http://purl.org/vocab/vann/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <owl:Ontology rdf:about="http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento">
+        <owl:versionIRI rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento/0.1"/>
+        <ns:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Miguel Angel García Delgado (Ontology Engineering Group - Universidad Politécnica de Madrid)</dc:creator>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oscar Corcho (Ontology Engineering Group - Universidad Politécnica de Madrid, LocaliData)</dc:creator>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Víctor Morlán (Ayuntamiento de Zaragoza)</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-15</dc:date>
+        <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento</dc:identifier>
+        <dc:rights rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Creative Commons Attribution 4.0 International (CC BY 4.0)</dc:rights>
+        <dc:title xml:lang="es">Vocabulario para la representación de datos sobre alojamiento</dc:title>
+        <terms:hasFormat rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento.html"/>
+        <terms:hasFormat rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento.owl"/>
+        <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-15</terms:issued>
+        <vann:preferredNamespaceUri rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento#"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">Vocabulario para la representación de datos sobre alojamientos en España
+Este vocabulario ha sido desarrollado en el contexto del grupo sobre Turismo, Cultura y Ocio, y Comercio de AENOR. El estado del vocabulario es todavía muy inicial y sufrirá cambios
+Reutiliza términos de varios vocabularios y modelos que actualmente se utilizan para propósitos similares (y por tanto se irá actualizando de acuerdo con la evolución de estos vocabularios), incluyendo:
+- schema.org
+- geoNames
+- cruzar
+
+Esta ontología sufrirá cambios continuados hasta que se consiga un acuerdo suficiente sobre los términos que se incluyen en ella. </rdfs:comment>
+        <owl:versionInfo xml:lang="es">Esta ontología surge de la necesidad de representar información detallada sobre alojamientos en una ciudad</owl:versionInfo>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://purl.org/dc/terms/issued -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/issued"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#comment -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#isDefinedBy -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#isDefinedBy"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#label -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://geonames.org/ontology#featureClass -->
+
+
+    <owl:ObjectProperty rdf:about="http://geonames.org/ontology#featureClass">
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/type"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://geonames.org/ontology#featureCode -->
+
+
+    <owl:ObjectProperty rdf:about="http://geonames.org/ontology#featureCode">
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/type"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/dc/terms/type -->
+
+
+    <owl:ObjectProperty rdf:about="http://purl.org/dc/terms/type"/>
+    
+
+
+    <!-- http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento#categoria -->
+
+
+    <owl:ObjectProperty rdf:about="http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento#categoria">
+        <rdfs:domain rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento#Alojamiento"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-14</terms:issued>
+        <rdfs:comment xml:lang="es">Categoría de un alojamiento. Normalmente se debería encontrar recogido en un SKOS Concept Scheme sobre categorías (para representar, por ejemplo, las estrellas o llaves de un hotel o apartamento). </rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento"/>
+        <rdfs:label xml:lang="es">categoría</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento#numCamas -->
+
+
+    <owl:DatatypeProperty rdf:about="http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento#numCamas">
+        <rdfs:domain rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento#Alojamiento"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-14</terms:issued>
+        <rdfs:comment xml:lang="es">Número de camas de un alojamiento</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento"/>
+        <rdfs:label xml:lang="es">número de camas</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento#numHabitaciones -->
+
+
+    <owl:DatatypeProperty rdf:about="http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento#numHabitaciones">
+        <rdfs:domain rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento#Alojamiento"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-14</terms:issued>
+        <rdfs:comment xml:lang="es">Número de habitaciones de un alojamiento</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento"/>
+        <rdfs:label xml:lang="es">número de habitaciones</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://geonames.org/ontology#Feature -->
+
+
+    <owl:Class rdf:about="http://geonames.org/ontology#Feature"/>
+    
+
+
+    <!-- http://idi.fundacionctic.org/cruzar/turismo#Alojamiento -->
+
+
+    <owl:Class rdf:about="http://idi.fundacionctic.org/cruzar/turismo#Alojamiento"/>
+    
+
+
+    <!-- http://schema.org/BedAndBreakfast -->
+
+
+    <owl:Class rdf:about="http://schema.org/BedAndBreakfast">
+        <rdfs:subClassOf rdf:resource="http://schema.org/LodgingBusiness"/>
+    </owl:Class>
+    
+
+
+    <!-- http://schema.org/Hostel -->
+
+
+    <owl:Class rdf:about="http://schema.org/Hostel">
+        <rdfs:subClassOf rdf:resource="http://schema.org/LodgingBusiness"/>
+    </owl:Class>
+    
+
+
+    <!-- http://schema.org/Hotel -->
+
+
+    <owl:Class rdf:about="http://schema.org/Hotel">
+        <rdfs:subClassOf rdf:resource="http://schema.org/LodgingBusiness"/>
+    </owl:Class>
+    
+
+
+    <!-- http://schema.org/LodgingBusiness -->
+
+
+    <owl:Class rdf:about="http://schema.org/LodgingBusiness"/>
+    
+
+
+    <!-- http://schema.org/Motel -->
+
+
+    <owl:Class rdf:about="http://schema.org/Motel">
+        <rdfs:subClassOf rdf:resource="http://schema.org/LodgingBusiness"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento#Albergue -->
+
+
+    <owl:Class rdf:about="http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento#Albergue">
+        <rdfs:subClassOf rdf:resource="http://schema.org/Hostel"/>
+        <rdfs:subClassOf rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento#Alojamiento"/>
+        <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-03-06</terms:issued>
+        <rdfs:comment xml:lang="es">Albergue</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento"/>
+        <rdfs:label xml:lang="es">Albergue</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento#Alojamiento -->
+
+
+    <owl:Class rdf:about="http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento#Alojamiento">
+        <rdfs:subClassOf rdf:resource="http://geonames.org/ontology#Feature"/>
+        <rdfs:subClassOf rdf:resource="http://idi.fundacionctic.org/cruzar/turismo#Alojamiento"/>
+        <rdfs:subClassOf rdf:resource="http://schema.org/LodgingBusiness"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://geonames.org/ontology#featureClass"/>
+                <owl:hasValue rdf:resource="http://geonames.org/ontology#S"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://geonames.org/ontology#featureCode"/>
+                <owl:hasValue rdf:resource="http://geonames.org/ontology#S.HTL"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-15</terms:issued>
+        <rdfs:comment xml:lang="es">Cualquier tipo de alojamiento. Esta clase no es disjunta con clases de schema.org como schema:BedAndBreakfast, Hostel, Hotel, Motel</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento"/>
+        <rdfs:label xml:lang="es">Alojamiento</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento#Apartahotel -->
+
+
+    <owl:Class rdf:about="http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento#Apartahotel">
+        <rdfs:subClassOf rdf:resource="http://schema.org/LodgingBusiness"/>
+        <rdfs:subClassOf rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento#Alojamiento"/>
+        <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-03-06</terms:issued>
+        <rdfs:comment xml:lang="es">Apartahotel</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento"/>
+        <rdfs:label xml:lang="es">Apartahotel</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento#Hostal -->
+
+
+    <owl:Class rdf:about="http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento#Hostal">
+        <rdfs:subClassOf rdf:resource="http://schema.org/LodgingBusiness"/>
+        <rdfs:subClassOf rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento#Alojamiento"/>
+        <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-03-06</terms:issued>
+        <rdfs:comment xml:lang="es">Hostal</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento"/>
+        <rdfs:label xml:lang="es">Hostal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento#Hotel -->
+
+
+    <owl:Class rdf:about="http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento#Hotel">
+        <rdfs:subClassOf rdf:resource="http://schema.org/Hotel"/>
+        <rdfs:subClassOf rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento#Alojamiento"/>
+        <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-03-06</terms:issued>
+        <rdfs:comment xml:lang="es">Hotel</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento"/>
+        <rdfs:label xml:lang="es">Hotel</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#Concept -->
+
+
+    <owl:Class rdf:about="http://www.w3.org/2004/02/skos/core#Concept"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://geonames.org/ontology#S -->
+
+
+    <owl:NamedIndividual rdf:about="http://geonames.org/ontology#S">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://geonames.org/ontology#S.HTL -->
+
+
+    <owl:NamedIndividual rdf:about="http://geonames.org/ontology#S.HTL">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    </owl:NamedIndividual>
+    <rdf:Description>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HTML</rdfs:label>
+    </rdf:Description>
+    <rdf:Description>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RDF</rdfs:label>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.0) https://github.com/owlcs/owlapi/ -->
+
+
