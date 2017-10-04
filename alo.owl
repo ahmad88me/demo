@@ -28,8 +28,8 @@ with .sshlink o
 fixit changing www-data group
 testing if everything is ok
 testing if everything is ok
+checking new workflow
 -->
-errrorrrro
 <!DOCTYPE rdf:RDF [
     <!ENTITY schema "http://schema.org/" >
     <!ENTITY dcterms "http://purl.org/dc/terms/" >
