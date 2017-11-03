@@ -31,6 +31,7 @@ testing if everything is ok
 checking new workflow
 checking new documentation
 checking update the documentation
+testing doc only 1 
 -->
 <!DOCTYPE rdf:RDF [
     <!ENTITY schema "http://schema.org/" >

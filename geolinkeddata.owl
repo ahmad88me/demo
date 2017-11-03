@@ -1,6 +1,8 @@
 <?xml version="1.0"?>
 
-<!-- testing-->
+<!-- testing
+doc 1 
+     -->
 
 <!DOCTYPE rdf:RDF [
     <!ENTITY dcterms "http://purl.org/dc/terms/" >
