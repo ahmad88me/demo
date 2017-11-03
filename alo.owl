@@ -29,6 +29,7 @@ fixit changing www-data group
 testing if everything is ok
 testing if everything is ok
 checking new workflow
+checking new documentation
 -->
 <!DOCTYPE rdf:RDF [
     <!ENTITY schema "http://schema.org/" >
