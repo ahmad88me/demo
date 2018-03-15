@@ -1,8 +1,0 @@
-digraph ar2dtool_diagram { 
-rankdir=LR;
-size="1501"
-	"geoes:" -> "geoes:hydro.owl" [ label = "owl:imports" ];
-	"geoes:" -> "geoes:transportes.owl" [ label = "owl:imports" ];
-	"geoes:" -> "geoes:geopolitica.owl" [ label = "owl:imports" ];
-
-}
