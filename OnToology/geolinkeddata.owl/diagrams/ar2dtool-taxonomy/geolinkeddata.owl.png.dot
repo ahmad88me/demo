@@ -1,0 +1,20 @@
+digraph ar2dtool_diagram { 
+rankdir=LB;
+size="500"
+node [shape = rectangle, color="black"]; "Red de ontologías geo.linkeddata.es@es" "Ontology Engineering Group@en" "http://creativecommons.org/licenses/by-nc-sa/2.0/" "geoes" "Red de ontologías geo.linkeddata.es@es" "Luis Manuel Vilches-Blázquez^^http://www.w3.org/2001/XMLSchema#string" "http://geo.linkeddata.es/ontology/" "Geo.linkeddata.es ontology network@en" "http://delicias.dia.fi.upm.es/members/DGarijo/#me^^http://www.w3.org/2001/XMLSchema#anyURI" "v0.1^^http://www.w3.org/2001/XMLSchema#string" ; /*literals style*/
+	"http://geo.linkeddata.es/ontology/" -> "Red de ontologías geo.linkeddata.es@es" [ label = "http://purl.org/dc/terms/title" ];
+	"http://geo.linkeddata.es/ontology/" -> "http://geo.linkeddata.es/ontology/hydro.owl" [ label = "http://www.w3.org/2002/07/owl#imports" ];
+	"http://geo.linkeddata.es/ontology/" -> "Ontology Engineering Group@en" [ label = "http://purl.org/dc/terms/publisher" ];
+	"http://geo.linkeddata.es/ontology/" -> "http://geo.linkeddata.es/ontology/transportes.owl" [ label = "http://www.w3.org/2002/07/owl#imports" ];
+	"http://geo.linkeddata.es/ontology/" -> "http://creativecommons.org/licenses/by-nc-sa/2.0/" [ label = "http://purl.org/dc/terms/license" ];
+	"http://geo.linkeddata.es/ontology/" -> "geoes" [ label = "http://purl.org/vocab/vann/preferredNamespacePrefix" ];
+	"http://geo.linkeddata.es/ontology/" -> "http://geo.linkeddata.es/ontology/geopolitica.owl" [ label = "http://www.w3.org/2002/07/owl#imports" ];
+	"http://geo.linkeddata.es/ontology/" -> "Red de ontologías geo.linkeddata.es@es" [ label = "http://www.w3.org/2000/01/rdf-schema#comment" ];
+	"http://geo.linkeddata.es/ontology/" -> "Luis Manuel Vilches-Blázquez^^http://www.w3.org/2001/XMLSchema#string" [ label = "http://purl.org/dc/terms/creator" ];
+	"http://geo.linkeddata.es/ontology/" -> "http://www.w3.org/2002/07/owl#Ontology" [ label = "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" ];
+	"http://geo.linkeddata.es/ontology/" -> "http://geo.linkeddata.es/ontology/" [ label = "http://purl.org/vocab/vann/preferredNamespaceUri" ];
+	"http://geo.linkeddata.es/ontology/" -> "Geo.linkeddata.es ontology network@en" [ label = "http://www.w3.org/2000/01/rdf-schema#comment" ];
+	"http://geo.linkeddata.es/ontology/" -> "http://delicias.dia.fi.upm.es/members/DGarijo/#me^^http://www.w3.org/2001/XMLSchema#anyURI" [ label = "http://purl.org/dc/terms/contributor" ];
+	"http://geo.linkeddata.es/ontology/" -> "v0.1^^http://www.w3.org/2001/XMLSchema#string" [ label = "http://www.w3.org/2002/07/owl#versionInfo" ];
+
+}
