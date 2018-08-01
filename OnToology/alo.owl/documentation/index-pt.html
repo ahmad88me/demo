@@ -21,7 +21,7 @@ function loadHash() {
 }
 function loadTOC(){
 	//process toc dynamically
-	  var t='<h2>Table of contents</h2><ul>';i = 1;j=0;
+	  var t='<h2>Tabela de conte&uacute;dos</h2><ul>';i = 1;j=0;
 	  jQuery(".list").each(function(){
 		if(jQuery(this).is('h2')){
 			if(j>0){
@@ -38,18 +38,18 @@ function loadTOC(){
 			j++;
 			t+= '<li>'+(i-1)+'.'+j+'. '+'<a href=#'+ jQuery(this).attr('id')+'>'+ jQuery(this).text()+'</a></li>';
 		}
-		t = t.replace(' back to ToC','');
+		t = t.replace(' de volta a Ã­ndice','');
 	  });
 	  t+='</ul>';
 	  $("#toc").html(t); 
 }
     $(function(){
-      $("#abstract").load("sections/abstract-en.html"); 
-      $("#introduction").load("sections/introduction-en.html"); 
-      $("#overview").load("sections/overview-en.html"); 
-      $("#description").load("sections/description-en.html"); 
-      $("#references").load("sections/references-en.html"); 
-      $("#crossref").load("sections/crossref-en.html", null, loadHash); 
+      $("#abstract").load("sections/abstract-pt.html"); 
+      $("#introduction").load("sections/introduction-pt.html"); 
+      $("#overview").load("sections/overview-pt.html"); 
+      $("#description").load("sections/description-pt.html"); 
+      $("#references").load("sections/references-pt.html"); 
+      $("#crossref").load("sections/crossref-pt.html", null, loadHash); 
     });
     </script> 
   </head> 
@@ -62,17 +62,17 @@ function loadTOC(){
 
 
 <dl>
-<dt>This version:</dt>
+<dt>Vers&atilde;o:</dt>
 <dd><a href="http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento/0.1">http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento/0.1</a></dd>
-<dt>Revision:</dt>
+<dt>Revis&atilde;o:</dt>
 <dd>Esta ontología surge de la necesidad de representar información detallada sobre alojamientos en una ciudad</dd>
-<dt>Authors:</dt>
+<dt>Autores:</dt>
 <dd>Miguel Angel García Delgado (Ontology Engineering Group - Universidad Politécnica de Madrid)</dd><dd>Oscar Corcho (Ontology Engineering Group - Universidad Politécnica de Madrid, LocaliData)</dd><dd>Víctor Morlán (Ayuntamiento de Zaragoza)</dd>
 
-<dt>Download serialization:</dt><dd><span><a href="ontology.json" target="_blank"><img src="https://img.shields.io/badge/Format-JSON_LD-blue.svg" alt="JSON-LD" /></a> </span><span><a href="ontology.xml" target="_blank"><img src="https://img.shields.io/badge/Format-RDF/XML-blue.svg" alt="RDF/XML" /></a> </span><span><a href="ontology.nt" target="_blank"><img src="https://img.shields.io/badge/Format-N_Triples-blue.svg" alt="N-Triples" /></a> </span><span><a href="ontology.ttl" target="_blank"><img src="https://img.shields.io/badge/Format-TTL-blue.svg" alt="TTL" /></a> </span></dd><dt>License: </dt><dd><a href="http://insertlicenseURIhere.org" target="_blank"><img src="https://img.shields.io/badge/License-Creative%20Commons%20Attribution%204.0%20International%20(CC%20BY%204.0)-blue.svg" alt="http://insertlicenseURIhere.org" /></a>
+<dt>Descargar serializacion:</dt><dd><span><a href="ontology.json" target="_blank"><img src="https://img.shields.io/badge/Format-JSON_LD-blue.svg" alt="JSON-LD" /></a> </span><span><a href="ontology.xml" target="_blank"><img src="https://img.shields.io/badge/Format-RDF/XML-blue.svg" alt="RDF/XML" /></a> </span><span><a href="ontology.nt" target="_blank"><img src="https://img.shields.io/badge/Format-N_Triples-blue.svg" alt="N-Triples" /></a> </span><span><a href="ontology.ttl" target="_blank"><img src="https://img.shields.io/badge/Format-TTL-blue.svg" alt="TTL" /></a> </span></dd><dt>Licen&ccedil;a: </dt><dd><a href="http://insertlicenseURIhere.org" target="_blank"><img src="https://img.shields.io/badge/License-Creative%20Commons%20Attribution%204.0%20International%20(CC%20BY%204.0)-blue.svg" alt="http://insertlicenseURIhere.org" /></a>
 </dd></dl>
 
-<a href="provenance/provenance-en.html" target="_blank">Provenance of this page</a><hr/>
+<a href="provenance/provenance-pt.html" target="_blank">Hist&oacute;ria desta p&aacute;gina</a><hr/>
 </div>
 <div class="status">
 <div>
@@ -85,9 +85,8 @@ function loadTOC(){
      <div id="crossref"></div>
      <div id="references"></div>
 <div id="acknowledgements">
-<h2 id="ack" class="list">Acknowledgements <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
-<p>
-The authors would like to thank <a href="http://www.essepuntato.it/">Silvio Peroni</a> for developing <a href="http://www.essepuntato.it/lode">LODE</a>, a Live OWL Documentation Environment, which is used for representing the Cross Referencing Section of this document and <a href="https://w3id.org/people/dgarijo">Daniel Garijo</a> for developing <a href="https://github.com/dgarijo/Widoco">Widoco</a>, the program used to create the template used in this documentation.</p>
+<h2 id="ack" class="list">Agradecimentos <span class="backlink"> de volta a <a href="#toc">&iacute;ndice</a></span></h2>
+<p>Os autores gostariam de agradecer a <a href="http://www.essepuntato.it/">Silvio Peroni</a> para o desenvolvimento de <a href="http://www.essepuntato.it/lode">LODE</a>, documenta&ccedil;&atilde;o ambiente para OWL que &eacute; usada para gerar a descri&ccedil;&atilde;o de ontologias termos aqui descritos; e <a href="http://purl.org/net/dgarijo">Daniel Garijo</a> para o desenvolvimento de <a href="https://github.com/dgarijo/Widoco">Widoco</a>, o programa usado para criar o modelo de documento utilizado nesta documenta&ccedil;&atilde;o.</p>
 </div>
 
 </div>
