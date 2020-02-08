@@ -1,0 +1,13 @@
+http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento#Hostal type Class
+http://schema.org/Hostel type Class
+http://schema.org/BedAndBreakfast type Class
+http://geonames.org/ontology#Feature type Class
+http://idi.fundacionctic.org/cruzar/turismo#Alojamiento type Class
+http://www.w3.org/2004/02/skos/core#Concept type Class
+http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento#Apartahotel type Class
+http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento#Alojamiento type Class
+http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento#Albergue type Class
+http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento#Hotel type Class
+http://schema.org/LodgingBusiness type Class
+http://schema.org/Motel type Class
+http://schema.org/Hotel type Class
