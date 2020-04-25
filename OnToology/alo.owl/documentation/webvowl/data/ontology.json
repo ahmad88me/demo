@@ -1,0 +1,647 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "es", "undefined" ],
+    "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://schema.org", "http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento", "http://geonames.org/ontology", "http://www.w3.org/2000/01/rdf-schema", "http://purl.org/dc/terms", "http://www.w3.org/2001/XMLSchema", "http://idi.fundacionctic.org/cruzar/turismo", "http://www.w3.org/2004/02/skos/core" ],
+    "title" : {
+      "es" : "Vocabulario para la representación de datos sobre alojamiento"
+    },
+    "iri" : "http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento",
+    "version" : "Esta ontología surge de la necesidad de representar información detallada sobre alojamientos en una ciudad",
+    "author" : [ "Oscar Corcho (Ontology Engineering Group - Universidad Politécnica de Madrid, LocaliData)", "Víctor Morlán (Ayuntamiento de Zaragoza)", "Miguel Angel García Delgado (Ontology Engineering Group - Universidad Politécnica de Madrid)" ],
+    "comments" : {
+      "undefined" : "Vocabulario para la representación de datos sobre alojamientos en España\nEste vocabulario ha sido desarrollado en el contexto del grupo sobre Turismo, Cultura y Ocio, y Comercio de AENOR. El estado del vocabulario es todavía muy inicial y sufrirá cambios\nReutiliza términos de varios vocabularios y modelos que actualmente se utilizan para propósitos similares (y por tanto se irá actualizando de acuerdo con la evolución de estos vocabularios), incluyendo:\n- schema.org\n- geoNames\n- cruzar\n\nEsta ontología sufrirá cambios continuados hasta que se consiga un acuerdo suficiente sobre los términos que se incluyen en ella. "
+    },
+    "other" : {
+      "date" : [ {
+        "identifier" : "date",
+        "language" : "undefined",
+        "value" : "2014-09-15",
+        "type" : "label"
+      } ],
+      "hasFormat" : [ {
+        "identifier" : "hasFormat",
+        "language" : "undefined",
+        "value" : "http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento.owl",
+        "type" : "iri"
+      } ],
+      "license" : [ {
+        "identifier" : "license",
+        "language" : "undefined",
+        "value" : "http://creativecommons.org/licenses/by/4.0/",
+        "type" : "iri"
+      } ],
+      "identifier" : [ {
+        "identifier" : "identifier",
+        "language" : "undefined",
+        "value" : "http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento",
+        "type" : "label"
+      } ],
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "undefined",
+        "value" : "Víctor Morlán (Ayuntamiento de Zaragoza)",
+        "type" : "label"
+      }, {
+        "identifier" : "creator",
+        "language" : "undefined",
+        "value" : "Miguel Angel García Delgado (Ontology Engineering Group - Universidad Politécnica de Madrid)",
+        "type" : "label"
+      }, {
+        "identifier" : "creator",
+        "language" : "undefined",
+        "value" : "Oscar Corcho (Ontology Engineering Group - Universidad Politécnica de Madrid, LocaliData)",
+        "type" : "label"
+      } ],
+      "rights" : [ {
+        "identifier" : "rights",
+        "language" : "undefined",
+        "value" : "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+        "type" : "label"
+      } ],
+      "preferredNamespaceUri" : [ {
+        "identifier" : "preferredNamespaceUri",
+        "language" : "undefined",
+        "value" : "http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento#",
+        "type" : "iri"
+      } ],
+      "versionInfo" : [ {
+        "identifier" : "versionInfo",
+        "language" : "es",
+        "value" : "Esta ontología surge de la necesidad de representar información detallada sobre alojamientos en una ciudad",
+        "type" : "label"
+      } ],
+      "title" : [ {
+        "identifier" : "title",
+        "language" : "es",
+        "value" : "Vocabulario para la representación de datos sobre alojamiento",
+        "type" : "label"
+      } ],
+      "issued" : [ {
+        "identifier" : "issued",
+        "language" : "undefined",
+        "value" : "2014-09-15",
+        "type" : "label"
+      } ]
+    }
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "0",
+    "type" : "owl:Class"
+  }, {
+    "id" : "3",
+    "type" : "owl:Class"
+  }, {
+    "id" : "4",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "2",
+    "type" : "owl:Class"
+  }, {
+    "id" : "10",
+    "type" : "owl:Class"
+  }, {
+    "id" : "18",
+    "type" : "owl:Class"
+  }, {
+    "id" : "20",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "21",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "12",
+    "type" : "owl:Class"
+  }, {
+    "id" : "14",
+    "type" : "owl:Class"
+  }, {
+    "id" : "15",
+    "type" : "owl:Class"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "9",
+    "type" : "owl:Class"
+  }, {
+    "id" : "25",
+    "type" : "owl:Class"
+  }, {
+    "id" : "24",
+    "type" : "owl:Class"
+  }, {
+    "id" : "26",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "http://schema.org/Hotel",
+    "baseIri" : "http://schema.org",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Hotel"
+    },
+    "subClasses" : [ "2" ],
+    "attributes" : [ "external" ],
+    "id" : "0",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.w3.org/2004/02/skos/core#Concept",
+    "baseIri" : "http://www.w3.org/2004/02/skos/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Concept"
+    },
+    "individuals" : [ {
+      "iri" : "http://geonames.org/ontology#S",
+      "baseIri" : "http://geonames.org/ontology",
+      "labels" : {
+        "IRI-based" : "S"
+      }
+    }, {
+      "iri" : "http://geonames.org/ontology#S.HTL",
+      "baseIri" : "http://geonames.org/ontology",
+      "labels" : {
+        "IRI-based" : "S.HTL"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "3"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "4",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento#Hotel",
+    "baseIri" : "http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento",
+        "type" : "iri"
+      } ],
+      "issued" : [ {
+        "identifier" : "issued",
+        "language" : "undefined",
+        "value" : "2015-03-06",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Hotel",
+      "es" : "Hotel"
+    },
+    "comment" : {
+      "es" : "Hotel"
+    },
+    "id" : "2",
+    "superClasses" : [ "0", "9" ]
+  }, {
+    "iri" : "http://idi.fundacionctic.org/cruzar/turismo#Alojamiento",
+    "baseIri" : "http://idi.fundacionctic.org/cruzar/turismo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Alojamiento"
+    },
+    "subClasses" : [ "9" ],
+    "attributes" : [ "external" ],
+    "id" : "10"
+  }, {
+    "iri" : "http://schema.org/BedAndBreakfast",
+    "baseIri" : "http://schema.org",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "BedAndBreakfast"
+    },
+    "attributes" : [ "external" ],
+    "id" : "18",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "20",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "21",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://geonames.org/ontology#Feature",
+    "baseIri" : "http://geonames.org/ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Feature"
+    },
+    "subClasses" : [ "9" ],
+    "attributes" : [ "external" ],
+    "id" : "12"
+  }, {
+    "iri" : "http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento#Albergue",
+    "baseIri" : "http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento",
+        "type" : "iri"
+      } ],
+      "issued" : [ {
+        "identifier" : "issued",
+        "language" : "undefined",
+        "value" : "2015-03-06",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Albergue",
+      "es" : "Albergue"
+    },
+    "comment" : {
+      "es" : "Albergue"
+    },
+    "id" : "14",
+    "superClasses" : [ "15", "9" ]
+  }, {
+    "iri" : "http://schema.org/Hostel",
+    "baseIri" : "http://schema.org",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Hostel"
+    },
+    "subClasses" : [ "14" ],
+    "attributes" : [ "external" ],
+    "id" : "15",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://schema.org/LodgingBusiness",
+    "baseIri" : "http://schema.org",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "LodgingBusiness"
+    },
+    "subClasses" : [ "0", "18", "15", "9", "24", "25", "26" ],
+    "attributes" : [ "external" ],
+    "id" : "1"
+  }, {
+    "iri" : "http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento#Alojamiento",
+    "baseIri" : "http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento",
+        "type" : "iri"
+      } ],
+      "issued" : [ {
+        "identifier" : "issued",
+        "language" : "undefined",
+        "value" : "2014-09-15",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Alojamiento",
+      "es" : "Alojamiento"
+    },
+    "subClasses" : [ "14", "24", "2", "25" ],
+    "comment" : {
+      "es" : "Cualquier tipo de alojamiento. Esta clase no es disjunta con clases de schema.org como schema:BedAndBreakfast, Hostel, Hotel, Motel"
+    },
+    "id" : "9",
+    "superClasses" : [ "10", "12", "1" ]
+  }, {
+    "iri" : "http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento#Hostal",
+    "baseIri" : "http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento",
+        "type" : "iri"
+      } ],
+      "issued" : [ {
+        "identifier" : "issued",
+        "language" : "undefined",
+        "value" : "2015-03-06",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Hostal",
+      "es" : "Hostal"
+    },
+    "comment" : {
+      "es" : "Hostal"
+    },
+    "id" : "25",
+    "superClasses" : [ "1", "9" ]
+  }, {
+    "iri" : "http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento#Apartahotel",
+    "baseIri" : "http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento",
+        "type" : "iri"
+      } ],
+      "issued" : [ {
+        "identifier" : "issued",
+        "language" : "undefined",
+        "value" : "2015-03-06",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Apartahotel",
+      "es" : "Apartahotel"
+    },
+    "comment" : {
+      "es" : "Apartahotel"
+    },
+    "id" : "24",
+    "superClasses" : [ "1", "9" ]
+  }, {
+    "iri" : "http://schema.org/Motel",
+    "baseIri" : "http://schema.org",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Motel"
+    },
+    "attributes" : [ "external" ],
+    "id" : "26",
+    "superClasses" : [ "1" ]
+  } ],
+  "property" : [ {
+    "id" : "5",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "6",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "8",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "11",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "13",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "16",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "17",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "19",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "22",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "23",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "27",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "28",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "29",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "30",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "31",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "32",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "33",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "34",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "7",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "35",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "36",
+    "type" : "rdfs:SubClassOf"
+  } ],
+  "propertyAttribute" : [ {
+    "range" : "0",
+    "domain" : "2",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "5"
+  }, {
+    "iri" : "http://geonames.org/ontology#featureClass",
+    "baseIri" : "http://geonames.org/ontology",
+    "range" : "4",
+    "label" : {
+      "IRI-based" : "featureClass"
+    },
+    "superproperty" : [ "7" ],
+    "domain" : "4",
+    "attributes" : [ "external", "object" ],
+    "id" : "6"
+  }, {
+    "range" : "10",
+    "domain" : "9",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "8"
+  }, {
+    "range" : "12",
+    "domain" : "9",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "11"
+  }, {
+    "range" : "15",
+    "domain" : "14",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "13"
+  }, {
+    "range" : "1",
+    "domain" : "0",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "16"
+  }, {
+    "range" : "1",
+    "domain" : "18",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "17"
+  }, {
+    "range" : "1",
+    "domain" : "15",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "19"
+  }, {
+    "iri" : "http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento#numCamas",
+    "baseIri" : "http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento",
+    "range" : "20",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento",
+        "type" : "iri"
+      } ],
+      "issued" : [ {
+        "identifier" : "issued",
+        "language" : "undefined",
+        "value" : "2014-09-14",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "numCamas",
+      "es" : "número de camas"
+    },
+    "domain" : "9",
+    "comment" : {
+      "es" : "Número de camas de un alojamiento"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "22"
+  }, {
+    "iri" : "http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento#numHabitaciones",
+    "baseIri" : "http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento",
+    "range" : "21",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento",
+        "type" : "iri"
+      } ],
+      "issued" : [ {
+        "identifier" : "issued",
+        "language" : "undefined",
+        "value" : "2014-09-14",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "numHabitaciones",
+      "es" : "número de habitaciones"
+    },
+    "domain" : "9",
+    "comment" : {
+      "es" : "Número de habitaciones de un alojamiento"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "23"
+  }, {
+    "iri" : "http://geonames.org/ontology#featureCode",
+    "baseIri" : "http://geonames.org/ontology",
+    "range" : "4",
+    "label" : {
+      "IRI-based" : "featureCode"
+    },
+    "superproperty" : [ "7" ],
+    "domain" : "4",
+    "attributes" : [ "external", "object" ],
+    "id" : "27"
+  }, {
+    "iri" : "http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento#categoria",
+    "baseIri" : "http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento",
+    "range" : "3",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento",
+        "type" : "iri"
+      } ],
+      "issued" : [ {
+        "identifier" : "issued",
+        "language" : "undefined",
+        "value" : "2014-09-14",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "categoria",
+      "es" : "categoría"
+    },
+    "domain" : "9",
+    "comment" : {
+      "es" : "Categoría de un alojamiento. Normalmente se debería encontrar recogido en un SKOS Concept Scheme sobre categorías (para representar, por ejemplo, las estrellas o llaves de un hotel o apartamento). "
+    },
+    "attributes" : [ "object" ],
+    "id" : "28"
+  }, {
+    "range" : "9",
+    "domain" : "25",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "29"
+  }, {
+    "range" : "9",
+    "domain" : "14",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "30"
+  }, {
+    "range" : "1",
+    "domain" : "26",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "31"
+  }, {
+    "range" : "9",
+    "domain" : "2",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "32"
+  }, {
+    "range" : "9",
+    "domain" : "24",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "33"
+  }, {
+    "range" : "1",
+    "domain" : "9",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "34"
+  }, {
+    "iri" : "http://purl.org/dc/terms/type",
+    "baseIri" : "http://purl.org/dc/terms",
+    "range" : "4",
+    "label" : {
+      "IRI-based" : "type"
+    },
+    "domain" : "4",
+    "subproperty" : [ "6", "27" ],
+    "attributes" : [ "external", "object" ],
+    "id" : "7"
+  }, {
+    "range" : "1",
+    "domain" : "25",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "35"
+  }, {
+    "range" : "1",
+    "domain" : "24",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "36"
+  } ]
+}
