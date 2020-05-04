@@ -648,7 +648,7 @@
     "id" : "454",
     "type" : "rdfs:Literal"
   }, {
-    "id" : "545",
+    "id" : "544",
     "type" : "owl:Class"
   }, {
     "id" : "643",
@@ -663,10 +663,10 @@
     "id" : "645",
     "type" : "owl:Thing"
   }, {
-    "id" : "648",
+    "id" : "255",
     "type" : "rdfs:Literal"
   }, {
-    "id" : "255",
+    "id" : "648",
     "type" : "rdfs:Literal"
   }, {
     "id" : "536",
@@ -843,10 +843,10 @@
     "id" : "451",
     "type" : "owl:Class"
   }, {
-    "id" : "696",
+    "id" : "254",
     "type" : "owl:Class"
   }, {
-    "id" : "254",
+    "id" : "696",
     "type" : "owl:Class"
   }, {
     "id" : "535",
@@ -1173,7 +1173,7 @@
     "id" : "801",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "787",
+    "id" : "788",
     "type" : "rdfs:Datatype"
   }, {
     "id" : "685",
@@ -1278,32 +1278,32 @@
   "classAttribute" : [ {
     "instances" : 0,
     "union" : [ "1", "2" ],
-    "attributes" : [ "union", "anonymous" ],
+    "attributes" : [ "anonymous", "union" ],
     "id" : "0"
   }, {
     "instances" : 0,
     "union" : [ "7", "8", "9", "10" ],
-    "attributes" : [ "union", "anonymous" ],
+    "attributes" : [ "anonymous", "union" ],
     "id" : "6"
   }, {
     "instances" : 0,
     "union" : [ "14", "15", "16", "17", "18", "19", "20", "21", "22" ],
-    "attributes" : [ "union", "anonymous" ],
+    "attributes" : [ "anonymous", "union" ],
     "id" : "13"
   }, {
     "instances" : 0,
     "union" : [ "14", "26", "27", "28", "29", "22" ],
-    "attributes" : [ "union", "anonymous" ],
+    "attributes" : [ "anonymous", "union" ],
     "id" : "25"
   }, {
     "instances" : 0,
     "union" : [ "14", "33", "4", "7", "34", "35" ],
-    "attributes" : [ "union", "anonymous" ],
+    "attributes" : [ "anonymous", "union" ],
     "id" : "32"
   }, {
     "instances" : 0,
     "union" : [ "39", "17", "40", "41" ],
-    "attributes" : [ "union", "anonymous" ],
+    "attributes" : [ "anonymous", "union" ],
     "id" : "38"
   }, {
     "iri" : "http://geo.linkeddata.es/ontology/Faro",
@@ -1321,12 +1321,12 @@
   }, {
     "instances" : 0,
     "union" : [ "7", "31", "45" ],
-    "attributes" : [ "union", "anonymous" ],
+    "attributes" : [ "anonymous", "union" ],
     "id" : "44"
   }, {
     "instances" : 0,
     "union" : [ "47", "48", "49", "50", "51", "52", "10", "45" ],
-    "attributes" : [ "union", "anonymous" ],
+    "attributes" : [ "anonymous", "union" ],
     "id" : "46"
   }, {
     "iri" : "http://geo.linkeddata.es/ontology/Desague",
@@ -1343,7 +1343,7 @@
     "label" : {
       "IRI-based" : "Desague",
       "en" : "Drainpipe",
-      "es" : "Desagüe"
+      "es" : "Desaguadero"
     },
     "comment" : {
       "undefined" : "Conducto o canal por donde se da salida a las aguas hacia el mar, otro rio o un lago"
@@ -1353,22 +1353,22 @@
   }, {
     "instances" : 0,
     "union" : [ "66", "17" ],
-    "attributes" : [ "union", "anonymous" ],
+    "attributes" : [ "anonymous", "union" ],
     "id" : "65"
   }, {
     "instances" : 0,
     "union" : [ "70", "17", "71" ],
-    "attributes" : [ "union", "anonymous" ],
+    "attributes" : [ "anonymous", "union" ],
     "id" : "69"
   }, {
     "instances" : 0,
     "union" : [ "17", "75" ],
-    "attributes" : [ "union", "anonymous" ],
+    "attributes" : [ "anonymous", "union" ],
     "id" : "74"
   }, {
     "instances" : 0,
     "union" : [ "1", "2" ],
-    "attributes" : [ "union", "anonymous" ],
+    "attributes" : [ "anonymous", "union" ],
     "id" : "79"
   }, {
     "iri" : "http://geo.linkeddata.es/ontology/PlayaFluvial",
@@ -1387,37 +1387,37 @@
   }, {
     "instances" : 0,
     "union" : [ "14", "85", "16", "51", "22" ],
-    "attributes" : [ "union", "anonymous" ],
+    "attributes" : [ "anonymous", "union" ],
     "id" : "84"
   }, {
     "instances" : 0,
     "union" : [ "19", "20" ],
-    "attributes" : [ "union", "anonymous" ],
+    "attributes" : [ "anonymous", "union" ],
     "id" : "88"
   }, {
     "instances" : 0,
     "union" : [ "93", "17" ],
-    "attributes" : [ "union", "anonymous" ],
+    "attributes" : [ "anonymous", "union" ],
     "id" : "92"
   }, {
     "instances" : 0,
     "union" : [ "97", "16", "7", "19", "20" ],
-    "attributes" : [ "union", "anonymous" ],
+    "attributes" : [ "anonymous", "union" ],
     "id" : "96"
   }, {
     "instances" : 0,
     "union" : [ "4", "101" ],
-    "attributes" : [ "union", "anonymous" ],
+    "attributes" : [ "anonymous", "union" ],
     "id" : "100"
   }, {
     "instances" : 0,
     "union" : [ "19", "104" ],
-    "attributes" : [ "union", "anonymous" ],
+    "attributes" : [ "anonymous", "union" ],
     "id" : "103"
   }, {
     "instances" : 0,
     "union" : [ "33", "108", "17" ],
-    "attributes" : [ "union", "anonymous" ],
+    "attributes" : [ "anonymous", "union" ],
     "id" : "107"
   }, {
     "iri" : "http://geo.linkeddata.es/ontology/Gola",
@@ -1462,12 +1462,12 @@
     "label" : {
       "IRI-based" : "AguasContinentales",
       "en" : "Inland water",
-      "es" : "Masa de agua continental"
+      "es" : "Aguas continentales"
     },
     "union" : [ "16", "20" ],
     "subClasses" : [ "16", "20" ],
     "comment" : {
-      "undefined" : "Todas las aguas quietas o corrientes en la superficie del suelo y todas las aguas subterraneas situadas hacia tierra desde la linea que sirve de base para medir la anchura de las aguas territoriales."
+      "undefined" : "All standing or flowing water on the surface of the land, and all groundwater on the landward side of the baseline from which the breadth of territorial waters is measured."
     },
     "attributes" : [ "union" ],
     "id" : "81",
@@ -1475,7 +1475,7 @@
   }, {
     "instances" : 0,
     "union" : [ "14", "47", "62", "45" ],
-    "attributes" : [ "union", "anonymous" ],
+    "attributes" : [ "anonymous", "union" ],
     "id" : "123"
   }, {
     "iri" : "http://geo.linkeddata.es/ontology/Regato",
@@ -1587,7 +1587,7 @@
     "label" : {
       "IRI-based" : "CorrienteSubterranea",
       "en" : "Subterranean stream",
-      "es" : "Corriente subterránea"
+      "es" : "Corriente Bajo Tierra"
     },
     "comment" : {
       "undefined" : "Aguas que se encuentran bajo la superficie del suelo en la zona de saturacion y en contacto directo con el suelo o el subsuelo que tienen o pueden tener un movimiento notable y continuo a traves de un cauce de origen natural o artificial."
@@ -1601,7 +1601,7 @@
     "label" : {
       "IRI-based" : "Ruta",
       "en" : "Route",
-      "es" : "Ruta"
+      "es" : "Camino o dirección que se toma para un propósito."
     },
     "id" : "160"
   }, {
@@ -1633,17 +1633,7 @@
       "provenance" : [ {
         "identifier" : "provenance",
         "language" : "undefined",
-        "value" : "Aguas termales - EuroRegionalMap (ERM)",
-        "type" : "label"
-      }, {
-        "identifier" : "provenance",
-        "language" : "undefined",
         "value" : "Glosario Hidrologico Internacional - UNESCO",
-        "type" : "label"
-      }, {
-        "identifier" : "provenance",
-        "language" : "undefined",
-        "value" : "Fenomenos termales - Alexandria Digital Library (ADL) Feature Type Thesaurus",
         "type" : "label"
       }, {
         "identifier" : "provenance",
@@ -1658,7 +1648,17 @@
       }, {
         "identifier" : "provenance",
         "language" : "undefined",
+        "value" : "Fenomenos termales - Alexandria Digital Library (ADL) Feature Type Thesaurus",
+        "type" : "label"
+      }, {
+        "identifier" : "provenance",
+        "language" : "undefined",
         "value" : "Fuente termal - Glosario Hidrologico Internacional. UNESCO",
+        "type" : "label"
+      }, {
+        "identifier" : "provenance",
+        "language" : "undefined",
+        "value" : "Aguas termales - EuroRegionalMap (ERM)",
         "type" : "label"
       } ],
       "source" : [ {
@@ -1701,13 +1701,13 @@
       } ],
       "definition" : [ {
         "identifier" : "definition",
-        "language" : "es",
-        "value" : "Un huso horario especifica la cantidad en que la hora local está desplazada con respecto a UTC.\n    Un huso horario normalmente se denota geográficamente (p.ej. el horario de verano del este de Australia), con un valor constante en una región dada.\n    La región donde aplica y el desplazamiento desde UTC las especifica una autoridad gubernamental localmente reconocida.",
+        "language" : "en",
+        "value" : "A Time Zone specifies the amount by which the local time is offset from UTC. \n\tA time zone is usually denoted geographically (e.g. Australian Eastern Daylight Time), with a constant value in a given region. \nThe region where it applies and the offset from UTC are specified by a locally recognised governing authority.",
         "type" : "label"
       }, {
         "identifier" : "definition",
-        "language" : "en",
-        "value" : "A Time Zone specifies the amount by which the local time is offset from UTC. \n\tA time zone is usually denoted geographically (e.g. Australian Eastern Daylight Time), with a constant value in a given region. \nThe region where it applies and the offset from UTC are specified by a locally recognised governing authority.",
+        "language" : "es",
+        "value" : "Un huso horario especifica la cantidad en que la hora local está desplazada con respecto a UTC.\n    Un huso horario normalmente se denota geográficamente (p.ej. el horario de verano del este de Australia), con un valor constante en una región dada.\n    La región donde aplica y el desplazamiento desde UTC las especifica una autoridad gubernamental localmente reconocida.",
         "type" : "label"
       } ],
       "historyNote" : [ {
@@ -1723,13 +1723,13 @@
       } ],
       "scopeNote" : [ {
         "identifier" : "scopeNote",
-        "language" : "undefined",
-        "value" : "In this implementation TimeZone has no properties defined. It should be thought of as an 'abstract' superclass of all specific timezone implementations.",
+        "language" : "es",
+        "value" : "En esta implementación 'huso horario' no tiene definidas propiedades. Se debería pensar como una superclase \"abstracta\" de todas las implementaciones de huso horario específicas.",
         "type" : "label"
       }, {
         "identifier" : "scopeNote",
-        "language" : "es",
-        "value" : "En esta implementación 'huso horario' no tiene definidas propiedades. Se debería pensar como una superclase \"abstracta\" de todas las implementaciones de huso horario específicas.",
+        "language" : "undefined",
+        "value" : "In this implementation TimeZone has no properties defined. It should be thought of as an 'abstract' superclass of all specific timezone implementations.",
         "type" : "label"
       } ]
     },
@@ -1765,7 +1765,7 @@
     "label" : {
       "IRI-based" : "Sumidero",
       "en" : "Drain",
-      "es" : "Sumidero"
+      "es" : "Ponor"
     },
     "comment" : {
       "undefined" : "Agujero o abertura en el fondo o el costado de una depresion por la que una corriente de superficie o un lago, fluye parcial o totalmente hacia el sistema karstico subterraneo."
@@ -1779,13 +1779,13 @@
     "annotations" : {
       "note" : [ {
         "identifier" : "note",
-        "language" : "en",
-        "value" : "The extent of a time duration expressed as a GeneralDurationDescription depends on the Temporal Reference System. In some calendars the length of the week or month is not constant within the year. Therefore, a value like \"2.5 months\" may not necessarily be exactly compared with a similar duration expressed in terms of weeks or days. When non-earth-based calendars are considered even more care must be taken in comparing durations.",
+        "language" : "es",
+        "value" : "La extensión de una duración de tiempo expresada como una 'descripción de duración general' depende del Sistema de Referencia Temporal. En algunos calendarios la longitud de la semana o del mes no es constante a lo largo del año. Por tanto, un valor como \"25 meses\" puede no ser necesariamente ser comparado con un duración similar expresada en términos de semanas o días. Cuando se consideran calendarios que no están basados en el movimiento de la Tierra, se deben tomar incluso más precauciones en la comparación de duraciones.",
         "type" : "label"
       }, {
         "identifier" : "note",
-        "language" : "es",
-        "value" : "La extensión de una duración de tiempo expresada como una 'descripción de duración general' depende del Sistema de Referencia Temporal. En algunos calendarios la longitud de la semana o del mes no es constante a lo largo del año. Por tanto, un valor como \"25 meses\" puede no ser necesariamente ser comparado con un duración similar expresada en términos de semanas o días. Cuando se consideran calendarios que no están basados en el movimiento de la Tierra, se deben tomar incluso más precauciones en la comparación de duraciones.",
+        "language" : "en",
+        "value" : "The extent of a time duration expressed as a GeneralDurationDescription depends on the Temporal Reference System. In some calendars the length of the week or month is not constant within the year. Therefore, a value like \"2.5 months\" may not necessarily be exactly compared with a similar duration expressed in terms of weeks or days. When non-earth-based calendars are considered even more care must be taken in comparing durations.",
         "type" : "label"
       } ],
       "definition" : [ {
@@ -2045,7 +2045,7 @@
   }, {
     "instances" : 0,
     "union" : [ "281", "87" ],
-    "attributes" : [ "union", "anonymous" ],
+    "attributes" : [ "anonymous", "union" ],
     "id" : "280"
   }, {
     "iri" : "http://geo.linkeddata.es/ontology/AguasDeTransicion",
@@ -2072,7 +2072,7 @@
     "union" : [ "97", "39", "284", "7" ],
     "subClasses" : [ "97", "284", "7" ],
     "comment" : {
-      "undefined" : "Masas de agua superficial proximas a la desembocadura de los rios que son parcialmente salinas como consecuencia de su proximidad a las aguas costeras, pero que reciben una notable influencia de flujos de agua dulce."
+      "undefined" : "Bodies of surface water in the vicinity of river mouths which are partly saline in character as a result of their proximity to coastal waters but which are substantially influenced by freshwater flows."
     },
     "attributes" : [ "union" ],
     "id" : "47",
@@ -2080,17 +2080,17 @@
   }, {
     "instances" : 0,
     "union" : [ "63", "93", "17", "19" ],
-    "attributes" : [ "union", "anonymous" ],
+    "attributes" : [ "anonymous", "union" ],
     "id" : "285"
   }, {
     "instances" : 0,
     "union" : [ "288", "112" ],
-    "attributes" : [ "union", "anonymous" ],
+    "attributes" : [ "anonymous", "union" ],
     "id" : "287"
   }, {
     "instances" : 0,
     "union" : [ "78", "143" ],
-    "attributes" : [ "union", "anonymous" ],
+    "attributes" : [ "anonymous", "union" ],
     "id" : "291"
   }, {
     "iri" : "http://geo.linkeddata.es/ontology/Canal",
@@ -2137,7 +2137,7 @@
     },
     "label" : {
       "IRI-based" : "AltaMar",
-      "es" : "Aguas Internacionales"
+      "es" : "Alta mar"
     },
     "comment" : {
       "undefined" : "Todas aquellas partes del mar que no forman parte del mar territorial o de las aguas interiores, que aparecen situadas fuera de las doscientas millas."
@@ -2219,7 +2219,7 @@
     "label" : {
       "IRI-based" : "Aljibe",
       "en" : "Cistern",
-      "es" : "Cisterna"
+      "es" : "Aljibe"
     },
     "comment" : {
       "es" : "Depósito subterráneo donde se recoge y conserva el agua llovediza o la que se lleva de algún río o manantial"
@@ -2261,57 +2261,57 @@
   }, {
     "instances" : 0,
     "union" : [ "309", "85", "310" ],
-    "attributes" : [ "union", "anonymous" ],
+    "attributes" : [ "anonymous", "union" ],
     "id" : "308"
   }, {
     "instances" : 0,
     "union" : [ "309", "85", "310" ],
-    "attributes" : [ "union", "anonymous" ],
+    "attributes" : [ "anonymous", "union" ],
     "id" : "312"
   }, {
     "instances" : 0,
     "union" : [ "17", "19", "45" ],
-    "attributes" : [ "union", "anonymous" ],
+    "attributes" : [ "anonymous", "union" ],
     "id" : "315"
   }, {
     "instances" : 0,
     "union" : [ "17", "45" ],
-    "attributes" : [ "union", "anonymous" ],
+    "attributes" : [ "anonymous", "union" ],
     "id" : "318"
   }, {
     "instances" : 0,
     "union" : [ "7", "8", "9", "10" ],
-    "attributes" : [ "union", "anonymous" ],
+    "attributes" : [ "anonymous", "union" ],
     "id" : "321"
   }, {
     "instances" : 0,
     "union" : [ "325", "33", "4", "7", "35", "326", "169", "175", "28" ],
-    "attributes" : [ "union", "anonymous" ],
+    "attributes" : [ "anonymous", "union" ],
     "id" : "324"
   }, {
     "instances" : 0,
     "union" : [ "66", "26", "93", "179", "27", "17", "183", "28", "29", "21", "22", "222", "41" ],
-    "attributes" : [ "union", "anonymous" ],
+    "attributes" : [ "anonymous", "union" ],
     "id" : "329"
   }, {
     "instances" : 0,
     "union" : [ "161", "47", "5", "261", "18" ],
-    "attributes" : [ "union", "anonymous" ],
+    "attributes" : [ "anonymous", "union" ],
     "id" : "332"
   }, {
     "instances" : 0,
     "union" : [ "66", "93", "17", "18", "19", "21" ],
-    "attributes" : [ "union", "anonymous" ],
+    "attributes" : [ "anonymous", "union" ],
     "id" : "334"
   }, {
     "instances" : 0,
     "union" : [ "17", "45" ],
-    "attributes" : [ "union", "anonymous" ],
+    "attributes" : [ "anonymous", "union" ],
     "id" : "153"
   }, {
     "instances" : 0,
     "union" : [ "17", "19", "45" ],
-    "attributes" : [ "union", "anonymous" ],
+    "attributes" : [ "anonymous", "union" ],
     "id" : "154"
   }, {
     "iri" : "http://geo.linkeddata.es/ontology/ZonaEconomicaExclusiva",
@@ -2337,17 +2337,17 @@
   }, {
     "instances" : 0,
     "union" : [ "93", "7", "17", "19", "71", "45" ],
-    "attributes" : [ "union", "anonymous" ],
+    "attributes" : [ "anonymous", "union" ],
     "id" : "347"
   }, {
     "instances" : 0,
     "union" : [ "179", "9" ],
-    "attributes" : [ "union", "anonymous" ],
+    "attributes" : [ "anonymous", "union" ],
     "id" : "350"
   }, {
     "instances" : 0,
     "union" : [ "15", "17" ],
-    "attributes" : [ "union", "anonymous" ],
+    "attributes" : [ "anonymous", "union" ],
     "id" : "353"
   }, {
     "iri" : "http://geo.linkeddata.es/ontology/Mar",
@@ -2466,19 +2466,19 @@
       "source" : [ {
         "identifier" : "source",
         "language" : "undefined",
-        "value" : "Aguas artificiales - Catalogo de entidades para el Nomenclator de la Base Topografica Nacional 1:25000 (BTN25). Instituto Geografico Nacional",
+        "value" : "Cauce artificial - Catalogo de fenomenos de la Base Topografica Nacional 1:25000 (BTN25). Instituto Geografico Nacional",
         "type" : "label"
       }, {
         "identifier" : "source",
         "language" : "undefined",
-        "value" : "Cauce artificial - Catalogo de fenomenos de la Base Topografica Nacional 1:25000 (BTN25). Instituto Geografico Nacional",
+        "value" : "Aguas artificiales - Catalogo de entidades para el Nomenclator de la Base Topografica Nacional 1:25000 (BTN25). Instituto Geografico Nacional",
         "type" : "label"
       } ]
     },
     "label" : {
       "IRI-based" : "AguasCorrientesArtificiales",
       "en" : "Artificial flowing water",
-      "es" : "Aguas corrientes artificiales"
+      "es" : "Aguas artificiales"
     },
     "union" : [ "101", "91", "129" ],
     "subClasses" : [ "101", "91", "129" ],
@@ -2524,13 +2524,13 @@
     "annotations" : {
       "source" : [ {
         "identifier" : "source",
-        "language" : "es",
-        "value" : "Diccionario de la Real Academia Española",
+        "language" : "en",
+        "value" : "WordNet",
         "type" : "label"
       }, {
         "identifier" : "source",
-        "language" : "en",
-        "value" : "WordNet",
+        "language" : "es",
+        "value" : "Diccionario de la Real Academia Española",
         "type" : "label"
       } ]
     },
@@ -2604,7 +2604,7 @@
     "label" : {
       "IRI-based" : "Toma",
       "en" : "Irrigation channel",
-      "es" : "Boca"
+      "es" : "Toma"
     },
     "comment" : {
       "undefined" : "Nacimiento, renacimiento o sumidero"
@@ -2804,7 +2804,7 @@
       "es" : "Estuario"
     },
     "comment" : {
-      "undefined" : "The wide part of a river where it nears the sea; fresh and salt water mix"
+      "undefined" : "Ancha boca de rio, donde la depresion del cauce permite la entrada de las aguas marinas en la marea, por ello, se produce mezcla de agua dulce y salada"
     },
     "id" : "284",
     "superClasses" : [ "47" ]
@@ -2864,11 +2864,11 @@
     },
     "id" : "438"
   }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#gYear",
+    "iri" : "http://www.w3.org/2001/XMLSchema#gDay",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
     "id" : "442",
     "label" : {
-      "IRI-based" : "gYear"
+      "IRI-based" : "gDay"
     }
   }, {
     "iri" : "http://geo.linkeddata.es/ontology/Embalse",
@@ -2921,11 +2921,11 @@
       "IRI-based" : "gMonth"
     }
   }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#gDay",
+    "iri" : "http://www.w3.org/2001/XMLSchema#gYear",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
     "id" : "458",
     "label" : {
-      "IRI-based" : "gDay"
+      "IRI-based" : "gYear"
     }
   }, {
     "iri" : "http://geo.linkeddata.es/ontology/Conducto",
@@ -2970,7 +2970,7 @@
     "label" : {
       "IRI-based" : "AguasQuietas",
       "en" : "Standing water",
-      "es" : "Superficies acuáticas"
+      "es" : "Aguas quietas"
     },
     "union" : [ "62", "22" ],
     "subClasses" : [ "62", "22" ],
@@ -2987,13 +2987,13 @@
     "annotations" : {
       "provenance" : [ {
         "identifier" : "provenance",
-        "language" : "es",
-        "value" : "Catalogo de objetos de Colombia",
+        "language" : "undefined",
+        "value" : "Glosario Hidrologico Internacional - UNESCO",
         "type" : "label"
       }, {
         "identifier" : "provenance",
-        "language" : "undefined",
-        "value" : "Glosario Hidrologico Internacional - UNESCO",
+        "language" : "es",
+        "value" : "Catalogo de objetos de Colombia",
         "type" : "label"
       } ]
     },
@@ -3010,27 +3010,27 @@
   }, {
     "instances" : 0,
     "union" : [ "115", "108", "226", "75" ],
-    "attributes" : [ "union", "anonymous" ],
+    "attributes" : [ "anonymous", "union" ],
     "id" : "483"
   }, {
     "instances" : 0,
     "union" : [ "97", "16", "7", "19", "20" ],
-    "attributes" : [ "union", "anonymous" ],
+    "attributes" : [ "anonymous", "union" ],
     "id" : "220"
   }, {
     "instances" : 0,
     "union" : [ "70", "17", "71" ],
-    "attributes" : [ "union", "anonymous" ],
+    "attributes" : [ "anonymous", "union" ],
     "id" : "193"
   }, {
     "instances" : 0,
     "union" : [ "81", "19" ],
-    "attributes" : [ "union", "anonymous" ],
+    "attributes" : [ "anonymous", "union" ],
     "id" : "484"
   }, {
     "instances" : 0,
     "union" : [ "18", "104" ],
-    "attributes" : [ "union", "anonymous" ],
+    "attributes" : [ "anonymous", "union" ],
     "id" : "485"
   }, {
     "iri" : "http://geo.linkeddata.es/ontology/Travesia",
@@ -3048,32 +3048,32 @@
   }, {
     "instances" : 0,
     "union" : [ "4", "101" ],
-    "attributes" : [ "union", "anonymous" ],
+    "attributes" : [ "anonymous", "union" ],
     "id" : "219"
   }, {
     "instances" : 0,
     "union" : [ "33", "93", "17" ],
-    "attributes" : [ "union", "anonymous" ],
+    "attributes" : [ "anonymous", "union" ],
     "id" : "487"
   }, {
     "instances" : 0,
     "union" : [ "66", "17" ],
-    "attributes" : [ "union", "anonymous" ],
+    "attributes" : [ "anonymous", "union" ],
     "id" : "490"
   }, {
     "instances" : 0,
     "union" : [ "17", "374" ],
-    "attributes" : [ "union", "anonymous" ],
+    "attributes" : [ "anonymous", "union" ],
     "id" : "491"
   }, {
     "instances" : 0,
     "union" : [ "14", "85", "16", "51", "22" ],
-    "attributes" : [ "union", "anonymous" ],
+    "attributes" : [ "anonymous", "union" ],
     "id" : "492"
   }, {
     "instances" : 0,
     "union" : [ "19", "20" ],
-    "attributes" : [ "union", "anonymous" ],
+    "attributes" : [ "anonymous", "union" ],
     "id" : "493"
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#decimal",
@@ -3204,17 +3204,17 @@
   }, {
     "instances" : 0,
     "union" : [ "66", "93", "17", "18", "19", "21" ],
-    "attributes" : [ "union", "anonymous" ],
+    "attributes" : [ "anonymous", "union" ],
     "id" : "520"
   }, {
     "instances" : 0,
     "union" : [ "66", "17" ],
-    "attributes" : [ "union", "anonymous" ],
+    "attributes" : [ "anonymous", "union" ],
     "id" : "194"
   }, {
     "instances" : 0,
     "union" : [ "161", "47", "5", "261", "18" ],
-    "attributes" : [ "union", "anonymous" ],
+    "attributes" : [ "anonymous", "union" ],
     "id" : "521"
   }, {
     "iri" : "http://geo.linkeddata.es/ontology/Estero",
@@ -3289,7 +3289,7 @@
     },
     "label" : {
       "IRI-based" : "Cienaga",
-      "es" : "Zona pantanosa"
+      "es" : "Ciénaga"
     },
     "subClasses" : [ "232", "235", "238", "241", "209", "213" ],
     "comment" : {
@@ -3411,7 +3411,7 @@
     },
     "label" : {
       "IRI-based" : "MarTerritorial",
-      "es" : "Aguas Territoriales"
+      "es" : "Mar territorial"
     },
     "comment" : {
       "undefined" : "Zona maritima adyacente a la costa, que posee una anchura de doce millas medida desde la linea de bajamar"
@@ -3465,13 +3465,13 @@
       } ],
       "definition" : [ {
         "identifier" : "definition",
-        "language" : "es",
-        "value" : "Una duración estándar, que proporciona un factor de escala para una extensión de tiempo, o la granularidad o precisión para una posición de tiempo.",
+        "language" : "en",
+        "value" : "A standard duration, which provides a scale factor for a time extent, or the granularity or precision for a time position.",
         "type" : "label"
       }, {
         "identifier" : "definition",
-        "language" : "en",
-        "value" : "A standard duration, which provides a scale factor for a time extent, or the granularity or precision for a time position.",
+        "language" : "es",
+        "value" : "Una duración estándar, que proporciona un factor de escala para una extensión de tiempo, o la granularidad o precisión para una posición de tiempo.",
         "type" : "label"
       } ]
     },
@@ -3486,6 +3486,16 @@
       "annotations" : {
         "prefLabel" : [ {
           "identifier" : "prefLabel",
+          "language" : "undefined",
+          "value" : "один час\"@ru",
+          "type" : "label"
+        }, {
+          "identifier" : "prefLabel",
+          "language" : "zh",
+          "value" : "一小時",
+          "type" : "label"
+        }, {
+          "identifier" : "prefLabel",
           "language" : "de",
           "value" : "Stunde",
           "type" : "label"
@@ -3493,16 +3503,6 @@
           "identifier" : "prefLabel",
           "language" : "pl",
           "value" : "godzina",
-          "type" : "label"
-        }, {
-          "identifier" : "prefLabel",
-          "language" : "es",
-          "value" : "hora",
-          "type" : "label"
-        }, {
-          "identifier" : "prefLabel",
-          "language" : "jp",
-          "value" : "一時間",
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
@@ -3516,28 +3516,13 @@
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
-          "language" : "fr",
-          "value" : "heure",
+          "language" : "jp",
+          "value" : "一時間",
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
-          "language" : "nl",
-          "value" : "uur",
-          "type" : "label"
-        }, {
-          "identifier" : "prefLabel",
-          "language" : "ar",
-          "value" : "ساعة واحدة",
-          "type" : "label"
-        }, {
-          "identifier" : "prefLabel",
-          "language" : "undefined",
-          "value" : "один час\"@ru",
-          "type" : "label"
-        }, {
-          "identifier" : "prefLabel",
-          "language" : "zh",
-          "value" : "一小時",
+          "language" : "it",
+          "value" : "ora",
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
@@ -3546,8 +3531,23 @@
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
-          "language" : "it",
-          "value" : "ora",
+          "language" : "ar",
+          "value" : "ساعة واحدة",
+          "type" : "label"
+        }, {
+          "identifier" : "prefLabel",
+          "language" : "fr",
+          "value" : "heure",
+          "type" : "label"
+        }, {
+          "identifier" : "prefLabel",
+          "language" : "es",
+          "value" : "hora",
+          "type" : "label"
+        }, {
+          "identifier" : "prefLabel",
+          "language" : "nl",
+          "value" : "uur",
           "type" : "label"
         } ]
       },
@@ -3556,98 +3556,23 @@
         "en" : "Hour (unit of temporal duration)"
       }
     }, {
-      "iri" : "http://www.w3.org/2006/time#unitMinute",
-      "baseIri" : "http://www.w3.org/2006/time",
-      "annotations" : {
-        "prefLabel" : [ {
-          "identifier" : "prefLabel",
-          "language" : "nl",
-          "value" : "minuut",
-          "type" : "label"
-        }, {
-          "identifier" : "prefLabel",
-          "language" : "es",
-          "value" : "minuto",
-          "type" : "label"
-        }, {
-          "identifier" : "prefLabel",
-          "language" : "de",
-          "value" : "Minute",
-          "type" : "label"
-        }, {
-          "identifier" : "prefLabel",
-          "language" : "zh",
-          "value" : "等一下",
-          "type" : "label"
-        }, {
-          "identifier" : "prefLabel",
-          "language" : "en",
-          "value" : "minute",
-          "type" : "label"
-        }, {
-          "identifier" : "prefLabel",
-          "language" : "ar",
-          "value" : "دقيقة واحدة",
-          "type" : "label"
-        }, {
-          "identifier" : "prefLabel",
-          "language" : "jp",
-          "value" : "一分",
-          "type" : "label"
-        }, {
-          "identifier" : "prefLabel",
-          "language" : "kr",
-          "value" : "분",
-          "type" : "label"
-        }, {
-          "identifier" : "prefLabel",
-          "language" : "ru",
-          "value" : "одна минута",
-          "type" : "label"
-        }, {
-          "identifier" : "prefLabel",
-          "language" : "pl",
-          "value" : "minuta",
-          "type" : "label"
-        }, {
-          "identifier" : "prefLabel",
-          "language" : "pt",
-          "value" : "minuto",
-          "type" : "label"
-        }, {
-          "identifier" : "prefLabel",
-          "language" : "fr",
-          "value" : "minute",
-          "type" : "label"
-        }, {
-          "identifier" : "prefLabel",
-          "language" : "it",
-          "value" : "minuto",
-          "type" : "label"
-        } ]
-      },
-      "labels" : {
-        "IRI-based" : "unitMinute",
-        "en" : "Minute (unit of temporal duration)"
-      }
-    }, {
       "iri" : "http://www.w3.org/2006/time#unitSecond",
       "baseIri" : "http://www.w3.org/2006/time",
       "annotations" : {
         "prefLabel" : [ {
           "identifier" : "prefLabel",
-          "language" : "zh",
-          "value" : "一秒",
-          "type" : "label"
-        }, {
-          "identifier" : "prefLabel",
-          "language" : "fr",
-          "value" : "seconde",
+          "language" : "pl",
+          "value" : "Sekundę",
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
           "language" : "jp",
           "value" : "一秒",
+          "type" : "label"
+        }, {
+          "identifier" : "prefLabel",
+          "language" : "es",
+          "value" : "segundo",
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
@@ -3656,13 +3581,8 @@
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
-          "language" : "kr",
-          "value" : "일초",
-          "type" : "label"
-        }, {
-          "identifier" : "prefLabel",
-          "language" : "es",
-          "value" : "segundo",
+          "language" : "zh",
+          "value" : "一秒",
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
@@ -3671,8 +3591,13 @@
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
-          "language" : "it",
-          "value" : "secondo",
+          "language" : "nl",
+          "value" : "seconde",
+          "type" : "label"
+        }, {
+          "identifier" : "prefLabel",
+          "language" : "kr",
+          "value" : "일초",
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
@@ -3681,18 +3606,18 @@
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
-          "language" : "nl",
-          "value" : "seconde",
-          "type" : "label"
-        }, {
-          "identifier" : "prefLabel",
-          "language" : "pl",
-          "value" : "Sekundę",
-          "type" : "label"
-        }, {
-          "identifier" : "prefLabel",
           "language" : "pt",
           "value" : "segundo",
+          "type" : "label"
+        }, {
+          "identifier" : "prefLabel",
+          "language" : "it",
+          "value" : "secondo",
+          "type" : "label"
+        }, {
+          "identifier" : "prefLabel",
+          "language" : "fr",
+          "value" : "seconde",
           "type" : "label"
         } ]
       },
@@ -3701,10 +3626,95 @@
         "en" : "Second (unit of temporal duration)"
       }
     }, {
+      "iri" : "http://www.w3.org/2006/time#unitMinute",
+      "baseIri" : "http://www.w3.org/2006/time",
+      "annotations" : {
+        "prefLabel" : [ {
+          "identifier" : "prefLabel",
+          "language" : "fr",
+          "value" : "minute",
+          "type" : "label"
+        }, {
+          "identifier" : "prefLabel",
+          "language" : "kr",
+          "value" : "분",
+          "type" : "label"
+        }, {
+          "identifier" : "prefLabel",
+          "language" : "ar",
+          "value" : "دقيقة واحدة",
+          "type" : "label"
+        }, {
+          "identifier" : "prefLabel",
+          "language" : "en",
+          "value" : "minute",
+          "type" : "label"
+        }, {
+          "identifier" : "prefLabel",
+          "language" : "jp",
+          "value" : "一分",
+          "type" : "label"
+        }, {
+          "identifier" : "prefLabel",
+          "language" : "nl",
+          "value" : "minuut",
+          "type" : "label"
+        }, {
+          "identifier" : "prefLabel",
+          "language" : "de",
+          "value" : "Minute",
+          "type" : "label"
+        }, {
+          "identifier" : "prefLabel",
+          "language" : "es",
+          "value" : "minuto",
+          "type" : "label"
+        }, {
+          "identifier" : "prefLabel",
+          "language" : "zh",
+          "value" : "等一下",
+          "type" : "label"
+        }, {
+          "identifier" : "prefLabel",
+          "language" : "pt",
+          "value" : "minuto",
+          "type" : "label"
+        }, {
+          "identifier" : "prefLabel",
+          "language" : "it",
+          "value" : "minuto",
+          "type" : "label"
+        }, {
+          "identifier" : "prefLabel",
+          "language" : "pl",
+          "value" : "minuta",
+          "type" : "label"
+        }, {
+          "identifier" : "prefLabel",
+          "language" : "ru",
+          "value" : "одна минута",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "unitMinute",
+        "en" : "Minute (unit of temporal duration)"
+      }
+    }, {
       "iri" : "http://www.w3.org/2006/time#unitWeek",
       "baseIri" : "http://www.w3.org/2006/time",
       "annotations" : {
         "prefLabel" : [ {
+          "identifier" : "prefLabel",
+          "language" : "pt",
+          "value" : "semana",
+          "type" : "label"
+        }, {
+          "identifier" : "prefLabel",
+          "language" : "it",
+          "value" : "settimana",
+          "type" : "label"
+        }, {
           "identifier" : "prefLabel",
           "language" : "ru",
           "value" : "одна неделя",
@@ -3716,8 +3726,8 @@
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
-          "language" : "kr",
-          "value" : "일주일",
+          "language" : "pl",
+          "value" : "tydzień",
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
@@ -3726,28 +3736,13 @@
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
-          "language" : "fr",
-          "value" : "semaine",
-          "type" : "label"
-        }, {
-          "identifier" : "prefLabel",
-          "language" : "pl",
-          "value" : "tydzień",
-          "type" : "label"
-        }, {
-          "identifier" : "prefLabel",
           "language" : "nl",
           "value" : "week",
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
-          "language" : "it",
-          "value" : "settimana",
-          "type" : "label"
-        }, {
-          "identifier" : "prefLabel",
-          "language" : "pt",
-          "value" : "semana",
+          "language" : "de",
+          "value" : "Woche",
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
@@ -3756,8 +3751,8 @@
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
-          "language" : "jp",
-          "value" : "一週間",
+          "language" : "kr",
+          "value" : "일주일",
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
@@ -3766,8 +3761,13 @@
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
-          "language" : "de",
-          "value" : "Woche",
+          "language" : "jp",
+          "value" : "一週間",
+          "type" : "label"
+        }, {
+          "identifier" : "prefLabel",
+          "language" : "fr",
+          "value" : "semaine",
           "type" : "label"
         } ]
       },
@@ -3781,33 +3781,13 @@
       "annotations" : {
         "prefLabel" : [ {
           "identifier" : "prefLabel",
-          "language" : "jp",
-          "value" : "1年",
-          "type" : "label"
-        }, {
-          "identifier" : "prefLabel",
-          "language" : "nl",
-          "value" : "jaar",
-          "type" : "label"
-        }, {
-          "identifier" : "prefLabel",
-          "language" : "en",
-          "value" : "year",
-          "type" : "label"
-        }, {
-          "identifier" : "prefLabel",
           "language" : "zh",
           "value" : "一年",
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
-          "language" : "kr",
-          "value" : "1 년",
-          "type" : "label"
-        }, {
-          "identifier" : "prefLabel",
-          "language" : "fr",
-          "value" : "an",
+          "language" : "jp",
+          "value" : "1年",
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
@@ -3816,18 +3796,8 @@
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
-          "language" : "pl",
-          "value" : "rok",
-          "type" : "label"
-        }, {
-          "identifier" : "prefLabel",
-          "language" : "es",
-          "value" : "un año",
-          "type" : "label"
-        }, {
-          "identifier" : "prefLabel",
-          "language" : "it",
-          "value" : "anno",
+          "language" : "en",
+          "value" : "year",
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
@@ -3836,13 +3806,43 @@
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
-          "language" : "pt",
-          "value" : "ano",
+          "language" : "pl",
+          "value" : "rok",
+          "type" : "label"
+        }, {
+          "identifier" : "prefLabel",
+          "language" : "fr",
+          "value" : "an",
+          "type" : "label"
+        }, {
+          "identifier" : "prefLabel",
+          "language" : "kr",
+          "value" : "1 년",
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
           "language" : "de",
           "value" : "Jahr",
+          "type" : "label"
+        }, {
+          "identifier" : "prefLabel",
+          "language" : "nl",
+          "value" : "jaar",
+          "type" : "label"
+        }, {
+          "identifier" : "prefLabel",
+          "language" : "it",
+          "value" : "anno",
+          "type" : "label"
+        }, {
+          "identifier" : "prefLabel",
+          "language" : "es",
+          "value" : "un año",
+          "type" : "label"
+        }, {
+          "identifier" : "prefLabel",
+          "language" : "pt",
+          "value" : "ano",
           "type" : "label"
         } ]
       },
@@ -3856,18 +3856,8 @@
       "annotations" : {
         "prefLabel" : [ {
           "identifier" : "prefLabel",
-          "language" : "ru",
-          "value" : "один месяц",
-          "type" : "label"
-        }, {
-          "identifier" : "prefLabel",
-          "language" : "fr",
-          "value" : "mois",
-          "type" : "label"
-        }, {
-          "identifier" : "prefLabel",
-          "language" : "jp",
-          "value" : "一か月",
+          "language" : "es",
+          "value" : "mes",
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
@@ -3876,18 +3866,8 @@
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
-          "language" : "nl",
-          "value" : "maand",
-          "type" : "label"
-        }, {
-          "identifier" : "prefLabel",
           "language" : "en",
           "value" : "month",
-          "type" : "label"
-        }, {
-          "identifier" : "prefLabel",
-          "language" : "de",
-          "value" : "Monat",
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
@@ -3896,13 +3876,13 @@
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
-          "language" : "it",
-          "value" : "mese",
+          "language" : "ru",
+          "value" : "один месяц",
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
-          "language" : "kr",
-          "value" : "한달",
+          "language" : "de",
+          "value" : "Monat",
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
@@ -3911,8 +3891,28 @@
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
-          "language" : "es",
-          "value" : "mes",
+          "language" : "jp",
+          "value" : "一か月",
+          "type" : "label"
+        }, {
+          "identifier" : "prefLabel",
+          "language" : "it",
+          "value" : "mese",
+          "type" : "label"
+        }, {
+          "identifier" : "prefLabel",
+          "language" : "nl",
+          "value" : "maand",
+          "type" : "label"
+        }, {
+          "identifier" : "prefLabel",
+          "language" : "kr",
+          "value" : "한달",
+          "type" : "label"
+        }, {
+          "identifier" : "prefLabel",
+          "language" : "fr",
+          "value" : "mois",
           "type" : "label"
         } ]
       },
@@ -3926,18 +3926,23 @@
       "annotations" : {
         "prefLabel" : [ {
           "identifier" : "prefLabel",
-          "language" : "pt",
-          "value" : "dia",
+          "language" : "it",
+          "value" : "giorno",
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
-          "language" : "en",
-          "value" : "day",
+          "language" : "kr",
+          "value" : "언젠가",
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
-          "language" : "jp",
-          "value" : "ある日",
+          "language" : "fr",
+          "value" : "jour",
+          "type" : "label"
+        }, {
+          "identifier" : "prefLabel",
+          "language" : "de",
+          "value" : "Tag",
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
@@ -3951,13 +3956,13 @@
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
-          "language" : "es",
-          "value" : "día",
+          "language" : "pt",
+          "value" : "dia",
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
-          "language" : "it",
-          "value" : "giorno",
+          "language" : "en",
+          "value" : "day",
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
@@ -3966,23 +3971,18 @@
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
-          "language" : "de",
-          "value" : "Tag",
+          "language" : "es",
+          "value" : "día",
+          "type" : "label"
+        }, {
+          "identifier" : "prefLabel",
+          "language" : "jp",
+          "value" : "ある日",
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
           "language" : "pl",
           "value" : "doba",
-          "type" : "label"
-        }, {
-          "identifier" : "prefLabel",
-          "language" : "kr",
-          "value" : "언젠가",
-          "type" : "label"
-        }, {
-          "identifier" : "prefLabel",
-          "language" : "fr",
-          "value" : "jour",
           "type" : "label"
         } ]
       },
@@ -4169,7 +4169,7 @@
     "label" : {
       "IRI-based" : "Reguera",
       "en" : "Drain",
-      "es" : "Reguera"
+      "es" : "Regata"
     },
     "comment" : {
       "undefined" : "Canal o acequia para el riego"
@@ -4203,6 +4203,17 @@
     "baseIri" : "http://www.w3.org/2006/time",
     "instances" : 0,
     "annotations" : {
+      "editorialNote" : [ {
+        "identifier" : "editorialNote",
+        "language" : "es",
+        "value" : "Característica en riesgo - añadida en la revisión de 2017, y no utilizada todavía de forma amplia.",
+        "type" : "label"
+      }, {
+        "identifier" : "editorialNote",
+        "language" : "en",
+        "value" : "Feature at risk - added in 2017 revision, and not yet widely used. ",
+        "type" : "label"
+      } ],
       "note" : [ {
         "identifier" : "note",
         "language" : "en",
@@ -4212,17 +4223,6 @@
         "identifier" : "note",
         "language" : "es",
         "value" : "La pertenencia a la clase 'mes del año' está abierta, a permitir calendarios anuales alternativos y diferentes nombres de meses.",
-        "type" : "label"
-      } ],
-      "editorialNote" : [ {
-        "identifier" : "editorialNote",
-        "language" : "en",
-        "value" : "Feature at risk - added in 2017 revision, and not yet widely used. ",
-        "type" : "label"
-      }, {
-        "identifier" : "editorialNote",
-        "language" : "es",
-        "value" : "Característica en riesgo - añadida en la revisión de 2017, y no utilizada todavía de forma amplia.",
         "type" : "label"
       } ],
       "definition" : [ {
@@ -4368,13 +4368,13 @@
     "annotations" : {
       "definition" : [ {
         "identifier" : "definition",
-        "language" : "es",
-        "value" : "Una entidad temporal con extensión o duración distinta de cero, es decir, para la cual los valores de principio y fin del intervalo son diferentes.",
+        "language" : "en",
+        "value" : "A temporal entity with non-zero extent or duration, i.e. for which the value of the beginning and end are different",
         "type" : "label"
       }, {
         "identifier" : "definition",
-        "language" : "en",
-        "value" : "A temporal entity with non-zero extent or duration, i.e. for which the value of the beginning and end are different",
+        "language" : "es",
+        "value" : "Una entidad temporal con extensión o duración distinta de cero, es decir, para la cual los valores de principio y fin del intervalo son diferentes.",
         "type" : "label"
       } ]
     },
@@ -4562,13 +4562,13 @@
     "annotations" : {
       "definition" : [ {
         "identifier" : "definition",
-        "language" : "es",
-        "value" : "Una posición sobre una línea de tiempo.",
+        "language" : "en",
+        "value" : "A position on a time-line",
         "type" : "label"
       }, {
         "identifier" : "definition",
-        "language" : "en",
-        "value" : "A position on a time-line",
+        "language" : "es",
+        "value" : "Una posición sobre una línea de tiempo.",
         "type" : "label"
       } ]
     },
@@ -4599,7 +4599,7 @@
     "label" : {
       "IRI-based" : "Cascada",
       "en" : "Waterfall",
-      "es" : "Catarata"
+      "es" : "Salto"
     },
     "comment" : {
       "es" : "Caida desde cierta altura del agua de un rio u otra corriente por brusco desnivel del cauce"
@@ -4691,13 +4691,13 @@
     "label" : {
       "IRI-based" : "FenomenoHidrografico",
       "en" : "Hydrographical feature",
-      "es" : "Fenomeno hidrográfico"
+      "es" : "Accidente hidrografico"
     },
     "subClasses" : [ "161", "82" ],
     "comment" : {
       "undefined" : "Abstraccion de un ente que forma parte del conjunto de las aguas de un pais o region o que configura su estructura."
     },
-    "id" : "545"
+    "id" : "544"
   }, {
     "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
     "id" : "643",
@@ -4728,14 +4728,14 @@
     }
   }, {
     "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
-    "id" : "648",
+    "id" : "255",
     "label" : {
       "IRI-based" : "Literal",
       "undefined" : "Literal"
     }
   }, {
     "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
-    "id" : "255",
+    "id" : "648",
     "label" : {
       "IRI-based" : "Literal",
       "undefined" : "Literal"
@@ -4811,18 +4811,8 @@
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "ru",
-        "value" : "Год",
-        "type" : "label"
-      }, {
-        "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "Year",
-        "type" : "label"
-      }, {
-        "identifier" : "prefLabel",
-        "language" : "es",
-        "value" : "Año",
+        "language" : "fr",
+        "value" : "Année (calendrier)",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
@@ -4836,13 +4826,8 @@
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "fr",
-        "value" : "Année (calendrier)",
-        "type" : "label"
-      }, {
-        "identifier" : "prefLabel",
-        "language" : "de",
-        "value" : "Jahr",
+        "language" : "en",
+        "value" : "Year",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
@@ -4851,8 +4836,13 @@
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "nl",
-        "value" : "Jaar",
+        "language" : "pl",
+        "value" : "Rok",
+        "type" : "label"
+      }, {
+        "identifier" : "prefLabel",
+        "language" : "ru",
+        "value" : "Год",
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
@@ -4861,8 +4851,18 @@
         "type" : "label"
       }, {
         "identifier" : "prefLabel",
-        "language" : "pl",
-        "value" : "Rok",
+        "language" : "nl",
+        "value" : "Jaar",
+        "type" : "label"
+      }, {
+        "identifier" : "prefLabel",
+        "language" : "de",
+        "value" : "Jahr",
+        "type" : "label"
+      }, {
+        "identifier" : "prefLabel",
+        "language" : "es",
+        "value" : "Año",
         "type" : "label"
       } ],
       "definition" : [ {
@@ -4885,7 +4885,7 @@
     "comment" : {
       "undefined" : "Year duration"
     },
-    "attributes" : [ "deprecated", "external" ],
+    "attributes" : [ "external", "deprecated" ],
     "id" : "429",
     "superClasses" : [ "203" ]
   }, {
@@ -5047,11 +5047,6 @@
       "provenance" : [ {
         "identifier" : "provenance",
         "language" : "undefined",
-        "value" : "Flujo fluvial - Glosario Hidrologico Internacional. UNESCO",
-        "type" : "label"
-      }, {
-        "identifier" : "provenance",
-        "language" : "undefined",
         "value" : "Corriente de agua - Glosario Hidrologico Internacional - UNESCO",
         "type" : "label"
       }, {
@@ -5059,12 +5054,17 @@
         "language" : "undefined",
         "value" : "Curso de agua - Data Specification. INSPIRE",
         "type" : "label"
+      }, {
+        "identifier" : "provenance",
+        "language" : "undefined",
+        "value" : "Flujo fluvial - Glosario Hidrologico Internacional. UNESCO",
+        "type" : "label"
       } ]
     },
     "label" : {
       "IRI-based" : "AguasCorrientes",
       "en" : "Flowing waters",
-      "es" : "Curso de agua"
+      "es" : "Curso fluvial"
     },
     "union" : [ "14", "108" ],
     "subClasses" : [ "14", "108", "261" ],
@@ -5320,12 +5320,12 @@
       "provenance" : [ {
         "identifier" : "provenance",
         "language" : "undefined",
-        "value" : "Water Framework Directive. European Union",
+        "value" : "Directiva Marco del Agua. Union Europea",
         "type" : "label"
       }, {
         "identifier" : "provenance",
         "language" : "undefined",
-        "value" : "Directiva Marco del Agua. Union Europea",
+        "value" : "Water Framework Directive. European Union",
         "type" : "label"
       } ],
       "source" : [ {
@@ -5340,7 +5340,7 @@
       "cat" : "Aqüífer",
       "en" : "Aquifer",
       "fr" : "Aquifère",
-      "es" : "Embalse de agua subterranea"
+      "es" : "Acuífero"
     },
     "comment" : {
       "cat" : "Dit de la formació geològica en la qual s'emmagatzema i circula aigua subterrània, aprofitant la porositat del terreny que l'acull i el gradient hidràulic allà present.",
@@ -5390,13 +5390,13 @@
       } ],
       "definition" : [ {
         "identifier" : "definition",
-        "language" : "es",
-        "value" : "Duración de una extensión temporal expresada como un número escalado por una unidad temporal.",
+        "language" : "en",
+        "value" : "Duration of a temporal extent expressed as a number scaled by a temporal unit",
         "type" : "label"
       }, {
         "identifier" : "definition",
-        "language" : "en",
-        "value" : "Duration of a temporal extent expressed as a number scaled by a temporal unit",
+        "language" : "es",
+        "value" : "Duración de una extensión temporal expresada como un número escalado por una unidad temporal.",
         "type" : "label"
       } ]
     },
@@ -5415,12 +5415,12 @@
   }, {
     "instances" : 0,
     "union" : [ "14", "28" ],
-    "attributes" : [ "union", "anonymous" ],
+    "attributes" : [ "anonymous", "union" ],
     "id" : "681"
   }, {
     "instances" : 0,
     "union" : [ "265", "18" ],
-    "attributes" : [ "union", "anonymous" ],
+    "attributes" : [ "anonymous", "union" ],
     "id" : "630"
   }, {
     "iri" : "http://geo.linkeddata.es/ontology/CanalAguasMarinas",
@@ -5491,18 +5491,18 @@
       "source" : [ {
         "identifier" : "source",
         "language" : "undefined",
-        "value" : "Fontanillo, E. (1986) Diccionario de Geografia. Ed. Anaya. Madrid.",
+        "value" : "Cuenca fluvial - Glosario Hidrologico Internacional. UNESCO",
         "type" : "label"
       }, {
         "identifier" : "source",
         "language" : "undefined",
-        "value" : "Cuenca fluvial - Glosario Hidrologico Internacional. UNESCO",
+        "value" : "Fontanillo, E. (1986) Diccionario de Geografia. Ed. Anaya. Madrid.",
         "type" : "label"
       } ]
     },
     "label" : {
       "IRI-based" : "CuencaHidrografica",
-      "es" : "Cuenca fluvial"
+      "es" : "Cuenca hidrográfica"
     },
     "comment" : {
       "undefined" : "Todo el espacio que drena las aguas que van a parar a un determinado rio y que estos vierten a un mismo mar u oceano"
@@ -5519,17 +5519,17 @@
       "iri" : "http://vocab.deri.ie/scovo#JOANNEUM%20RESEARCH",
       "baseIri" : "http://vocab.deri.ie/scovo",
       "annotations" : {
-        "member" : [ {
-          "identifier" : "member",
-          "language" : "undefined",
-          "value" : "http://vocab.deri.ie/scovo#whalb",
-          "type" : "iri"
-        } ],
         "name" : [ {
           "identifier" : "name",
           "language" : "undefined",
           "value" : "JOANNEUM RESEARCH",
           "type" : "label"
+        } ],
+        "member" : [ {
+          "identifier" : "member",
+          "language" : "undefined",
+          "value" : "http://vocab.deri.ie/scovo#whalb",
+          "type" : "iri"
         } ],
         "homepage" : [ {
           "identifier" : "homepage",
@@ -5599,58 +5599,58 @@
     "superClasses" : [ "5" ]
   }, {
     "instances" : 0,
-    "union" : [ "545", "5", "688" ],
-    "attributes" : [ "union", "anonymous" ],
+    "union" : [ "544", "5", "688" ],
+    "attributes" : [ "anonymous", "union" ],
     "id" : "692"
   }, {
     "instances" : 0,
     "union" : [ "63", "262" ],
-    "attributes" : [ "union", "anonymous" ],
+    "attributes" : [ "anonymous", "union" ],
     "id" : "693"
   }, {
     "instances" : 0,
-    "union" : [ "545", "5", "688" ],
-    "attributes" : [ "union", "anonymous" ],
+    "union" : [ "544", "5", "688" ],
+    "attributes" : [ "anonymous", "union" ],
     "id" : "555"
   }, {
     "instances" : 0,
-    "union" : [ "545", "5", "688" ],
-    "attributes" : [ "union", "anonymous" ],
+    "union" : [ "544", "5", "688" ],
+    "attributes" : [ "anonymous", "union" ],
     "id" : "694"
   }, {
     "instances" : 0,
-    "union" : [ "545", "5", "688" ],
-    "attributes" : [ "union", "anonymous" ],
+    "union" : [ "544", "5", "688" ],
+    "attributes" : [ "anonymous", "union" ],
     "id" : "695"
   }, {
     "instances" : 0,
     "union" : [ "63", "310", "20", "346" ],
-    "attributes" : [ "union", "anonymous" ],
+    "attributes" : [ "anonymous", "union" ],
     "id" : "451"
   }, {
     "instances" : 0,
-    "union" : [ "63", "262" ],
-    "attributes" : [ "union", "anonymous" ],
-    "id" : "696"
-  }, {
-    "instances" : 0,
     "union" : [ "47", "87" ],
-    "attributes" : [ "union", "anonymous" ],
+    "attributes" : [ "anonymous", "union" ],
     "id" : "254"
   }, {
     "instances" : 0,
-    "union" : [ "545", "5", "688" ],
-    "attributes" : [ "union", "anonymous" ],
+    "union" : [ "63", "262" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "696"
+  }, {
+    "instances" : 0,
+    "union" : [ "544", "5", "688" ],
+    "attributes" : [ "anonymous", "union" ],
     "id" : "535"
   }, {
     "instances" : 0,
-    "union" : [ "545", "18" ],
-    "attributes" : [ "union", "anonymous" ],
+    "union" : [ "544", "18" ],
+    "attributes" : [ "anonymous", "union" ],
     "id" : "691"
   }, {
     "instances" : 0,
     "union" : [ "16", "20" ],
-    "attributes" : [ "union", "anonymous" ],
+    "attributes" : [ "anonymous", "union" ],
     "id" : "698"
   }, {
     "iri" : "http://geo.linkeddata.es/ontology/Nacimiento",
@@ -5676,28 +5676,28 @@
     "superClasses" : [ "33" ]
   }, {
     "instances" : 0,
-    "union" : [ "545", "5", "688" ],
-    "attributes" : [ "union", "anonymous" ],
+    "union" : [ "544", "5", "688" ],
+    "attributes" : [ "anonymous", "union" ],
     "id" : "199"
   }, {
     "instances" : 0,
     "union" : [ "63", "16" ],
-    "attributes" : [ "union", "anonymous" ],
+    "attributes" : [ "anonymous", "union" ],
     "id" : "700"
   }, {
     "instances" : 0,
     "union" : [ "63", "16" ],
-    "attributes" : [ "union", "anonymous" ],
+    "attributes" : [ "anonymous", "union" ],
     "id" : "701"
   }, {
     "instances" : 0,
     "union" : [ "16", "20" ],
-    "attributes" : [ "union", "anonymous" ],
+    "attributes" : [ "anonymous", "union" ],
     "id" : "666"
   }, {
     "instances" : 0,
     "union" : [ "19", "87" ],
-    "attributes" : [ "union", "anonymous" ],
+    "attributes" : [ "anonymous", "union" ],
     "id" : "702"
   }, {
     "iri" : "http://geo.linkeddata.es/ontology/Nava",
@@ -5729,28 +5729,28 @@
     }
   }, {
     "instances" : 0,
-    "union" : [ "545", "5", "688" ],
-    "attributes" : [ "union", "anonymous" ],
+    "union" : [ "544", "5", "688" ],
+    "attributes" : [ "anonymous", "union" ],
     "id" : "705"
   }, {
     "instances" : 0,
-    "union" : [ "545", "5", "688" ],
-    "attributes" : [ "union", "anonymous" ],
+    "union" : [ "544", "5", "688" ],
+    "attributes" : [ "anonymous", "union" ],
     "id" : "706"
   }, {
     "instances" : 0,
-    "union" : [ "545", "5", "688" ],
-    "attributes" : [ "union", "anonymous" ],
+    "union" : [ "544", "5", "688" ],
+    "attributes" : [ "anonymous", "union" ],
     "id" : "513"
   }, {
     "instances" : 0,
     "union" : [ "62", "108" ],
-    "attributes" : [ "union", "anonymous" ],
+    "attributes" : [ "anonymous", "union" ],
     "id" : "518"
   }, {
     "instances" : 0,
     "union" : [ "82", "688" ],
-    "attributes" : [ "union", "anonymous" ],
+    "attributes" : [ "anonymous", "union" ],
     "id" : "164"
   }, {
     "iri" : "http://geo.linkeddata.es/ontology/LlanuraDeInundacion",
@@ -5824,23 +5824,23 @@
       }, {
         "identifier" : "provenance",
         "language" : "undefined",
-        "value" : "EuroRegionalMap",
+        "value" : "EuroGlobalMap",
         "type" : "label"
       }, {
         "identifier" : "provenance",
         "language" : "undefined",
-        "value" : "EuroGlobalMap",
+        "value" : "EuroRegionalMap",
         "type" : "label"
       } ]
     },
     "label" : {
       "IRI-based" : "HidronimoPuntual",
-      "en" : "Hydrographic point",
+      "en" : "Hydrographical feature",
       "es" : "Hidrónimo puntual"
     },
     "subClasses" : [ "70", "45", "374" ],
     "id" : "161",
-    "superClasses" : [ "545" ]
+    "superClasses" : [ "544" ]
   }, {
     "iri" : "http://www.w3.org/2006/time#TemporalEntity",
     "baseIri" : "http://www.w3.org/2006/time",
@@ -5907,12 +5907,12 @@
       "provenance" : [ {
         "identifier" : "provenance",
         "language" : "undefined",
-        "value" : "Aguas artificiales - Catalogo de entidades para el Nomenclator de la Base Topografica Nacional 1:25000 (BTN25). Instituto Geografico Nacional",
+        "value" : "Masa de agua embalsada - Nomenclator Conciso. Instituto Geografico Nacional",
         "type" : "label"
       }, {
         "identifier" : "provenance",
         "language" : "undefined",
-        "value" : "Masa de agua embalsada - Nomenclator Conciso. Instituto Geografico Nacional",
+        "value" : "Aguas artificiales - Catalogo de entidades para el Nomenclator de la Base Topografica Nacional 1:25000 (BTN25). Instituto Geografico Nacional",
         "type" : "label"
       }, {
         "identifier" : "provenance",
@@ -5930,7 +5930,7 @@
     "label" : {
       "IRI-based" : "AguasQuietasArtificiales",
       "en" : "Artificial standing water",
-      "es" : "Embalsamiento de agua"
+      "es" : "Almacenamiento de agua"
     },
     "union" : [ "300", "447" ],
     "subClasses" : [ "300", "447" ],
@@ -6034,13 +6034,13 @@
       } ],
       "definition" : [ {
         "identifier" : "definition",
-        "language" : "es",
-        "value" : "El día de la semana",
+        "language" : "en",
+        "value" : "The day of week",
         "type" : "label"
       }, {
         "identifier" : "definition",
-        "language" : "en",
-        "value" : "The day of week",
+        "language" : "es",
+        "value" : "El día de la semana",
         "type" : "label"
       } ]
     },
@@ -6055,13 +6055,18 @@
       "annotations" : {
         "prefLabel" : [ {
           "identifier" : "prefLabel",
-          "language" : "nl",
-          "value" : "Donderdag",
+          "language" : "en",
+          "value" : "Thursday",
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
-          "language" : "it",
-          "value" : "Giovedì",
+          "language" : "pl",
+          "value" : "Czwartek",
+          "type" : "label"
+        }, {
+          "identifier" : "prefLabel",
+          "language" : "ru",
+          "value" : "Четверг",
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
@@ -6080,18 +6085,18 @@
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
-          "language" : "en",
-          "value" : "Thursday",
-          "type" : "label"
-        }, {
-          "identifier" : "prefLabel",
           "language" : "pt",
           "value" : "Quinta-feira",
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
-          "language" : "fr",
-          "value" : "Jeudi",
+          "language" : "it",
+          "value" : "Giovedì",
+          "type" : "label"
+        }, {
+          "identifier" : "prefLabel",
+          "language" : "ja",
+          "value" : "木曜日",
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
@@ -6100,18 +6105,13 @@
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
-          "language" : "pl",
-          "value" : "Czwartek",
+          "language" : "fr",
+          "value" : "Jeudi",
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
-          "language" : "ru",
-          "value" : "Четверг",
-          "type" : "label"
-        }, {
-          "identifier" : "prefLabel",
-          "language" : "ja",
-          "value" : "木曜日",
+          "language" : "nl",
+          "value" : "Donderdag",
           "type" : "label"
         } ]
       },
@@ -6125,36 +6125,6 @@
       "annotations" : {
         "prefLabel" : [ {
           "identifier" : "prefLabel",
-          "language" : "it",
-          "value" : "Venerdì",
-          "type" : "label"
-        }, {
-          "identifier" : "prefLabel",
-          "language" : "ja",
-          "value" : "金曜日",
-          "type" : "label"
-        }, {
-          "identifier" : "prefLabel",
-          "language" : "de",
-          "value" : "Freitag",
-          "type" : "label"
-        }, {
-          "identifier" : "prefLabel",
-          "language" : "zh",
-          "value" : "星期五",
-          "type" : "label"
-        }, {
-          "identifier" : "prefLabel",
-          "language" : "en",
-          "value" : "Friday",
-          "type" : "label"
-        }, {
-          "identifier" : "prefLabel",
-          "language" : "nl",
-          "value" : "Vrijdag",
-          "type" : "label"
-        }, {
-          "identifier" : "prefLabel",
           "language" : "fr",
           "value" : "Vendredi",
           "type" : "label"
@@ -6165,13 +6135,38 @@
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
-          "language" : "ar",
-          "value" : "الجمعة",
+          "language" : "en",
+          "value" : "Friday",
+          "type" : "label"
+        }, {
+          "identifier" : "prefLabel",
+          "language" : "it",
+          "value" : "Venerdì",
+          "type" : "label"
+        }, {
+          "identifier" : "prefLabel",
+          "language" : "de",
+          "value" : "Freitag",
+          "type" : "label"
+        }, {
+          "identifier" : "prefLabel",
+          "language" : "nl",
+          "value" : "Vrijdag",
+          "type" : "label"
+        }, {
+          "identifier" : "prefLabel",
+          "language" : "ja",
+          "value" : "金曜日",
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
           "language" : "ru",
           "value" : "Пятница",
+          "type" : "label"
+        }, {
+          "identifier" : "prefLabel",
+          "language" : "ar",
+          "value" : "الجمعة",
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
@@ -6182,6 +6177,11 @@
           "identifier" : "prefLabel",
           "language" : "pt",
           "value" : "Sexta-feira",
+          "type" : "label"
+        }, {
+          "identifier" : "prefLabel",
+          "language" : "zh",
+          "value" : "星期五",
           "type" : "label"
         } ]
       },
@@ -6200,28 +6200,13 @@
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
-          "language" : "ar",
-          "value" : "الثلاثاء",
+          "language" : "pt",
+          "value" : "Terça-feira",
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
-          "language" : "pl",
-          "value" : "Wtorek",
-          "type" : "label"
-        }, {
-          "identifier" : "prefLabel",
-          "language" : "de",
-          "value" : "Dienstag",
-          "type" : "label"
-        }, {
-          "identifier" : "prefLabel",
-          "language" : "nl",
-          "value" : "Dinsdag",
-          "type" : "label"
-        }, {
-          "identifier" : "prefLabel",
-          "language" : "fr",
-          "value" : "Mardi",
+          "language" : "zh",
+          "value" : "星期二",
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
@@ -6230,13 +6215,23 @@
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
+          "language" : "pl",
+          "value" : "Wtorek",
+          "type" : "label"
+        }, {
+          "identifier" : "prefLabel",
           "language" : "en",
           "value" : "Tuesday",
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
-          "language" : "ja",
-          "value" : "火曜日",
+          "language" : "nl",
+          "value" : "Dinsdag",
+          "type" : "label"
+        }, {
+          "identifier" : "prefLabel",
+          "language" : "ar",
+          "value" : "الثلاثاء",
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
@@ -6245,13 +6240,18 @@
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
-          "language" : "pt",
-          "value" : "Terça-feira",
+          "language" : "fr",
+          "value" : "Mardi",
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
-          "language" : "zh",
-          "value" : "星期二",
+          "language" : "de",
+          "value" : "Dienstag",
+          "type" : "label"
+        }, {
+          "identifier" : "prefLabel",
+          "language" : "ja",
+          "value" : "火曜日",
           "type" : "label"
         } ]
       },
@@ -6265,8 +6265,8 @@
       "annotations" : {
         "prefLabel" : [ {
           "identifier" : "prefLabel",
-          "language" : "de",
-          "value" : "Mittwoch",
+          "language" : "ru",
+          "value" : "Среда",
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
@@ -6275,38 +6275,8 @@
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
-          "language" : "en",
-          "value" : "Wednesday",
-          "type" : "label"
-        }, {
-          "identifier" : "prefLabel",
-          "language" : "pt",
-          "value" : "Quarta-feira",
-          "type" : "label"
-        }, {
-          "identifier" : "prefLabel",
-          "language" : "ru",
-          "value" : "Среда",
-          "type" : "label"
-        }, {
-          "identifier" : "prefLabel",
-          "language" : "zh",
-          "value" : "星期三",
-          "type" : "label"
-        }, {
-          "identifier" : "prefLabel",
-          "language" : "pl",
-          "value" : "Środa",
-          "type" : "label"
-        }, {
-          "identifier" : "prefLabel",
-          "language" : "ar",
-          "value" : "الأربعاء",
-          "type" : "label"
-        }, {
-          "identifier" : "prefLabel",
-          "language" : "es",
-          "value" : "Miércoles",
+          "language" : "fr",
+          "value" : "Mercredi",
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
@@ -6315,13 +6285,43 @@
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
-          "language" : "fr",
-          "value" : "Mercredi",
+          "language" : "es",
+          "value" : "Miércoles",
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
           "language" : "it",
           "value" : "Mercoledì",
+          "type" : "label"
+        }, {
+          "identifier" : "prefLabel",
+          "language" : "ar",
+          "value" : "الأربعاء",
+          "type" : "label"
+        }, {
+          "identifier" : "prefLabel",
+          "language" : "zh",
+          "value" : "星期三",
+          "type" : "label"
+        }, {
+          "identifier" : "prefLabel",
+          "language" : "en",
+          "value" : "Wednesday",
+          "type" : "label"
+        }, {
+          "identifier" : "prefLabel",
+          "language" : "de",
+          "value" : "Mittwoch",
+          "type" : "label"
+        }, {
+          "identifier" : "prefLabel",
+          "language" : "pt",
+          "value" : "Quarta-feira",
+          "type" : "label"
+        }, {
+          "identifier" : "prefLabel",
+          "language" : "pl",
+          "value" : "Środa",
           "type" : "label"
         } ]
       },
@@ -6335,53 +6335,8 @@
       "annotations" : {
         "prefLabel" : [ {
           "identifier" : "prefLabel",
-          "language" : "fr",
-          "value" : "Samedi",
-          "type" : "label"
-        }, {
-          "identifier" : "prefLabel",
-          "language" : "ja",
-          "value" : "土曜日",
-          "type" : "label"
-        }, {
-          "identifier" : "prefLabel",
-          "language" : "es",
-          "value" : "Sábado",
-          "type" : "label"
-        }, {
-          "identifier" : "prefLabel",
-          "language" : "pt",
-          "value" : "Sábado",
-          "type" : "label"
-        }, {
-          "identifier" : "prefLabel",
-          "language" : "en",
-          "value" : "Saturday",
-          "type" : "label"
-        }, {
-          "identifier" : "prefLabel",
           "language" : "ar",
           "value" : "السبت",
-          "type" : "label"
-        }, {
-          "identifier" : "prefLabel",
-          "language" : "pl",
-          "value" : "Sobota",
-          "type" : "label"
-        }, {
-          "identifier" : "prefLabel",
-          "language" : "de",
-          "value" : "Samstag",
-          "type" : "label"
-        }, {
-          "identifier" : "prefLabel",
-          "language" : "nl",
-          "value" : "Zaterdag",
-          "type" : "label"
-        }, {
-          "identifier" : "prefLabel",
-          "language" : "ru",
-          "value" : "Суббота",
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
@@ -6390,8 +6345,53 @@
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
+          "language" : "pt",
+          "value" : "Sábado",
+          "type" : "label"
+        }, {
+          "identifier" : "prefLabel",
+          "language" : "es",
+          "value" : "Sábado",
+          "type" : "label"
+        }, {
+          "identifier" : "prefLabel",
+          "language" : "ru",
+          "value" : "Суббота",
+          "type" : "label"
+        }, {
+          "identifier" : "prefLabel",
+          "language" : "pl",
+          "value" : "Sobota",
+          "type" : "label"
+        }, {
+          "identifier" : "prefLabel",
+          "language" : "fr",
+          "value" : "Samedi",
+          "type" : "label"
+        }, {
+          "identifier" : "prefLabel",
+          "language" : "de",
+          "value" : "Samstag",
+          "type" : "label"
+        }, {
+          "identifier" : "prefLabel",
+          "language" : "ja",
+          "value" : "土曜日",
+          "type" : "label"
+        }, {
+          "identifier" : "prefLabel",
+          "language" : "nl",
+          "value" : "Zaterdag",
+          "type" : "label"
+        }, {
+          "identifier" : "prefLabel",
           "language" : "it",
           "value" : "Sabato",
+          "type" : "label"
+        }, {
+          "identifier" : "prefLabel",
+          "language" : "en",
+          "value" : "Saturday",
           "type" : "label"
         } ]
       },
@@ -6405,43 +6405,8 @@
       "annotations" : {
         "prefLabel" : [ {
           "identifier" : "prefLabel",
-          "language" : "ru",
-          "value" : "Воскресенье",
-          "type" : "label"
-        }, {
-          "identifier" : "prefLabel",
-          "language" : "de",
-          "value" : "Sonntag",
-          "type" : "label"
-        }, {
-          "identifier" : "prefLabel",
-          "language" : "fr",
-          "value" : "Dimanche",
-          "type" : "label"
-        }, {
-          "identifier" : "prefLabel",
-          "language" : "ja",
-          "value" : "日曜日",
-          "type" : "label"
-        }, {
-          "identifier" : "prefLabel",
-          "language" : "it",
-          "value" : "Domenica",
-          "type" : "label"
-        }, {
-          "identifier" : "prefLabel",
-          "language" : "pl",
-          "value" : "Niedziela",
-          "type" : "label"
-        }, {
-          "identifier" : "prefLabel",
-          "language" : "ar",
-          "value" : "الأحد (يوم)",
-          "type" : "label"
-        }, {
-          "identifier" : "prefLabel",
-          "language" : "zh",
-          "value" : "星期日",
+          "language" : "en",
+          "value" : "Sunday",
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
@@ -6450,8 +6415,28 @@
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
-          "language" : "en",
-          "value" : "Sunday",
+          "language" : "zh",
+          "value" : "星期日",
+          "type" : "label"
+        }, {
+          "identifier" : "prefLabel",
+          "language" : "pt",
+          "value" : "Domingo",
+          "type" : "label"
+        }, {
+          "identifier" : "prefLabel",
+          "language" : "ar",
+          "value" : "الأحد (يوم)",
+          "type" : "label"
+        }, {
+          "identifier" : "prefLabel",
+          "language" : "pl",
+          "value" : "Niedziela",
+          "type" : "label"
+        }, {
+          "identifier" : "prefLabel",
+          "language" : "de",
+          "value" : "Sonntag",
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
@@ -6460,8 +6445,23 @@
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
-          "language" : "pt",
-          "value" : "Domingo",
+          "language" : "ru",
+          "value" : "Воскресенье",
+          "type" : "label"
+        }, {
+          "identifier" : "prefLabel",
+          "language" : "ja",
+          "value" : "日曜日",
+          "type" : "label"
+        }, {
+          "identifier" : "prefLabel",
+          "language" : "fr",
+          "value" : "Dimanche",
+          "type" : "label"
+        }, {
+          "identifier" : "prefLabel",
+          "language" : "it",
+          "value" : "Domenica",
           "type" : "label"
         } ]
       },
@@ -6475,48 +6475,13 @@
       "annotations" : {
         "prefLabel" : [ {
           "identifier" : "prefLabel",
-          "language" : "ja",
-          "value" : "月曜日",
-          "type" : "label"
-        }, {
-          "identifier" : "prefLabel",
-          "language" : "zh",
-          "value" : "星期一",
-          "type" : "label"
-        }, {
-          "identifier" : "prefLabel",
-          "language" : "pl",
-          "value" : "Poniedziałek",
-          "type" : "label"
-        }, {
-          "identifier" : "prefLabel",
-          "language" : "pt",
-          "value" : "Segunda-feira",
-          "type" : "label"
-        }, {
-          "identifier" : "prefLabel",
-          "language" : "en",
-          "value" : "Monday",
-          "type" : "label"
-        }, {
-          "identifier" : "prefLabel",
-          "language" : "ru",
-          "value" : "Понедельник",
-          "type" : "label"
-        }, {
-          "identifier" : "prefLabel",
-          "language" : "de",
-          "value" : "Montag",
-          "type" : "label"
-        }, {
-          "identifier" : "prefLabel",
           "language" : "es",
           "value" : "Lunes",
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
-          "language" : "it",
-          "value" : "Lunedì",
+          "language" : "fr",
+          "value" : "Lundi",
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
@@ -6525,13 +6490,48 @@
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
+          "language" : "de",
+          "value" : "Montag",
+          "type" : "label"
+        }, {
+          "identifier" : "prefLabel",
+          "language" : "zh",
+          "value" : "星期一",
+          "type" : "label"
+        }, {
+          "identifier" : "prefLabel",
+          "language" : "ru",
+          "value" : "Понедельник",
+          "type" : "label"
+        }, {
+          "identifier" : "prefLabel",
+          "language" : "pl",
+          "value" : "Poniedziałek",
+          "type" : "label"
+        }, {
+          "identifier" : "prefLabel",
+          "language" : "ja",
+          "value" : "月曜日",
+          "type" : "label"
+        }, {
+          "identifier" : "prefLabel",
+          "language" : "en",
+          "value" : "Monday",
+          "type" : "label"
+        }, {
+          "identifier" : "prefLabel",
+          "language" : "pt",
+          "value" : "Segunda-feira",
+          "type" : "label"
+        }, {
+          "identifier" : "prefLabel",
           "language" : "nl",
           "value" : "Maandag",
           "type" : "label"
         }, {
           "identifier" : "prefLabel",
-          "language" : "fr",
-          "value" : "Lundi",
+          "language" : "it",
+          "value" : "Lunedì",
           "type" : "label"
         } ]
       },
@@ -6667,7 +6667,7 @@
     "label" : {
       "IRI-based" : "Guadi",
       "en" : "Wadi",
-      "es" : "Guadi"
+      "es" : "Uadi"
     },
     "comment" : {
       "undefined" : "Arroyo intermitente en el desierto"
@@ -6699,13 +6699,13 @@
     "annotations" : {
       "note" : [ {
         "identifier" : "note",
-        "language" : "undefined",
-        "value" : "Some combinations of properties are redundant - for example, within a specified :year if :dayOfYear is provided then :day and :month can be computed, and vice versa. Individual values should be consistent with each other and the calendar, indicated through the value of the :hasTRS property.",
+        "language" : "es",
+        "value" : "Algunas combinaciones de propiedades son redundantes - por ejemplo, dentro de un 'año' especificado si se proporciona 'día del año' entonces 'día' y 'mes' se pueden computar, y viceversa. Los valores individuales deberían ser consistentes entre ellos y con el calendario, indicado a través del valor de la propiedad 'tiene TRS'.",
         "type" : "label"
       }, {
         "identifier" : "note",
-        "language" : "es",
-        "value" : "Algunas combinaciones de propiedades son redundantes - por ejemplo, dentro de un 'año' especificado si se proporciona 'día del año' entonces 'día' y 'mes' se pueden computar, y viceversa. Los valores individuales deberían ser consistentes entre ellos y con el calendario, indicado a través del valor de la propiedad 'tiene TRS'.",
+        "language" : "undefined",
+        "value" : "Some combinations of properties are redundant - for example, within a specified :year if :dayOfYear is provided then :day and :month can be computed, and vice versa. Individual values should be consistent with each other and the calendar, indicated through the value of the :hasTRS property.",
         "type" : "label"
       } ],
       "definition" : [ {
@@ -6740,24 +6740,24 @@
     "annotations" : {
       "note" : [ {
         "identifier" : "note",
-        "language" : "en",
-        "value" : "A taxonomy of temporal reference systems is provided in ISO 19108:2002 [ISO19108], including (a) calendar + clock systems; (b) temporal coordinate systems (i.e. numeric offset from an epoch); (c) temporal ordinal reference systems (i.e. ordered sequence of named intervals, not necessarily of equal duration).",
+        "language" : "es",
+        "value" : "En el ISO 19108:2002 [ISO19108] se proporciona una taxonomía de sistemas de referencia temporal, incluyendo (a) sistemas de calendario + reloj; (b) sistemas de coordenadas temporales (es decir, desplazamiento numérico a partir de una época); (c) sistemas de referencia ordinales temporales (es decir, secuencia ordenada de intervalos nombrados, no necesariamente de igual duración).",
         "type" : "label"
       }, {
         "identifier" : "note",
-        "language" : "es",
-        "value" : "En el ISO 19108:2002 [ISO19108] se proporciona una taxonomía de sistemas de referencia temporal, incluyendo (a) sistemas de calendario + reloj; (b) sistemas de coordenadas temporales (es decir, desplazamiento numérico a partir de una época); (c) sistemas de referencia ordinales temporales (es decir, secuencia ordenada de intervalos nombrados, no necesariamente de igual duración).",
+        "language" : "en",
+        "value" : "A taxonomy of temporal reference systems is provided in ISO 19108:2002 [ISO19108], including (a) calendar + clock systems; (b) temporal coordinate systems (i.e. numeric offset from an epoch); (c) temporal ordinal reference systems (i.e. ordered sequence of named intervals, not necessarily of equal duration).",
         "type" : "label"
       } ],
       "definition" : [ {
         "identifier" : "definition",
-        "language" : "en",
-        "value" : "A temporal reference system, such as a temporal coordinate system (with an origin, direction, and scale), a calendar-clock combination, or a (possibly hierarchical) ordinal system. \n\nThis is a stub class, representing the set of all temporal reference systems.",
+        "language" : "es",
+        "value" : "Un sistema de referencia temporal, tal como un sistema de coordenadas temporales (con un origen, una dirección y una escala), una combinación calendario-reloj, o un sistema ordinal (posiblemente jerárquico).\n    Esta clase comodín representa el conjunto de todos los sistemas de referencia temporal.",
         "type" : "label"
       }, {
         "identifier" : "definition",
-        "language" : "es",
-        "value" : "Un sistema de referencia temporal, tal como un sistema de coordenadas temporales (con un origen, una dirección y una escala), una combinación calendario-reloj, o un sistema ordinal (posiblemente jerárquico).\n    Esta clase comodín representa el conjunto de todos los sistemas de referencia temporal.",
+        "language" : "en",
+        "value" : "A temporal reference system, such as a temporal coordinate system (with an origin, direction, and scale), a calendar-clock combination, or a (possibly hierarchical) ordinal system. \n\nThis is a stub class, representing the set of all temporal reference systems.",
         "type" : "label"
       } ]
     },
@@ -6787,7 +6787,7 @@
     "label" : {
       "IRI-based" : "Rapido",
       "en" : "Rapids",
-      "es" : "Raudal"
+      "es" : "Rápido"
     },
     "comment" : {
       "undefined" : "Corriente del rio en los lugares donde por la estrechez o inclinacion del cauce se hace muy violenta e impetuosa"
@@ -6847,7 +6847,7 @@
     },
     "attributes" : [ "union" ],
     "id" : "82",
-    "superClasses" : [ "545" ]
+    "superClasses" : [ "544" ]
   }, {
     "iri" : "http://geo.linkeddata.es/ontology/LagoSubterraneo",
     "baseIri" : "http://geo.linkeddata.es/ontology",
@@ -6898,7 +6898,7 @@
       "provenance" : [ {
         "identifier" : "provenance",
         "language" : "es",
-        "value" : "Curso de agua principal - Catalogo de fenomenos. Proyecto GEOALEX",
+        "value" : "Río - Directiva Marco del Agua. Union Europea",
         "type" : "label"
       }, {
         "identifier" : "provenance",
@@ -6908,7 +6908,7 @@
       }, {
         "identifier" : "provenance",
         "language" : "es",
-        "value" : "Río - Directiva Marco del Agua. Union Europea",
+        "value" : "Curso de agua principal - Catalogo de fenomenos. Proyecto GEOALEX",
         "type" : "label"
       } ],
       "source" : [ {
@@ -6921,7 +6921,7 @@
     "label" : {
       "IRI-based" : "Rio",
       "en" : "River",
-      "es" : "Río"
+      "es" : "Curso de agua principal"
     },
     "subClasses" : [ "331", "41" ],
     "comment" : {
@@ -7115,12 +7115,12 @@
       "provenance" : [ {
         "identifier" : "provenance",
         "language" : "undefined",
-        "value" : "Sea regions - Data Specification of INSPIRE",
+        "value" : "Hidrografia maritima - Catalogo de entidades para el Nomenclator de la Base Topografica Nacional 1:25.000 (BTN25). Instituto Geografico Nacional",
         "type" : "label"
       }, {
         "identifier" : "provenance",
         "language" : "undefined",
-        "value" : "George, P. (1991) Diccionario de Geografia. Madrid: Akal & Elaboracion propia",
+        "value" : "Sea regions - Data Specification of INSPIRE",
         "type" : "label"
       }, {
         "identifier" : "provenance",
@@ -7130,14 +7130,14 @@
       }, {
         "identifier" : "provenance",
         "language" : "undefined",
-        "value" : "Hidrografia maritima - Catalogo de entidades para el Nomenclator de la Base Topografica Nacional 1:25.000 (BTN25). Instituto Geografico Nacional",
+        "value" : "George, P. (1991) Diccionario de Geografia. Madrid: Akal & Elaboracion propia",
         "type" : "label"
       } ]
     },
     "label" : {
       "IRI-based" : "AguasMarinas",
       "en" : "Sea regions",
-      "es" : "Masa de agua marina"
+      "es" : "Aguas oceánicas"
     },
     "subClasses" : [ "283", "15", "290", "293", "71", "269" ],
     "comment" : {
@@ -7307,12 +7307,12 @@
     "label" : {
       "IRI-based" : "AguasSuperficiales",
       "en" : "Surface water",
-      "es" : "Aguas Superficiales"
+      "es" : "Masa de agua superficial"
     },
     "union" : [ "63", "47", "342", "262" ],
     "subClasses" : [ "63", "47", "764", "342", "262" ],
     "comment" : {
-      "undefined" : "Aguas que incluyen las aguas continentales, excepto las aguas subterraneas; las aguas de transicion y las aguas costeras, y, en lo que se refiere al estado quimico, tambien las aguas territoriales"
+      "undefined" : "Inland waters, except groundwater; transitional waters and coastal waters, except in respect of chemical status for which it shall also include territorial waters."
     },
     "attributes" : [ "union" ],
     "id" : "20",
@@ -7431,13 +7431,13 @@
     "annotations" : {
       "definition" : [ {
         "identifier" : "definition",
-        "language" : "es",
-        "value" : "Descripción de fecha y tiempo estructurada con valores separados para los diferentes elementos de un sistema calendario-reloj. El sistema de referencia temporal está fijado al calendario gregoriano, y el rango de las propiedades año, mes, día restringidas a los correspondientes tipos del XML Schema xsd:gYear, xsd:gMonth y xsd:gDay respectivamente.",
+        "language" : "en",
+        "value" : "Description of date and time structured with separate values for the various elements of a calendar-clock system. The temporal reference system is fixed to Gregorian Calendar, and the range of year, month, day properties restricted to corresponding XML Schema types xsd:gYear, xsd:gMonth and xsd:gDay, respectively.",
         "type" : "label"
       }, {
         "identifier" : "definition",
-        "language" : "en",
-        "value" : "Description of date and time structured with separate values for the various elements of a calendar-clock system. The temporal reference system is fixed to Gregorian Calendar, and the range of year, month, day properties restricted to corresponding XML Schema types xsd:gYear, xsd:gMonth and xsd:gDay, respectively.",
+        "language" : "es",
+        "value" : "Descripción de fecha y tiempo estructurada con valores separados para los diferentes elementos de un sistema calendario-reloj. El sistema de referencia temporal está fijado al calendario gregoriano, y el rango de las propiedades año, mes, día restringidas a los correspondientes tipos del XML Schema xsd:gYear, xsd:gMonth y xsd:gDay respectivamente.",
         "type" : "label"
       } ]
     },
@@ -7595,7 +7595,7 @@
     "label" : {
       "IRI-based" : "Deposito",
       "en" : "Water tank",
-      "es" : "Almacenamiento de agua"
+      "es" : "Embalsamiento de agua"
     },
     "subClasses" : [ "542", "752", "383", "18", "104" ],
     "comment" : {
@@ -7647,7 +7647,7 @@
       "IRI-based" : "January",
       "undefined" : "January"
     },
-    "attributes" : [ "deprecated", "external" ],
+    "attributes" : [ "external", "deprecated" ],
     "id" : "774",
     "superClasses" : [ "77" ]
   }, {
@@ -7670,7 +7670,7 @@
     "label" : {
       "IRI-based" : "AguasCorrientesNaturales",
       "en" : "Natural flowing water",
-      "es" : "Cursos de agua naturales"
+      "es" : "Corriente de agua"
     },
     "union" : [ "325", "93", "17", "41" ],
     "subClasses" : [ "93", "17", "326" ],
@@ -7866,7 +7866,7 @@
     },
     "union" : [ "62", "108" ],
     "comment" : {
-      "undefined" : "Una masa de agua superficial creada por la actividad humana."
+      "undefined" : "A body of surface water created by human activity."
     },
     "attributes" : [ "union" ],
     "id" : "764",
@@ -8109,7 +8109,7 @@
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#float",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "787",
+    "id" : "788",
     "label" : {
       "IRI-based" : "float"
     }
@@ -8290,7 +8290,7 @@
     },
     "label" : {
       "IRI-based" : "Ribera",
-      "en" : "River bank",
+      "en" : "riverside",
       "es" : "Ribera"
     },
     "subClasses" : [ "83", "408" ],
@@ -8410,13 +8410,13 @@
     "annotations" : {
       "source" : [ {
         "identifier" : "source",
-        "language" : "en",
-        "value" : "WordNet",
+        "language" : "es",
+        "value" : "Novo, P.; Chicarro, F. (1957) Diccionario de Geologia y Ciencias afines. Tomo 1. Ed. Labor, S.A. Barcelona & Diccionario de la Real Academia Española",
         "type" : "label"
       }, {
         "identifier" : "source",
-        "language" : "es",
-        "value" : "Novo, P.; Chicarro, F. (1957) Diccionario de Geologia y Ciencias afines. Tomo 1. Ed. Labor, S.A. Barcelona & Diccionario de la Real Academia Española",
+        "language" : "en",
+        "value" : "WordNet",
         "type" : "label"
       } ]
     },
@@ -8439,7 +8439,7 @@
       "undefined" : "point"
     },
     "comment" : {
-      "undefined" : " \nUniquely identified by lat/long/alt. i.e.\n\nspaciallyIntersects(P1, P2) :- lat(P1, LAT), long(P1, LONG), alt(P1, ALT),\n  lat(P2, LAT), long(P2, LONG), alt(P2, ALT).\n\nsameThing(P1, P2) :- type(P1, Point), type(P2, Point), spaciallyIntersects(P1, P2).\n  "
+      "undefined" : "A point, typically described using a coordinate system relative to Earth, such as WGS84.\n  "
     },
     "attributes" : [ "external" ],
     "id" : "575",
@@ -8960,10 +8960,10 @@
     "type" : "owl:someValuesFrom"
   }, {
     "id" : "399",
-    "type" : "owl:someValuesFrom"
+    "type" : "owl:allValuesFrom"
   }, {
     "id" : "400",
-    "type" : "owl:someValuesFrom"
+    "type" : "owl:allValuesFrom"
   }, {
     "id" : "401",
     "type" : "owl:someValuesFrom"
@@ -8975,7 +8975,7 @@
     "type" : "owl:someValuesFrom"
   }, {
     "id" : "404",
-    "type" : "owl:allValuesFrom"
+    "type" : "owl:someValuesFrom"
   }, {
     "id" : "405",
     "type" : "owl:someValuesFrom"
@@ -9010,10 +9010,10 @@
     "id" : "417",
     "type" : "owl:someValuesFrom"
   }, {
-    "id" : "418",
+    "id" : "419",
     "type" : "owl:someValuesFrom"
   }, {
-    "id" : "419",
+    "id" : "420",
     "type" : "owl:someValuesFrom"
   }, {
     "id" : "421",
@@ -9146,7 +9146,7 @@
     "type" : "owl:someValuesFrom"
   }, {
     "id" : "479",
-    "type" : "owl:allValuesFrom"
+    "type" : "owl:someValuesFrom"
   }, {
     "id" : "480",
     "type" : "owl:someValuesFrom"
@@ -9230,10 +9230,10 @@
     "type" : "owl:objectProperty"
   }, {
     "id" : "543",
-    "type" : "owl:datatypeProperty"
-  }, {
-    "id" : "544",
     "type" : "owl:objectProperty"
+  }, {
+    "id" : "545",
+    "type" : "owl:datatypeProperty"
   }, {
     "id" : "546",
     "type" : "owl:objectProperty"
@@ -9391,10 +9391,10 @@
     "id" : "629",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "637",
+    "id" : "382",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "382",
+    "id" : "637",
     "type" : "owl:objectProperty"
   }, {
     "id" : "638",
@@ -9703,7 +9703,7 @@
     "id" : "786",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "788",
+    "id" : "787",
     "type" : "owl:datatypeProperty"
   }, {
     "id" : "789",
@@ -9790,7 +9790,7 @@
     "id" : "819",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "420",
+    "id" : "418",
     "type" : "owl:objectProperty"
   }, {
     "id" : "671",
@@ -9847,32 +9847,32 @@
   "propertyAttribute" : [ {
     "range" : "5",
     "domain" : "4",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "3"
   }, {
     "range" : "5",
     "domain" : "12",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "11"
   }, {
     "range" : "5",
     "domain" : "24",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "23"
   }, {
     "range" : "5",
     "domain" : "31",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "30"
   }, {
     "range" : "5",
     "domain" : "37",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "36"
   }, {
     "range" : "5",
     "domain" : "9",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "42"
   }, {
     "iri" : "http://www.w3.org/2006/time#hasBeginning",
@@ -9917,17 +9917,17 @@
   }, {
     "range" : "63",
     "domain" : "62",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "61"
   }, {
     "range" : "63",
     "domain" : "22",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "64"
   }, {
     "range" : "5",
     "domain" : "48",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "67"
   }, {
     "iri" : "http://geo.linkeddata.es/ontology/tiene_afluente",
@@ -9942,42 +9942,42 @@
   }, {
     "range" : "5",
     "domain" : "73",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "72"
   }, {
     "range" : "78",
     "domain" : "77",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "76"
   }, {
     "range" : "82",
     "domain" : "81",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "80"
   }, {
     "range" : "82",
     "domain" : "87",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "86"
   }, {
     "range" : "91",
     "domain" : "90",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "89"
   }, {
     "range" : "91",
     "domain" : "95",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "94"
   }, {
     "range" : "91",
     "domain" : "99",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "98"
   }, {
     "range" : "91",
     "domain" : "58",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "102"
   }, {
     "iri" : "http://geo.linkeddata.es/ontology/vertiente",
@@ -10048,42 +10048,42 @@
   }, {
     "range" : "120",
     "domain" : "119",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "118"
   }, {
     "range" : "21",
     "domain" : "122",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "121"
   }, {
     "range" : "21",
     "domain" : "52",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "124"
   }, {
     "range" : "108",
     "domain" : "101",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "125"
   }, {
     "range" : "108",
     "domain" : "91",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "126"
   }, {
     "range" : "108",
     "domain" : "129",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "128"
   }, {
     "range" : "132",
     "domain" : "131",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "130"
   }, {
     "range" : "132",
     "domain" : "112",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "139"
   }, {
     "iri" : "http://geo.linkeddata.es/ontology/densidad",
@@ -10098,17 +10098,17 @@
   }, {
     "range" : "132",
     "domain" : "143",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "142"
   }, {
     "range" : "58",
     "domain" : "57",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "144"
   }, {
     "range" : "58",
     "domain" : "151",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "150"
   }, {
     "iri" : "http://geo.linkeddata.es/ontology/precedeA",
@@ -10139,13 +10139,13 @@
     "annotations" : {
       "definition" : [ {
         "identifier" : "definition",
-        "language" : "en",
-        "value" : "Gives directionality to time. If a temporal entity T1 is after another temporal entity T2, then the beginning of T1 is after the end of T2.",
+        "language" : "es",
+        "value" : "Asume una dirección en el tiempo. Si una entidad temporal T1 está después de otra entidad temporal T2, entonces el principio de T1 está después del final de T2.",
         "type" : "label"
       }, {
         "identifier" : "definition",
-        "language" : "es",
-        "value" : "Asume una dirección en el tiempo. Si una entidad temporal T1 está después de otra entidad temporal T2, entonces el principio de T1 está después del final de T2.",
+        "language" : "en",
+        "value" : "Gives directionality to time. If a temporal entity T1 is after another temporal entity T2, then the beginning of T1 is after the end of T2.",
         "type" : "label"
       } ]
     },
@@ -10188,42 +10188,42 @@
   }, {
     "range" : "34",
     "domain" : "169",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "168"
   }, {
     "range" : "34",
     "domain" : "171",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "170"
   }, {
     "range" : "33",
     "domain" : "35",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "173"
   }, {
     "range" : "33",
     "domain" : "175",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "174"
   }, {
     "range" : "33",
     "domain" : "177",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "176"
   }, {
     "range" : "16",
     "domain" : "179",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "178"
   }, {
     "range" : "16",
     "domain" : "181",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "180"
   }, {
     "range" : "16",
     "domain" : "183",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "182"
   }, {
     "iri" : "http://geo.linkeddata.es/ontology/situacion",
@@ -10278,17 +10278,17 @@
   }, {
     "range" : "16",
     "domain" : "28",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "187"
   }, {
     "range" : "34",
     "domain" : "189",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "188"
   }, {
     "range" : "34",
     "domain" : "191",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "190"
   }, {
     "iri" : "http://geo.linkeddata.es/ontology/conecta_con",
@@ -10308,13 +10308,13 @@
     "annotations" : {
       "definition" : [ {
         "identifier" : "definition",
-        "language" : "es",
-        "value" : "Si un intervalo propio T1 se encuentra con otro intervalo propio T2, entonces el final de T1 coincide con el principio de T2.",
+        "language" : "en",
+        "value" : "If a proper interval T1 is intervalMeets another proper interval T2, then the end of T1 is coincident with the beginning of T2.",
         "type" : "label"
       }, {
         "identifier" : "definition",
-        "language" : "en",
-        "value" : "If a proper interval T1 is intervalMeets another proper interval T2, then the end of T1 is coincident with the beginning of T2.",
+        "language" : "es",
+        "value" : "Si un intervalo propio T1 se encuentra con otro intervalo propio T2, entonces el final de T1 coincide con el principio de T2.",
         "type" : "label"
       } ]
     },
@@ -10386,17 +10386,17 @@
   }, {
     "range" : "33",
     "domain" : "162",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "206"
   }, {
     "range" : "210",
     "domain" : "209",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "208"
   }, {
     "range" : "210",
     "domain" : "213",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "212"
   }, {
     "iri" : "http://geo.linkeddata.es/ontology/discurre_sobre",
@@ -10433,47 +10433,47 @@
   }, {
     "range" : "222",
     "domain" : "29",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "221"
   }, {
     "range" : "2",
     "domain" : "1",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "223"
   }, {
     "range" : "2",
     "domain" : "226",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "225"
   }, {
     "range" : "2",
     "domain" : "229",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "228"
   }, {
     "range" : "210",
     "domain" : "232",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "231"
   }, {
     "range" : "210",
     "domain" : "235",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "234"
   }, {
     "range" : "210",
     "domain" : "238",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "237"
   }, {
     "range" : "210",
     "domain" : "241",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "240"
   }, {
     "range" : "222",
     "domain" : "26",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "243"
   }, {
     "iri" : "http://geo.linkeddata.es/ontology/cauce",
@@ -10491,12 +10491,12 @@
   }, {
     "range" : "222",
     "domain" : "27",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "247"
   }, {
     "range" : "222",
     "domain" : "249",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "248"
   }, {
     "iri" : "http://geo.linkeddata.es/ontology/tasa_de_recarga",
@@ -10555,57 +10555,57 @@
   }, {
     "range" : "19",
     "domain" : "71",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "267"
   }, {
     "range" : "19",
     "domain" : "269",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "268"
   }, {
     "range" : "22",
     "domain" : "66",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "271"
   }, {
     "range" : "22",
     "domain" : "34",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "273"
   }, {
     "range" : "22",
     "domain" : "21",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "275"
   }, {
     "range" : "22",
     "domain" : "222",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "277"
   }, {
     "range" : "222",
     "domain" : "279",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "278"
   }, {
     "range" : "19",
     "domain" : "283",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "282"
   }, {
     "range" : "19",
     "domain" : "15",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "286"
   }, {
     "range" : "19",
     "domain" : "290",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "289"
   }, {
     "range" : "19",
     "domain" : "293",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "292"
   }, {
     "iri" : "http://geo.linkeddata.es/ontology/tieneCapital",
@@ -10623,57 +10623,57 @@
   }, {
     "range" : "31",
     "domain" : "304",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "303"
   }, {
     "range" : "297",
     "domain" : "307",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "306"
   }, {
     "range" : "297",
     "domain" : "298",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "311"
   }, {
     "range" : "297",
     "domain" : "314",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "313"
   }, {
     "range" : "297",
     "domain" : "317",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "316"
   }, {
     "range" : "297",
     "domain" : "320",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "319"
   }, {
     "range" : "177",
     "domain" : "323",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "322"
   }, {
     "range" : "177",
     "domain" : "328",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "327"
   }, {
     "range" : "17",
     "domain" : "331",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "330"
   }, {
     "range" : "17",
     "domain" : "41",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "333"
   }, {
     "range" : "31",
     "domain" : "336",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "335"
   }, {
     "iri" : "http://www.w3.org/2006/time#years",
@@ -10700,13 +10700,13 @@
     "annotations" : {
       "definition" : [ {
         "identifier" : "definition",
-        "language" : "es",
-        "value" : "Posición de un instante, expresado utilizando xsd:date.",
+        "language" : "en",
+        "value" : "Position of an instant, expressed using xsd:date",
         "type" : "label"
       }, {
         "identifier" : "definition",
-        "language" : "en",
-        "value" : "Position of an instant, expressed using xsd:date",
+        "language" : "es",
+        "value" : "Posición de un instante, expresado utilizando xsd:date.",
         "type" : "label"
       } ]
     },
@@ -10735,27 +10735,27 @@
   }, {
     "range" : "5",
     "domain" : "40",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "344"
   }, {
     "range" : "5",
     "domain" : "346",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "345"
   }, {
     "range" : "5",
     "domain" : "349",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "348"
   }, {
     "range" : "5",
     "domain" : "352",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "351"
   }, {
     "range" : "177",
     "domain" : "309",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "354"
   }, {
     "iri" : "http://geo.linkeddata.es/ontology/parte_de",
@@ -10766,7 +10766,7 @@
       "IRI-based" : "parte_de"
     },
     "domain" : "73",
-    "attributes" : [ "allValues", "object" ],
+    "attributes" : [ "object", "allValues" ],
     "id" : "355"
   }, {
     "iri" : "http://geo.linkeddata.es/ontology/autoridad_competente",
@@ -10797,7 +10797,7 @@
       "IRI-based" : "parte_de"
     },
     "domain" : "336",
-    "attributes" : [ "allValues", "object" ],
+    "attributes" : [ "object", "allValues" ],
     "id" : "361"
   }, {
     "iri" : "http://geo.linkeddata.es/ontology/distribuye",
@@ -10855,7 +10855,7 @@
       "IRI-based" : "parte_de"
     },
     "domain" : "48",
-    "attributes" : [ "allValues", "object" ],
+    "attributes" : [ "object", "allValues" ],
     "id" : "371"
   }, {
     "iri" : "http://geo.linkeddata.es/ontology/es_originado_por",
@@ -10899,7 +10899,7 @@
       "IRI-based" : "parte_de"
     },
     "domain" : "266",
-    "attributes" : [ "allValues", "object" ],
+    "attributes" : [ "object", "allValues" ],
     "id" : "376"
   }, {
     "iri" : "http://geo.linkeddata.es/ontology/parte_de",
@@ -10910,7 +10910,7 @@
       "IRI-based" : "parte_de"
     },
     "domain" : "265",
-    "attributes" : [ "allValues", "object" ],
+    "attributes" : [ "object", "allValues" ],
     "id" : "377"
   }, {
     "iri" : "http://www.w3.org/2006/time#intervalIn",
@@ -10972,13 +10972,13 @@
     "annotations" : {
       "definition" : [ {
         "identifier" : "definition",
-        "language" : "es",
-        "value" : "Longitud de, o elemento de la longitud de, una extensión temporal expresada en horas.",
+        "language" : "en",
+        "value" : "length of, or element of the length of, a temporal extent expressed in hours",
         "type" : "label"
       }, {
         "identifier" : "definition",
-        "language" : "en",
-        "value" : "length of, or element of the length of, a temporal extent expressed in hours",
+        "language" : "es",
+        "value" : "Longitud de, o elemento de la longitud de, una extensión temporal expresada en horas.",
         "type" : "label"
       } ]
     },
@@ -11059,7 +11059,7 @@
       "IRI-based" : "tiene_afluente"
     },
     "domain" : "93",
-    "attributes" : [ "allValues", "object" ],
+    "attributes" : [ "object", "allValues" ],
     "id" : "395"
   }, {
     "iri" : "http://geo.linkeddata.es/ontology/es_distribuida",
@@ -11073,17 +11073,6 @@
     "attributes" : [ "someValues", "object" ],
     "id" : "396"
   }, {
-    "iri" : "http://geo.linkeddata.es/ontology/esta_proxima_a",
-    "baseIri" : "http://geo.linkeddata.es/ontology",
-    "range" : "19",
-    "label" : {
-      "IRI-based" : "esta_proxima_a"
-    },
-    "domain" : "52",
-    "subproperty" : [ "155", "152" ],
-    "attributes" : [ "someValues", "object" ],
-    "id" : "397"
-  }, {
     "iri" : "http://geo.linkeddata.es/ontology/es_comunicada_por",
     "inverse" : "218",
     "baseIri" : "http://geo.linkeddata.es/ontology",
@@ -11093,27 +11082,39 @@
     },
     "domain" : "52",
     "attributes" : [ "someValues", "object" ],
+    "id" : "397"
+  }, {
+    "iri" : "http://geo.linkeddata.es/ontology/esta_proxima_a",
+    "baseIri" : "http://geo.linkeddata.es/ontology",
+    "range" : "19",
+    "label" : {
+      "IRI-based" : "esta_proxima_a"
+    },
+    "domain" : "52",
+    "subproperty" : [ "155", "152" ],
+    "attributes" : [ "someValues", "object" ],
     "id" : "398"
   }, {
-    "iri" : "http://geo.linkeddata.es/ontology/conecta_con",
+    "iri" : "http://geo.linkeddata.es/ontology/tiene_afluente",
     "baseIri" : "http://geo.linkeddata.es/ontology",
-    "range" : "66",
+    "range" : "14",
     "label" : {
-      "IRI-based" : "conecta_con"
+      "IRI-based" : "tiene_afluente"
     },
     "domain" : "17",
-    "subproperty" : [ "195" ],
-    "attributes" : [ "someValues", "object" ],
+    "attributes" : [ "object", "allValues" ],
     "id" : "399"
   }, {
-    "iri" : "http://geo.linkeddata.es/ontology/puede_fluir_como",
+    "iri" : "http://geo.linkeddata.es/ontology/es_capturado",
+    "inverse" : "195",
     "baseIri" : "http://geo.linkeddata.es/ontology",
-    "range" : "28",
+    "range" : "374",
     "label" : {
-      "IRI-based" : "puede_fluir_como"
+      "IRI-based" : "es_capturado"
     },
+    "superproperty" : [ "204" ],
     "domain" : "17",
-    "attributes" : [ "someValues", "object" ],
+    "attributes" : [ "object", "allValues" ],
     "id" : "400"
   }, {
     "iri" : "http://geo.linkeddata.es/ontology/estaEn",
@@ -11148,23 +11149,24 @@
     "attributes" : [ "someValues", "object" ],
     "id" : "403"
   }, {
-    "iri" : "http://geo.linkeddata.es/ontology/tiene_afluente",
+    "iri" : "http://geo.linkeddata.es/ontology/puede_fluir_como",
     "baseIri" : "http://geo.linkeddata.es/ontology",
-    "range" : "14",
+    "range" : "28",
     "label" : {
-      "IRI-based" : "tiene_afluente"
+      "IRI-based" : "puede_fluir_como"
     },
     "domain" : "17",
-    "attributes" : [ "allValues", "object" ],
+    "attributes" : [ "someValues", "object" ],
     "id" : "404"
   }, {
-    "iri" : "http://geo.linkeddata.es/ontology/es_almacenado_en",
+    "iri" : "http://geo.linkeddata.es/ontology/conecta_con",
     "baseIri" : "http://geo.linkeddata.es/ontology",
-    "range" : "18",
+    "range" : "66",
     "label" : {
-      "IRI-based" : "es_almacenado_en"
+      "IRI-based" : "conecta_con"
     },
     "domain" : "17",
+    "subproperty" : [ "195" ],
     "attributes" : [ "someValues", "object" ],
     "id" : "405"
   }, {
@@ -11196,7 +11198,7 @@
       "IRI-based" : "parte_de"
     },
     "domain" : "264",
-    "attributes" : [ "allValues", "object" ],
+    "attributes" : [ "object", "allValues" ],
     "id" : "409"
   }, {
     "iri" : "http://geo.linkeddata.es/ontology/parte_de",
@@ -11207,7 +11209,7 @@
       "IRI-based" : "parte_de"
     },
     "domain" : "346",
-    "attributes" : [ "allValues", "object" ],
+    "attributes" : [ "object", "allValues" ],
     "id" : "410"
   }, {
     "iri" : "http://geo.linkeddata.es/ontology/origina",
@@ -11229,7 +11231,7 @@
       "IRI-based" : "parte_de"
     },
     "domain" : "352",
-    "attributes" : [ "allValues", "object" ],
+    "attributes" : [ "object", "allValues" ],
     "id" : "413"
   }, {
     "iri" : "http://geo.linkeddata.es/ontology/es_originado_por",
@@ -11264,14 +11266,14 @@
     "attributes" : [ "someValues", "object" ],
     "id" : "416"
   }, {
-    "iri" : "http://geo.linkeddata.es/ontology/origina",
-    "inverse" : "412",
+    "iri" : "http://geo.linkeddata.es/ontology/alimenta_a",
     "baseIri" : "http://geo.linkeddata.es/ontology",
-    "range" : "29",
+    "range" : "14",
     "label" : {
-      "IRI-based" : "origina"
+      "IRI-based" : "alimenta_a"
     },
     "domain" : "33",
+    "subproperty" : [ "418" ],
     "attributes" : [ "someValues", "object" ],
     "id" : "417"
   }, {
@@ -11284,7 +11286,7 @@
     },
     "domain" : "283",
     "attributes" : [ "someValues", "object" ],
-    "id" : "418"
+    "id" : "419"
   }, {
     "iri" : "http://geo.linkeddata.es/ontology/alimenta_a",
     "baseIri" : "http://geo.linkeddata.es/ontology",
@@ -11293,9 +11295,9 @@
       "IRI-based" : "alimenta_a"
     },
     "domain" : "71",
-    "subproperty" : [ "420" ],
+    "subproperty" : [ "418" ],
     "attributes" : [ "someValues", "object" ],
-    "id" : "419"
+    "id" : "420"
   }, {
     "iri" : "http://geo.linkeddata.es/ontology/sometido_a_descarga_por",
     "baseIri" : "http://geo.linkeddata.es/ontology",
@@ -11316,17 +11318,17 @@
       "IRI-based" : "parte_de"
     },
     "domain" : "161",
-    "attributes" : [ "allValues", "object" ],
+    "attributes" : [ "object", "allValues" ],
     "id" : "423"
   }, {
-    "iri" : "http://geo.linkeddata.es/ontology/alimenta_a",
+    "iri" : "http://geo.linkeddata.es/ontology/origina",
+    "inverse" : "412",
     "baseIri" : "http://geo.linkeddata.es/ontology",
-    "range" : "14",
+    "range" : "29",
     "label" : {
-      "IRI-based" : "alimenta_a"
+      "IRI-based" : "origina"
     },
     "domain" : "33",
-    "subproperty" : [ "420" ],
     "attributes" : [ "someValues", "object" ],
     "id" : "424"
   }, {
@@ -11343,38 +11345,12 @@
   }, {
     "range" : "203",
     "domain" : "429",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "428"
-  }, {
-    "iri" : "http://www.w3.org/2006/time#weeks",
-    "baseIri" : "http://www.w3.org/2006/time",
-    "range" : "427",
-    "label" : {
-      "IRI-based" : "weeks",
-      "en" : "weeks duration",
-      "es" : "duración en semanas"
-    },
-    "domain" : "203",
-    "comment" : {
-      "en" : "length of, or element of the length of, a temporal extent expressed in weeks",
-      "es" : "Longitud de, o elemento de la longitud de, una extensión temporal expresada en semanas."
-    },
-    "attributes" : [ "external", "allValues", "datatype" ],
-    "id" : "430"
-  }, {
-    "range" : "203",
-    "domain" : "432",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "431"
-  }, {
-    "range" : "161",
-    "domain" : "70",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "434"
   }, {
     "iri" : "http://www.w3.org/2006/time#days",
     "baseIri" : "http://www.w3.org/2006/time",
-    "range" : "433",
+    "range" : "427",
     "annotations" : {
       "definition" : [ {
         "identifier" : "definition",
@@ -11398,17 +11374,56 @@
       "en" : "length of, or element of the length of, a temporal extent expressed in days",
       "es" : "Longitud de, o elemento de la longitud de, una extensión temporal expresada en días."
     },
-    "attributes" : [ "external", "allValues", "datatype" ],
+    "attributes" : [ "external", "datatype", "allValues" ],
+    "id" : "430"
+  }, {
+    "range" : "203",
+    "domain" : "432",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "431"
+  }, {
+    "range" : "161",
+    "domain" : "70",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "434"
+  }, {
+    "iri" : "http://www.w3.org/2006/time#minutes",
+    "baseIri" : "http://www.w3.org/2006/time",
+    "range" : "433",
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "length, or element of, a temporal extent expressed in minutes",
+        "type" : "label"
+      }, {
+        "identifier" : "definition",
+        "language" : "es",
+        "value" : "Longitud de, o elemento de la longitud de, una extensión temporal expresada en minutos.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "minutes",
+      "en" : "minutes",
+      "es" : "minutos"
+    },
+    "domain" : "203",
+    "comment" : {
+      "en" : "length, or element of, a temporal extent expressed in minutes",
+      "es" : "Longitud de, o elemento de la longitud de, una extensión temporal expresada en minutos."
+    },
+    "attributes" : [ "external", "datatype", "allValues" ],
     "id" : "435"
   }, {
     "range" : "161",
     "domain" : "45",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "436"
   }, {
     "range" : "161",
     "domain" : "374",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "437"
   }, {
     "iri" : "http://www.w3.org/2006/time#inside",
@@ -11417,13 +11432,13 @@
     "annotations" : {
       "definition" : [ {
         "identifier" : "definition",
-        "language" : "es",
-        "value" : "Un instante que cae dentro del intervalo. Se asume que no es ni el principio ni el final de ningún intervalo.",
+        "language" : "en",
+        "value" : "An instant that falls inside the interval. It is not intended to include beginnings and ends of intervals.",
         "type" : "label"
       }, {
         "identifier" : "definition",
-        "language" : "en",
-        "value" : "An instant that falls inside the interval. It is not intended to include beginnings and ends of intervals.",
+        "language" : "es",
+        "value" : "Un instante que cae dentro del intervalo. Se asume que no es ni el principio ni el final de ningún intervalo.",
         "type" : "label"
       } ]
     },
@@ -11442,12 +11457,12 @@
   }, {
     "range" : "54",
     "domain" : "440",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "441"
   }, {
     "range" : "54",
     "domain" : "55",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "443"
   }, {
     "iri" : "http://geo.linkeddata.es/ontology/estaEn",
@@ -11463,17 +11478,17 @@
   }, {
     "range" : "62",
     "domain" : "300",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "445"
   }, {
     "range" : "62",
     "domain" : "447",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "446"
   }, {
     "range" : "71",
     "domain" : "357",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "448"
   }, {
     "iri" : "http://geo.linkeddata.es/ontology/naturaleza_quimica",
@@ -11506,24 +11521,9 @@
     "attributes" : [ "datatype" ],
     "id" : "453"
   }, {
-    "iri" : "http://www.w3.org/2006/time#year",
-    "baseIri" : "http://www.w3.org/2006/time",
-    "range" : "442",
-    "label" : {
-      "IRI-based" : "year",
-      "en" : "year"
-    },
-    "domain" : "77",
-    "comment" : {
-      "en" : "Year position in a calendar-clock system.\n\nThe range of this property is not specified, so can be replaced by any specific representation of a calendar year from any calendar. ",
-      "es" : "Posición de año en un sistema calendario-reloj.\n\nl rango de esta propiedad no está especificado, por tanto, se puede reemplazar por cualquier representación específica de un año de calendario de un calendario cualquiera."
-    },
-    "attributes" : [ "external", "allValues", "datatype" ],
-    "id" : "455"
-  }, {
     "iri" : "http://www.w3.org/2006/time#day",
     "baseIri" : "http://www.w3.org/2006/time",
-    "range" : "458",
+    "range" : "442",
     "annotations" : {
       "definition" : [ {
         "identifier" : "definition",
@@ -11547,7 +11547,22 @@
       "en" : "Day position in a calendar-clock system.\n\nThe range of this property is not specified, so can be replaced by any specific representation of a calendar day from any calendar. ",
       "es" : "Posición de día en un sistema calendario-reloj."
     },
-    "attributes" : [ "external", "allValues", "datatype" ],
+    "attributes" : [ "external", "datatype", "allValues" ],
+    "id" : "455"
+  }, {
+    "iri" : "http://www.w3.org/2006/time#year",
+    "baseIri" : "http://www.w3.org/2006/time",
+    "range" : "458",
+    "label" : {
+      "IRI-based" : "year",
+      "en" : "year"
+    },
+    "domain" : "77",
+    "comment" : {
+      "en" : "Year position in a calendar-clock system.\n\nThe range of this property is not specified, so can be replaced by any specific representation of a calendar year from any calendar. ",
+      "es" : "Posición de año en un sistema calendario-reloj.\n\nl rango de esta propiedad no está especificado, por tanto, se puede reemplazar por cualquier representación específica de un año de calendario de un calendario cualquiera."
+    },
+    "attributes" : [ "external", "datatype", "allValues" ],
     "id" : "457"
   }, {
     "iri" : "http://geo.linkeddata.es/ontology/parte_de",
@@ -11567,13 +11582,13 @@
     "annotations" : {
       "definition" : [ {
         "identifier" : "definition",
-        "language" : "es",
-        "value" : "Posición de mes en un sistema calendario-reloj.\n            El rango de esta propiedad no está especificado, por tanto, se puede reemplazar por cualquier representación específica de un mes de calendario de un calendario cualquiera.",
+        "language" : "en",
+        "value" : "Month position in a calendar-clock system.\n\nThe range of this property is not specified, so can be replaced by any specific representation of a calendar month from any calendar. ",
         "type" : "label"
       }, {
         "identifier" : "definition",
-        "language" : "en",
-        "value" : "Month position in a calendar-clock system.\n\nThe range of this property is not specified, so can be replaced by any specific representation of a calendar month from any calendar. ",
+        "language" : "es",
+        "value" : "Posición de mes en un sistema calendario-reloj.\n            El rango de esta propiedad no está especificado, por tanto, se puede reemplazar por cualquier representación específica de un mes de calendario de un calendario cualquiera.",
         "type" : "label"
       } ]
     },
@@ -11587,7 +11602,7 @@
       "en" : "Month position in a calendar-clock system.\n\nThe range of this property is not specified, so can be replaced by any specific representation of a calendar month from any calendar. ",
       "es" : "Posición de mes en un sistema calendario-reloj.\n    El rango de esta propiedad no está especificado, por tanto, se puede reemplazar por cualquier representación específica de un mes de calendario de un calendario cualquiera."
     },
-    "attributes" : [ "external", "allValues", "datatype" ],
+    "attributes" : [ "external", "datatype", "allValues" ],
     "id" : "460"
   }, {
     "iri" : "http://geo.linkeddata.es/ontology/conduce",
@@ -11609,13 +11624,13 @@
       "IRI-based" : "alimenta_a"
     },
     "domain" : "58",
-    "subproperty" : [ "420" ],
+    "subproperty" : [ "418" ],
     "attributes" : [ "someValues", "object" ],
     "id" : "462"
   }, {
     "range" : "302",
     "domain" : "33",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "463"
   }, {
     "iri" : "http://geo.linkeddata.es/ontology/parte_de",
@@ -11631,7 +11646,7 @@
   }, {
     "range" : "302",
     "domain" : "378",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "465"
   }, {
     "iri" : "http://geo.linkeddata.es/ontology/parte_de",
@@ -11642,42 +11657,42 @@
       "IRI-based" : "parte_de"
     },
     "domain" : "349",
-    "attributes" : [ "allValues", "object" ],
+    "attributes" : [ "object", "allValues" ],
     "id" : "466"
   }, {
     "range" : "302",
     "domain" : "301",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "467"
   }, {
     "range" : "261",
     "domain" : "263",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "468"
   }, {
     "range" : "261",
     "domain" : "264",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "469"
   }, {
     "range" : "261",
     "domain" : "265",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "470"
   }, {
     "range" : "261",
     "domain" : "266",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "471"
   }, {
     "range" : "47",
     "domain" : "97",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "472"
   }, {
     "range" : "47",
     "domain" : "284",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "473"
   }, {
     "iri" : "http://geo.linkeddata.es/ontology/estacion_de_aforo",
@@ -11692,8 +11707,30 @@
   }, {
     "range" : "47",
     "domain" : "7",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "475"
+  }, {
+    "iri" : "http://geo.linkeddata.es/ontology/origina",
+    "inverse" : "412",
+    "baseIri" : "http://geo.linkeddata.es/ontology",
+    "range" : "41",
+    "label" : {
+      "IRI-based" : "origina"
+    },
+    "domain" : "326",
+    "attributes" : [ "someValues", "object" ],
+    "id" : "476"
+  }, {
+    "iri" : "http://geo.linkeddata.es/ontology/alimenta_a",
+    "baseIri" : "http://geo.linkeddata.es/ontology",
+    "range" : "179",
+    "label" : {
+      "IRI-based" : "alimenta_a"
+    },
+    "domain" : "4",
+    "subproperty" : [ "418" ],
+    "attributes" : [ "someValues", "object" ],
+    "id" : "477"
   }, {
     "iri" : "http://geo.linkeddata.es/ontology/discurre_sobre",
     "baseIri" : "http://geo.linkeddata.es/ontology",
@@ -11704,40 +11741,16 @@
     "domain" : "326",
     "comment" : { },
     "attributes" : [ "someValues", "object" ],
-    "id" : "476"
-  }, {
-    "iri" : "http://geo.linkeddata.es/ontology/origina",
-    "inverse" : "412",
-    "baseIri" : "http://geo.linkeddata.es/ontology",
-    "range" : "28",
-    "label" : {
-      "IRI-based" : "origina"
-    },
-    "domain" : "4",
-    "attributes" : [ "someValues", "object" ],
-    "id" : "477"
-  }, {
-    "iri" : "http://geo.linkeddata.es/ontology/origina",
-    "inverse" : "412",
-    "baseIri" : "http://geo.linkeddata.es/ontology",
-    "range" : "41",
-    "label" : {
-      "IRI-based" : "origina"
-    },
-    "domain" : "326",
-    "attributes" : [ "someValues", "object" ],
     "id" : "478"
   }, {
-    "iri" : "http://geo.linkeddata.es/ontology/es_capturado",
-    "inverse" : "195",
+    "iri" : "http://geo.linkeddata.es/ontology/es_almacenado_en",
     "baseIri" : "http://geo.linkeddata.es/ontology",
-    "range" : "374",
+    "range" : "18",
     "label" : {
-      "IRI-based" : "es_capturado"
+      "IRI-based" : "es_almacenado_en"
     },
-    "superproperty" : [ "204" ],
     "domain" : "17",
-    "attributes" : [ "allValues", "object" ],
+    "attributes" : [ "someValues", "object" ],
     "id" : "479"
   }, {
     "iri" : "http://geo.linkeddata.es/ontology/actua_de_emisario_de",
@@ -11750,14 +11763,14 @@
     "attributes" : [ "someValues", "object" ],
     "id" : "480"
   }, {
-    "iri" : "http://geo.linkeddata.es/ontology/alimenta_a",
+    "iri" : "http://geo.linkeddata.es/ontology/origina",
+    "inverse" : "412",
     "baseIri" : "http://geo.linkeddata.es/ontology",
-    "range" : "179",
+    "range" : "28",
     "label" : {
-      "IRI-based" : "alimenta_a"
+      "IRI-based" : "origina"
     },
     "domain" : "4",
-    "subproperty" : [ "420" ],
     "attributes" : [ "someValues", "object" ],
     "id" : "481"
   }, {
@@ -11782,43 +11795,71 @@
     "attributes" : [ "datatype" ],
     "id" : "488"
   }, {
-    "iri" : "http://www.w3.org/2006/time#hours",
+    "iri" : "http://www.w3.org/2006/time#years",
     "baseIri" : "http://www.w3.org/2006/time",
     "range" : "495",
-    "annotations" : {
-      "definition" : [ {
-        "identifier" : "definition",
-        "language" : "es",
-        "value" : "Longitud de, o elemento de la longitud de, una extensión temporal expresada en horas.",
-        "type" : "label"
-      }, {
-        "identifier" : "definition",
-        "language" : "en",
-        "value" : "length of, or element of the length of, a temporal extent expressed in hours",
-        "type" : "label"
-      } ]
-    },
     "label" : {
-      "IRI-based" : "hours",
-      "en" : "hours duration",
-      "es" : "duración en horas"
+      "IRI-based" : "years",
+      "en" : "years duration",
+      "es" : "duración en años"
     },
     "domain" : "203",
     "comment" : {
-      "en" : "length of, or element of the length of, a temporal extent expressed in hours",
-      "es" : "Longitud de, o elemento de la longitud de, una extensión temporal expresada en horas."
+      "en" : "length of, or element of the length of, a temporal extent expressed in years",
+      "es" : "Longitud de, o elemento de la longitud de, una extensión temporal expresada en años."
     },
-    "attributes" : [ "external", "allValues", "datatype" ],
+    "attributes" : [ "external", "datatype", "allValues" ],
     "id" : "494"
   }, {
     "range" : "197",
     "domain" : "55",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "497"
+  }, {
+    "iri" : "http://www.w3.org/2006/time#seconds",
+    "baseIri" : "http://www.w3.org/2006/time",
+    "range" : "496",
+    "annotations" : {
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "http://www.bipm.org/en/publications/si-brochure/second.html",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "seconds",
+      "en" : "seconds duration",
+      "es" : "duración en segundos"
+    },
+    "domain" : "203",
+    "comment" : {
+      "en" : "length of, or element of the length of, a temporal extent expressed in seconds",
+      "es" : "Longitud de, o elemento de la longitud de, una extensión temporal expresada en segundos."
+    },
+    "attributes" : [ "external", "datatype", "allValues" ],
+    "id" : "498"
+  }, {
+    "iri" : "http://www.w3.org/2006/time#weeks",
+    "baseIri" : "http://www.w3.org/2006/time",
+    "range" : "501",
+    "label" : {
+      "IRI-based" : "weeks",
+      "en" : "weeks duration",
+      "es" : "duración en semanas"
+    },
+    "maxCardinality" : "1",
+    "domain" : "112",
+    "comment" : {
+      "en" : "length of, or element of the length of, a temporal extent expressed in weeks",
+      "es" : "Longitud de, o elemento de la longitud de, una extensión temporal expresada en semanas."
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "500"
   }, {
     "iri" : "http://www.w3.org/2006/time#months",
     "baseIri" : "http://www.w3.org/2006/time",
-    "range" : "496",
+    "range" : "499",
     "annotations" : {
       "definition" : [ {
         "identifier" : "definition",
@@ -11842,93 +11883,52 @@
       "en" : "length of, or element of the length of, a temporal extent expressed in months",
       "es" : "Longitud de, o elemento de la longitud de, una extensión temporal expresada en meses."
     },
-    "attributes" : [ "external", "allValues", "datatype" ],
-    "id" : "498"
+    "attributes" : [ "external", "datatype", "allValues" ],
+    "id" : "502"
+  }, {
+    "iri" : "http://www.w3.org/2006/time#hours",
+    "baseIri" : "http://www.w3.org/2006/time",
+    "range" : "503",
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "length of, or element of the length of, a temporal extent expressed in hours",
+        "type" : "label"
+      }, {
+        "identifier" : "definition",
+        "language" : "es",
+        "value" : "Longitud de, o elemento de la longitud de, una extensión temporal expresada en horas.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hours",
+      "en" : "hours duration",
+      "es" : "duración en horas"
+    },
+    "domain" : "203",
+    "comment" : {
+      "en" : "length of, or element of the length of, a temporal extent expressed in hours",
+      "es" : "Longitud de, o elemento de la longitud de, una extensión temporal expresada en horas."
+    },
+    "attributes" : [ "external", "datatype", "allValues" ],
+    "id" : "504"
   }, {
     "iri" : "http://www.w3.org/2006/time#weeks",
     "baseIri" : "http://www.w3.org/2006/time",
-    "range" : "501",
+    "range" : "505",
     "label" : {
       "IRI-based" : "weeks",
       "en" : "weeks duration",
       "es" : "duración en semanas"
     },
-    "maxCardinality" : "1",
-    "domain" : "112",
+    "domain" : "203",
     "comment" : {
       "en" : "length of, or element of the length of, a temporal extent expressed in weeks",
       "es" : "Longitud de, o elemento de la longitud de, una extensión temporal expresada en semanas."
     },
-    "attributes" : [ "external", "datatype" ],
-    "id" : "500"
-  }, {
-    "iri" : "http://www.w3.org/2006/time#years",
-    "baseIri" : "http://www.w3.org/2006/time",
-    "range" : "499",
-    "label" : {
-      "IRI-based" : "years",
-      "en" : "years duration",
-      "es" : "duración en años"
-    },
-    "domain" : "203",
-    "comment" : {
-      "en" : "length of, or element of the length of, a temporal extent expressed in years",
-      "es" : "Longitud de, o elemento de la longitud de, una extensión temporal expresada en años."
-    },
-    "attributes" : [ "external", "allValues", "datatype" ],
-    "id" : "502"
-  }, {
-    "iri" : "http://www.w3.org/2006/time#seconds",
-    "baseIri" : "http://www.w3.org/2006/time",
-    "range" : "503",
-    "annotations" : {
-      "seeAlso" : [ {
-        "identifier" : "seeAlso",
-        "language" : "undefined",
-        "value" : "http://www.bipm.org/en/publications/si-brochure/second.html",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "seconds",
-      "en" : "seconds duration",
-      "es" : "duración en segundos"
-    },
-    "domain" : "203",
-    "comment" : {
-      "en" : "length of, or element of the length of, a temporal extent expressed in seconds",
-      "es" : "Longitud de, o elemento de la longitud de, una extensión temporal expresada en segundos."
-    },
-    "attributes" : [ "external", "allValues", "datatype" ],
-    "id" : "504"
-  }, {
-    "iri" : "http://www.w3.org/2006/time#minutes",
-    "baseIri" : "http://www.w3.org/2006/time",
-    "range" : "505",
-    "annotations" : {
-      "definition" : [ {
-        "identifier" : "definition",
-        "language" : "en",
-        "value" : "length, or element of, a temporal extent expressed in minutes",
-        "type" : "label"
-      }, {
-        "identifier" : "definition",
-        "language" : "es",
-        "value" : "Longitud de, o elemento de la longitud de, una extensión temporal expresada en minutos.",
-        "type" : "label"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "minutes",
-      "en" : "minutes",
-      "es" : "minutos"
-    },
-    "domain" : "203",
-    "comment" : {
-      "en" : "length, or element of, a temporal extent expressed in minutes",
-      "es" : "Longitud de, o elemento de la longitud de, una extensión temporal expresada en minutos."
-    },
-    "attributes" : [ "external", "allValues", "datatype" ],
+    "attributes" : [ "external", "datatype", "allValues" ],
     "id" : "506"
   }, {
     "iri" : "http://geo.linkeddata.es/ontology/horizonte",
@@ -11938,12 +11938,12 @@
       "source" : [ {
         "identifier" : "source",
         "language" : "undefined",
-        "value" : "Wordnet http://wordnet.princeton.edu/perl/webwn?o2=&o0=1&o7=&o5=&o1=1&o6=&o4=&o3=&s=horizon&i=2&h=0000#c",
+        "value" : "Diccionario Geologico\nhttp://www.estrucplan.com.ar/Producciones/entrega.asp?IdEntrega=1684",
         "type" : "label"
       }, {
         "identifier" : "source",
         "language" : "undefined",
-        "value" : "Diccionario Geologico\nhttp://www.estrucplan.com.ar/Producciones/entrega.asp?IdEntrega=1684",
+        "value" : "Wordnet http://wordnet.princeton.edu/perl/webwn?o2=&o0=1&o7=&o5=&o1=1&o6=&o4=&o3=&s=horizon&i=2&h=0000#c",
         "type" : "label"
       } ]
     },
@@ -11953,7 +11953,7 @@
     },
     "domain" : "16",
     "comment" : {
-      "undefined" : "a specific layer or stratum of soil or subsoil in a vertical cross section of land)"
+      "undefined" : "capa del suelo mas o menos paralela a la superficie con caracteristicas especificas con respecto a las situadas encima y debajo: espesor, color, caracteristicas quimicas, biologicas y mineralogicas. El conjunto de horizontes constituye el perfil del suelo."
     },
     "attributes" : [ "datatype" ],
     "id" : "507"
@@ -12038,13 +12038,13 @@
     "annotations" : {
       "note" : [ {
         "identifier" : "note",
-        "language" : "undefined",
-        "value" : "Utilizando xsd:dateTime en este lugar significa que la duración del intervalo está implícita: se corresponde con la longitud del elemento más pequeño distinto de cero del literal fecha-hora. Sin embargo, esta regla no se puede utilizar para intervalos cuya duración es mayor que un rango más pequeño que el tiempo de comienzo - p.ej. el primer minuto o segundo del día, la primera hora del mes, o el primer día del año. En estos casos el intervalo deseado no se puede distinguir del intervalo correspondiente al próximo rango más alto. Debido a esta ambigüedad esencial, no se recomienda el uso de esta propiedad y está desaprobada.",
+        "language" : "en",
+        "value" : "Using xsd:dateTime in this place means that the duration of the interval is implicit: it corresponds to the length of the smallest non-zero element of the date-time literal. However, this rule cannot be used for intervals whose duration is more than one rank smaller than the starting time - e.g. the first minute or second of a day, the first hour of a month, or the first day of a year. In these cases the desired interval cannot be distinguished from the interval corresponding to the next rank up. Because of this essential ambiguity, use of this property is not recommended and it is deprecated.",
         "type" : "label"
       }, {
         "identifier" : "note",
-        "language" : "en",
-        "value" : "Using xsd:dateTime in this place means that the duration of the interval is implicit: it corresponds to the length of the smallest non-zero element of the date-time literal. However, this rule cannot be used for intervals whose duration is more than one rank smaller than the starting time - e.g. the first minute or second of a day, the first hour of a month, or the first day of a year. In these cases the desired interval cannot be distinguished from the interval corresponding to the next rank up. Because of this essential ambiguity, use of this property is not recommended and it is deprecated.",
+        "language" : "undefined",
+        "value" : "Utilizando xsd:dateTime en este lugar significa que la duración del intervalo está implícita: se corresponde con la longitud del elemento más pequeño distinto de cero del literal fecha-hora. Sin embargo, esta regla no se puede utilizar para intervalos cuya duración es mayor que un rango más pequeño que el tiempo de comienzo - p.ej. el primer minuto o segundo del día, la primera hora del mes, o el primer día del año. En estos casos el intervalo deseado no se puede distinguir del intervalo correspondiente al próximo rango más alto. Debido a esta ambigüedad esencial, no se recomienda el uso de esta propiedad y está desaprobada.",
         "type" : "label"
       } ]
     },
@@ -12058,7 +12058,7 @@
       "en" : "Value of DateTimeInterval expressed as a compact value.",
       "es" : "Valor de 'intervalo de fecha-hora' expresado como un valor compacto."
     },
-    "attributes" : [ "deprecated", "external", "datatype" ],
+    "attributes" : [ "external", "datatype", "deprecated" ],
     "id" : "524"
   }, {
     "iri" : "http://geo.linkeddata.es/ontology/estado",
@@ -12088,13 +12088,13 @@
     "annotations" : {
       "definition" : [ {
         "identifier" : "definition",
-        "language" : "es",
-        "value" : "Si un intervalo propio T1 contiene otro intervalo propio T2, entonces el principio de T1 está antes que el principio de T2, y el final de T1 está después del final de T2.",
+        "language" : "en",
+        "value" : "If a proper interval T1 is intervalContains another proper interval T2, then the beginning of T1 is before the beginning of T2, and the end of T1 is after the end of T2.",
         "type" : "label"
       }, {
         "identifier" : "definition",
-        "language" : "en",
-        "value" : "If a proper interval T1 is intervalContains another proper interval T2, then the beginning of T1 is before the beginning of T2, and the end of T1 is after the end of T2.",
+        "language" : "es",
+        "value" : "Si un intervalo propio T1 contiene otro intervalo propio T2, entonces el principio de T1 está antes que el principio de T2, y el final de T1 está después del final de T2.",
         "type" : "label"
       } ]
     },
@@ -12160,7 +12160,7 @@
       "en" : "Gives directionality to time. If a temporal entity T1 is before another temporal entity T2, then the end of T1 is before the beginning of T2. Thus, \"before\" can be considered to be basic to instants and derived for intervals.",
       "es" : "Asume una dirección en el tiempo. Si una entidad temporal T1 está antes que otra entidad temporal T2, entonces el final de T1 está antes que el principio de T2. Así, \"antes\" se puede considerar básica para instantes y derivada para intervalos."
     },
-    "attributes" : [ "transitive", "external", "object" ],
+    "attributes" : [ "external", "transitive", "object" ],
     "id" : "537"
   }, {
     "iri" : "http://geo.linkeddata.es/ontology/es_inundada_por",
@@ -12174,6 +12174,19 @@
     "attributes" : [ "object" ],
     "id" : "540"
   }, {
+    "iri" : "http://geo.linkeddata.es/ontology/localizadoEn",
+    "baseIri" : "http://geo.linkeddata.es/ontology",
+    "range" : "297",
+    "label" : {
+      "IRI-based" : "localizadoEn"
+    },
+    "domain" : "544",
+    "comment" : {
+      "es" : "localizado en"
+    },
+    "attributes" : [ "object" ],
+    "id" : "543"
+  }, {
     "iri" : "http://geo.linkeddata.es/ontology/curvatura",
     "baseIri" : "http://geo.linkeddata.es/ontology",
     "range" : "246",
@@ -12182,20 +12195,7 @@
     },
     "domain" : "352",
     "attributes" : [ "datatype" ],
-    "id" : "543"
-  }, {
-    "iri" : "http://geo.linkeddata.es/ontology/localizadoEn",
-    "baseIri" : "http://geo.linkeddata.es/ontology",
-    "range" : "297",
-    "label" : {
-      "IRI-based" : "localizadoEn"
-    },
-    "domain" : "545",
-    "comment" : {
-      "es" : "localizado en"
-    },
-    "attributes" : [ "object" ],
-    "id" : "544"
+    "id" : "545"
   }, {
     "iri" : "http://purl.org/NET/scovo#dimension",
     "baseIri" : "http://purl.org/NET/scovo",
@@ -12285,13 +12285,13 @@
     "annotations" : {
       "definition" : [ {
         "identifier" : "definition",
-        "language" : "es",
-        "value" : "Si un intervalo propio T1 se solapa con otro intervalo propio T2, entonces el principio de T1 es anterior al principio de T2, el final de T1 es posterior al principio de T2, y el final de T1 es anterior al final de T2.",
+        "language" : "en",
+        "value" : "If a proper interval T1 is intervalOverlaps another proper interval T2, then the beginning of T1 is before the beginning of T2, the end of T1 is after the beginning of T2, and the end of T1 is before the end of T2.",
         "type" : "label"
       }, {
         "identifier" : "definition",
-        "language" : "en",
-        "value" : "If a proper interval T1 is intervalOverlaps another proper interval T2, then the beginning of T1 is before the beginning of T2, the end of T1 is after the beginning of T2, and the end of T1 is before the end of T2.",
+        "language" : "es",
+        "value" : "Si un intervalo propio T1 se solapa con otro intervalo propio T2, entonces el principio de T1 es anterior al principio de T2, el final de T1 es posterior al principio de T2, y el final de T1 es anterior al final de T2.",
         "type" : "label"
       } ]
     },
@@ -12310,7 +12310,7 @@
   }, {
     "range" : "115",
     "domain" : "394",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "568"
   }, {
     "iri" : "http://geo.linkeddata.es/ontology/transmite",
@@ -12337,7 +12337,7 @@
   }, {
     "range" : "262",
     "domain" : "261",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "571"
   }, {
     "iri" : "http://www.w3.org/2006/time#minutes",
@@ -12372,52 +12372,52 @@
   }, {
     "range" : "576",
     "domain" : "575",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "574"
   }, {
     "range" : "169",
     "domain" : "578",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "577"
   }, {
     "range" : "169",
     "domain" : "548",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "579"
   }, {
     "range" : "112",
     "domain" : "203",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "580"
   }, {
     "range" : "87",
     "domain" : "122",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "581"
   }, {
     "range" : "87",
     "domain" : "19",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "582"
   }, {
     "range" : "87",
     "domain" : "52",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "583"
   }, {
     "range" : "115",
     "domain" : "39",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "584"
   }, {
     "range" : "262",
     "domain" : "14",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "585"
   }, {
     "range" : "262",
     "domain" : "108",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "586"
   }, {
     "iri" : "http://geo.linkeddata.es/ontology/volumen",
@@ -12432,42 +12432,42 @@
   }, {
     "range" : "93",
     "domain" : "136",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "590"
   }, {
     "range" : "93",
     "domain" : "137",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "591"
   }, {
     "range" : "93",
     "domain" : "138",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "592"
   }, {
     "range" : "129",
     "domain" : "145",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "593"
   }, {
     "range" : "129",
     "domain" : "146",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "594"
   }, {
     "range" : "129",
     "domain" : "147",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "595"
   }, {
     "range" : "129",
     "domain" : "148",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "596"
   }, {
     "range" : "129",
     "domain" : "149",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "597"
   }, {
     "iri" : "http://www.w3.org/2006/time#day",
@@ -12561,22 +12561,22 @@
     "attributes" : [ "someValues", "object" ],
     "id" : "609"
   }, {
-    "iri" : "http://geo.linkeddata.es/ontology/inunda",
-    "baseIri" : "http://geo.linkeddata.es/ontology",
-    "range" : "10",
-    "label" : {
-      "IRI-based" : "inunda"
-    },
-    "domain" : "15",
-    "attributes" : [ "someValues", "object" ],
-    "id" : "610"
-  }, {
     "iri" : "http://geo.linkeddata.es/ontology/parte_de",
     "inverse" : "356",
     "baseIri" : "http://geo.linkeddata.es/ontology",
     "range" : "71",
     "label" : {
       "IRI-based" : "parte_de"
+    },
+    "domain" : "15",
+    "attributes" : [ "someValues", "object" ],
+    "id" : "610"
+  }, {
+    "iri" : "http://geo.linkeddata.es/ontology/inunda",
+    "baseIri" : "http://geo.linkeddata.es/ontology",
+    "range" : "10",
+    "label" : {
+      "IRI-based" : "inunda"
     },
     "domain" : "15",
     "attributes" : [ "someValues", "object" ],
@@ -12602,7 +12602,7 @@
     },
     "domain" : "22",
     "subproperty" : [ "615" ],
-    "attributes" : [ "allValues", "object" ],
+    "attributes" : [ "object", "allValues" ],
     "id" : "613"
   }, {
     "iri" : "http://geo.linkeddata.es/ontology/descarga_en",
@@ -12616,22 +12616,22 @@
     "attributes" : [ "someValues", "object" ],
     "id" : "616"
   }, {
-    "iri" : "http://geo.linkeddata.es/ontology/es_distribuida",
+    "iri" : "http://geo.linkeddata.es/ontology/es_transvasada",
     "baseIri" : "http://geo.linkeddata.es/ontology",
     "range" : "2",
     "label" : {
-      "IRI-based" : "es_distribuida"
+      "IRI-based" : "es_transvasada"
     },
     "superproperty" : [ "365" ],
     "domain" : "20",
     "attributes" : [ "someValues", "object" ],
     "id" : "617"
   }, {
-    "iri" : "http://geo.linkeddata.es/ontology/es_transvasada",
+    "iri" : "http://geo.linkeddata.es/ontology/es_distribuida",
     "baseIri" : "http://geo.linkeddata.es/ontology",
     "range" : "2",
     "label" : {
-      "IRI-based" : "es_transvasada"
+      "IRI-based" : "es_distribuida"
     },
     "superproperty" : [ "365" ],
     "domain" : "20",
@@ -12657,7 +12657,7 @@
     },
     "domain" : "129",
     "subproperty" : [ "366", "367" ],
-    "attributes" : [ "allValues", "object" ],
+    "attributes" : [ "object", "allValues" ],
     "id" : "621"
   }, {
     "iri" : "http://geo.linkeddata.es/ontology/transmite",
@@ -12668,7 +12668,7 @@
     },
     "superproperty" : [ "570" ],
     "domain" : "183",
-    "attributes" : [ "allValues", "object" ],
+    "attributes" : [ "object", "allValues" ],
     "id" : "622"
   }, {
     "iri" : "http://geo.linkeddata.es/ontology/es_transvasada",
@@ -12730,13 +12730,13 @@
     "annotations" : {
       "definition" : [ {
         "identifier" : "definition",
-        "language" : "es",
-        "value" : "El sistema de referencia temporal utilizado por una posición temporal o descripción de extensión.",
+        "language" : "en",
+        "value" : "The temporal reference system used by a temporal position or extent description. ",
         "type" : "label"
       }, {
         "identifier" : "definition",
-        "language" : "en",
-        "value" : "The temporal reference system used by a temporal position or extent description. ",
+        "language" : "es",
+        "value" : "El sistema de referencia temporal utilizado por una posición temporal o descripción de extensión.",
         "type" : "label"
       } ]
     },
@@ -12760,24 +12760,24 @@
     "annotations" : {
       "note" : [ {
         "identifier" : "note",
-        "language" : "es",
-        "value" : "Esta relación entre intervalos no estaba incluida en las 13 relaciones básicas definidas por Allen (1984), pero está definida en T.3 como la unión de 'intervalo anterior' con 'intervalo posterior'. Sin embargo, esto está fuera de la expresividad de OWL2, por tanto, está implementado como una propiedad explícita, con 'intervalo anterior' e 'intervalo posterior' como sub-propiedades.",
+        "language" : "en",
+        "value" : "This interval relation is not included in the 13 basic relationships defined in Allen (1984), but is defined in (T.3) as the union of :intervalBefore v :intervalAfter . However, that is outside OWL2 expressivity, so is implemented as an explicit property, with :intervalBefore , :intervalAfter as sub-properties",
         "type" : "label"
       }, {
         "identifier" : "note",
-        "language" : "en",
-        "value" : "This interval relation is not included in the 13 basic relationships defined in Allen (1984), but is defined in (T.3) as the union of :intervalBefore v :intervalAfter . However, that is outside OWL2 expressivity, so is implemented as an explicit property, with :intervalBefore , :intervalAfter as sub-properties",
+        "language" : "es",
+        "value" : "Esta relación entre intervalos no estaba incluida en las 13 relaciones básicas definidas por Allen (1984), pero está definida en T.3 como la unión de 'intervalo anterior' con 'intervalo posterior'. Sin embargo, esto está fuera de la expresividad de OWL2, por tanto, está implementado como una propiedad explícita, con 'intervalo anterior' e 'intervalo posterior' como sub-propiedades.",
         "type" : "label"
       } ],
       "definition" : [ {
         "identifier" : "definition",
-        "language" : "es",
-        "value" : "Si un intervalo propio T1 es disjunto con otro intervalo propio T2, entonces el principio de T1 está después del final de T2, o el final de T1 está antes que el principio de T2, es decir, los intervalos no se solapan de ninguna forma, aunque su relación de orden no se conozca.",
+        "language" : "en",
+        "value" : "If a proper interval T1 is intervalDisjoint another proper interval T2, then the beginning of T1 is after the end of T2, or the end of T1 is before the beginning of T2, i.e. the intervals do not overlap in any way, but their ordering relationship is not known.",
         "type" : "label"
       }, {
         "identifier" : "definition",
-        "language" : "en",
-        "value" : "If a proper interval T1 is intervalDisjoint another proper interval T2, then the beginning of T1 is after the end of T2, or the end of T1 is before the beginning of T2, i.e. the intervals do not overlap in any way, but their ordering relationship is not known.",
+        "language" : "es",
+        "value" : "Si un intervalo propio T1 es disjunto con otro intervalo propio T2, entonces el principio de T1 está después del final de T2, o el final de T1 está antes que el principio de T2, es decir, los intervalos no se solapan de ninguna forma, aunque su relación de orden no se conozca.",
         "type" : "label"
       } ]
     },
@@ -12805,35 +12805,6 @@
     "attributes" : [ "datatype" ],
     "id" : "629"
   }, {
-    "iri" : "http://www.w3.org/2006/time#intervalEquals",
-    "baseIri" : "http://www.w3.org/2006/time",
-    "range" : "197",
-    "annotations" : {
-      "definition" : [ {
-        "identifier" : "definition",
-        "language" : "en",
-        "value" : "If a proper interval T1 is intervalEquals another proper interval T2, then the beginning of T1 is coincident with the beginning of T2, and the end of T1 is coincident with the end of T2.",
-        "type" : "label"
-      }, {
-        "identifier" : "definition",
-        "language" : "es",
-        "value" : "Si un intervalo propio T1 es igual a otro intervalo propio T2, entonces el principio de T1 coincide con el principio de T2, y el final de T1 coincide con el final de T2.",
-        "type" : "label"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "intervalEquals",
-      "en" : "interval equals",
-      "es" : "intervalo igual"
-    },
-    "domain" : "197",
-    "comment" : {
-      "en" : "If a proper interval T1 is intervalEquals another proper interval T2, then the beginning of T1 is coincident with the beginning of T2, and the end of T1 is coincident with the end of T2.",
-      "es" : "Si un intervalo propio T1 es igual a otro intervalo propio T2, entonces el principio de T1 coincide con el principio de T2, y el final de T1 coincide con el final de T2."
-    },
-    "attributes" : [ "external", "object" ],
-    "id" : "637"
-  }, {
     "iri" : "http://www.w3.org/2006/time#intervalDuring",
     "inverse" : "531",
     "baseIri" : "http://www.w3.org/2006/time",
@@ -12841,13 +12812,13 @@
     "annotations" : {
       "definition" : [ {
         "identifier" : "definition",
-        "language" : "en",
-        "value" : "If a proper interval T1 is intervalDuring another proper interval T2, then the beginning of T1 is after the beginning of T2, and the end of T1 is before the end of T2.",
+        "language" : "es",
+        "value" : "Si un intervalo propio T1 está durante otro intervalo propio T2, entonces del principio de T1 está después del principio de T2, y el final de T1 está antes que el final de T2.",
         "type" : "label"
       }, {
         "identifier" : "definition",
-        "language" : "es",
-        "value" : "Si un intervalo propio T1 está durante otro intervalo propio T2, entonces del principio de T1 está después del principio de T2, y el final de T1 está antes que el final de T2.",
+        "language" : "en",
+        "value" : "If a proper interval T1 is intervalDuring another proper interval T2, then the beginning of T1 is after the beginning of T2, and the end of T1 is before the end of T2.",
         "type" : "label"
       } ]
     },
@@ -12864,6 +12835,35 @@
     },
     "attributes" : [ "external", "object" ],
     "id" : "382"
+  }, {
+    "iri" : "http://www.w3.org/2006/time#intervalEquals",
+    "baseIri" : "http://www.w3.org/2006/time",
+    "range" : "197",
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "es",
+        "value" : "Si un intervalo propio T1 es igual a otro intervalo propio T2, entonces el principio de T1 coincide con el principio de T2, y el final de T1 coincide con el final de T2.",
+        "type" : "label"
+      }, {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "If a proper interval T1 is intervalEquals another proper interval T2, then the beginning of T1 is coincident with the beginning of T2, and the end of T1 is coincident with the end of T2.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "intervalEquals",
+      "en" : "interval equals",
+      "es" : "intervalo igual"
+    },
+    "domain" : "197",
+    "comment" : {
+      "en" : "If a proper interval T1 is intervalEquals another proper interval T2, then the beginning of T1 is coincident with the beginning of T2, and the end of T1 is coincident with the end of T2.",
+      "es" : "Si un intervalo propio T1 es igual a otro intervalo propio T2, entonces el principio de T1 coincide con el principio de T2, y el final de T1 coincide con el final de T2."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "637"
   }, {
     "iri" : "http://geo.linkeddata.es/ontology/mezcla",
     "baseIri" : "http://geo.linkeddata.es/ontology",
@@ -13015,17 +13015,17 @@
   }, {
     "range" : "93",
     "domain" : "134",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "668"
   }, {
     "range" : "93",
     "domain" : "127",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "669"
   }, {
     "range" : "93",
     "domain" : "135",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "670"
   }, {
     "iri" : "http://www.w3.org/2006/time#intervalStarts",
@@ -13094,47 +13094,47 @@
   }, {
     "range" : "389",
     "domain" : "85",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "674"
   }, {
     "range" : "389",
     "domain" : "310",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "675"
   }, {
     "range" : "389",
     "domain" : "388",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "676"
   }, {
     "range" : "81",
     "domain" : "16",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "677"
   }, {
     "range" : "81",
     "domain" : "20",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "678"
   }, {
     "range" : "51",
     "domain" : "49",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "679"
   }, {
     "range" : "93",
     "domain" : "133",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "680"
   }, {
-    "range" : "545",
+    "range" : "544",
     "domain" : "161",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "682"
   }, {
-    "range" : "545",
+    "range" : "544",
     "domain" : "82",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "683"
   }, {
     "iri" : "http://geo.linkeddata.es/ontology/tamanyo",
@@ -13156,24 +13156,24 @@
     "annotations" : {
       "note" : [ {
         "identifier" : "note",
-        "language" : "es",
-        "value" : "La propiedad 'en fecha-hora XSD' ha sido reemplazada por 'en fecha-sello de tiempo XSD' que hace obligatorio el campo 'huso horario'.",
+        "language" : "en",
+        "value" : "The property :inXSDDateTime is replaced by :inXSDDateTimeStamp which makes the time-zone field mandatory.",
         "type" : "label"
       }, {
         "identifier" : "note",
-        "language" : "en",
-        "value" : "The property :inXSDDateTime is replaced by :inXSDDateTimeStamp which makes the time-zone field mandatory.",
+        "language" : "es",
+        "value" : "La propiedad 'en fecha-hora XSD' ha sido reemplazada por 'en fecha-sello de tiempo XSD' que hace obligatorio el campo 'huso horario'.",
         "type" : "label"
       } ],
       "definition" : [ {
         "identifier" : "definition",
-        "language" : "en",
-        "value" : "Position of an instant, expressed using xsd:dateTime",
+        "language" : "es",
+        "value" : "Posición de un instante, expresado utilizando xsd:dateTime.",
         "type" : "label"
       }, {
         "identifier" : "definition",
-        "language" : "es",
-        "value" : "Posición de un instante, expresado utilizando xsd:dateTime.",
+        "language" : "en",
+        "value" : "Position of an instant, expressed using xsd:dateTime",
         "type" : "label"
       } ]
     },
@@ -13187,7 +13187,7 @@
       "en" : "Position of an instant, expressed using xsd:dateTime",
       "es" : "Posición de un instante, expresado utilizando xsd:dateTime."
     },
-    "attributes" : [ "deprecated", "external", "datatype" ],
+    "attributes" : [ "external", "datatype", "deprecated" ],
     "id" : "686"
   }, {
     "iri" : "http://geo.linkeddata.es/ontology/cota",
@@ -13308,13 +13308,13 @@
     "annotations" : {
       "definition" : [ {
         "identifier" : "definition",
-        "language" : "es",
-        "value" : "Posición de mes en un sistema calendario-reloj.\n            El rango de esta propiedad no está especificado, por tanto, se puede reemplazar por cualquier representación específica de un mes de calendario de un calendario cualquiera.",
+        "language" : "en",
+        "value" : "Month position in a calendar-clock system.\n\nThe range of this property is not specified, so can be replaced by any specific representation of a calendar month from any calendar. ",
         "type" : "label"
       }, {
         "identifier" : "definition",
-        "language" : "en",
-        "value" : "Month position in a calendar-clock system.\n\nThe range of this property is not specified, so can be replaced by any specific representation of a calendar month from any calendar. ",
+        "language" : "es",
+        "value" : "Posición de mes en un sistema calendario-reloj.\n            El rango de esta propiedad no está especificado, por tanto, se puede reemplazar por cualquier representación específica de un mes de calendario de un calendario cualquiera.",
         "type" : "label"
       } ]
     },
@@ -13339,13 +13339,13 @@
     "annotations" : {
       "editorialNote" : [ {
         "identifier" : "editorialNote",
-        "language" : "en",
-        "value" : "Feature at risk - added in 2017 revision, and not yet widely used. ",
+        "language" : "es",
+        "value" : "Característica arriesgada -añadida en la revisión del 2017 que no ha sido todavía utilizada de forma amplia.",
         "type" : "label"
       }, {
         "identifier" : "editorialNote",
-        "language" : "es",
-        "value" : "Característica arriesgada -añadida en la revisión del 2017 que no ha sido todavía utilizada de forma amplia.",
+        "language" : "en",
+        "value" : "Feature at risk - added in 2017 revision, and not yet widely used. ",
         "type" : "label"
       } ],
       "definition" : [ {
@@ -13507,17 +13507,17 @@
   }, {
     "range" : "9",
     "domain" : "50",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "727"
   }, {
     "range" : "288",
     "domain" : "78",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "728"
   }, {
     "range" : "288",
     "domain" : "552",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "729"
   }, {
     "iri" : "http://geo.linkeddata.es/ontology/grado_de_contaminacion",
@@ -13579,7 +13579,7 @@
   }, {
     "range" : "9",
     "domain" : "707",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "734"
   }, {
     "iri" : "http://geo.linkeddata.es/ontology/deposita_en",
@@ -13594,47 +13594,47 @@
   }, {
     "range" : "547",
     "domain" : "203",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "736"
   }, {
     "range" : "547",
     "domain" : "561",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "737"
   }, {
     "range" : "447",
     "domain" : "564",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "738"
   }, {
     "range" : "447",
     "domain" : "565",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "739"
   }, {
     "range" : "447",
     "domain" : "566",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "740"
   }, {
     "range" : "447",
     "domain" : "567",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "741"
   }, {
     "range" : "447",
     "domain" : "51",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "742"
   }, {
     "range" : "197",
     "domain" : "299",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "743"
   }, {
     "range" : "12",
     "domain" : "83",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "744"
   }, {
     "iri" : "http://geo.linkeddata.es/ontology/zona_de_descarga",
@@ -13649,7 +13649,7 @@
   }, {
     "range" : "12",
     "domain" : "408",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "747"
   }, {
     "iri" : "http://geo.linkeddata.es/ontology/distancia",
@@ -13664,52 +13664,52 @@
   }, {
     "range" : "77",
     "domain" : "558",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "749"
   }, {
     "range" : "300",
     "domain" : "542",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "750"
   }, {
     "range" : "300",
     "domain" : "752",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "751"
   }, {
     "range" : "300",
     "domain" : "383",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "753"
   }, {
     "range" : "300",
     "domain" : "18",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "754"
   }, {
     "range" : "300",
     "domain" : "104",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "755"
   }, {
     "range" : "14",
     "domain" : "93",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "756"
   }, {
     "range" : "14",
     "domain" : "17",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "757"
   }, {
     "range" : "14",
     "domain" : "326",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "758"
   }, {
     "range" : "440",
     "domain" : "197",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "759"
   }, {
     "iri" : "http://geo.linkeddata.es/ontology/inunda",
@@ -13724,17 +13724,17 @@
   }, {
     "range" : "20",
     "domain" : "63",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "761"
   }, {
     "range" : "20",
     "domain" : "47",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "762"
   }, {
     "range" : "20",
     "domain" : "764",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "763"
   }, {
     "iri" : "http://geo.linkeddata.es/ontology/es_alimentada_por",
@@ -13751,12 +13751,12 @@
   }, {
     "range" : "20",
     "domain" : "342",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "766"
   }, {
     "range" : "20",
     "domain" : "262",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "767"
   }, {
     "iri" : "http://www.w3.org/2006/time#dayOfWeek",
@@ -13765,13 +13765,13 @@
     "annotations" : {
       "definition" : [ {
         "identifier" : "definition",
-        "language" : "es",
-        "value" : "El día de la semana, cuyo valor es un miembro de la clase 'día de la semana'.",
+        "language" : "en",
+        "value" : "The day of week, whose value is a member of the class time:DayOfWeek",
         "type" : "label"
       }, {
         "identifier" : "definition",
-        "language" : "en",
-        "value" : "The day of week, whose value is a member of the class time:DayOfWeek",
+        "language" : "es",
+        "value" : "El día de la semana, cuyo valor es un miembro de la clase 'día de la semana'.",
         "type" : "label"
       } ]
     },
@@ -13791,27 +13791,27 @@
   }, {
     "range" : "8",
     "domain" : "210",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "769"
   }, {
     "range" : "8",
     "domain" : "10",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "770"
   }, {
     "range" : "342",
     "domain" : "302",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "771"
   }, {
     "range" : "342",
     "domain" : "389",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "772"
   }, {
     "range" : "77",
     "domain" : "774",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "773"
   }, {
     "iri" : "http://geo.linkeddata.es/ontology/Idioma_alternativo",
@@ -13966,7 +13966,7 @@
       "IRI-based" : "alimenta_a"
     },
     "domain" : "493",
-    "subproperty" : [ "420" ],
+    "subproperty" : [ "418" ],
     "attributes" : [ "object" ],
     "id" : "614"
   }, {
@@ -14011,16 +14011,6 @@
     "attributes" : [ "external", "datatype" ],
     "id" : "784"
   }, {
-    "iri" : "http://geo.linkeddata.es/ontology/superficie_confinada",
-    "baseIri" : "http://geo.linkeddata.es/ontology",
-    "range" : "787",
-    "label" : {
-      "IRI-based" : "superficie_confinada"
-    },
-    "domain" : "700",
-    "attributes" : [ "datatype" ],
-    "id" : "786"
-  }, {
     "iri" : "http://geo.linkeddata.es/ontology/tipologia",
     "baseIri" : "http://geo.linkeddata.es/ontology",
     "range" : "655",
@@ -14035,12 +14025,22 @@
     "label" : {
       "IRI-based" : "tipologia"
     },
-    "domain" : "701",
+    "domain" : "700",
     "comment" : {
       "undefined" : "tabla SegmentoLago columna Tipo"
     },
     "attributes" : [ "datatype" ],
-    "id" : "788"
+    "id" : "786"
+  }, {
+    "iri" : "http://geo.linkeddata.es/ontology/superficie_confinada",
+    "baseIri" : "http://geo.linkeddata.es/ontology",
+    "range" : "788",
+    "label" : {
+      "IRI-based" : "superficie_confinada"
+    },
+    "domain" : "701",
+    "attributes" : [ "datatype" ],
+    "id" : "787"
   }, {
     "iri" : "http://geo.linkeddata.es/ontology/concentracion_de_sal",
     "baseIri" : "http://geo.linkeddata.es/ontology",
@@ -14227,24 +14227,24 @@
     "annotations" : {
       "editorialNote" : [ {
         "identifier" : "editorialNote",
-        "language" : "es",
-        "value" : "Característica arriesgada - añadida en la revisión de 2017, y todavía no ampliamente utilizada.",
+        "language" : "en",
+        "value" : "Feature at risk - added in 2017 revision, and not yet widely used. ",
         "type" : "label"
       }, {
         "identifier" : "editorialNote",
-        "language" : "en",
-        "value" : "Feature at risk - added in 2017 revision, and not yet widely used. ",
+        "language" : "es",
+        "value" : "Característica arriesgada - añadida en la revisión de 2017, y todavía no ampliamente utilizada.",
         "type" : "label"
       } ],
       "definition" : [ {
         "identifier" : "definition",
-        "language" : "en",
-        "value" : "Extent of a temporal entity, expressed using xsd:duration",
+        "language" : "es",
+        "value" : "Extensión de una entidad temporal, expresada utilizando xsd:duration.",
         "type" : "label"
       }, {
         "identifier" : "definition",
-        "language" : "es",
-        "value" : "Extensión de una entidad temporal, expresada utilizando xsd:duration.",
+        "language" : "en",
+        "value" : "Extent of a temporal entity, expressed using xsd:duration",
         "type" : "label"
       } ]
     },
@@ -14281,13 +14281,13 @@
     "annotations" : {
       "definition" : [ {
         "identifier" : "definition",
-        "language" : "en",
-        "value" : "Value of a temporal extent expressed as a decimal number scaled by a temporal unit",
+        "language" : "es",
+        "value" : "Valor de una extensión temporal expresada como un número decimal escalado por una unidad de tiempo.",
         "type" : "label"
       }, {
         "identifier" : "definition",
-        "language" : "es",
-        "value" : "Valor de una extensión temporal expresada como un número decimal escalado por una unidad de tiempo.",
+        "language" : "en",
+        "value" : "Value of a temporal extent expressed as a decimal number scaled by a temporal unit",
         "type" : "label"
       } ]
     },
@@ -14311,13 +14311,13 @@
     "annotations" : {
       "definition" : [ {
         "identifier" : "definition",
-        "language" : "en",
-        "value" : "If a proper interval T1 is intervalFinishes another proper interval T2, then the beginning of T1 is after the beginning of T2, and the end of T1 is coincident with the end of T2.",
+        "language" : "es",
+        "value" : "Si un intervalo propio T1 termina otro intervalo propio T2, entonces del principio de T1 está después del principio de T2, y el final de T1 coincide con el final de T2.",
         "type" : "label"
       }, {
         "identifier" : "definition",
-        "language" : "es",
-        "value" : "Si un intervalo propio T1 termina otro intervalo propio T2, entonces del principio de T1 está después del principio de T2, y el final de T1 coincide con el final de T2.",
+        "language" : "en",
+        "value" : "If a proper interval T1 is intervalFinishes another proper interval T2, then the beginning of T1 is after the beginning of T2, and the end of T1 is coincident with the end of T2.",
         "type" : "label"
       } ]
     },
@@ -14525,7 +14525,7 @@
     "superproperty" : [ "614" ],
     "domain" : "179",
     "attributes" : [ "object" ],
-    "id" : "420"
+    "id" : "418"
   }, {
     "iri" : "http://www.w3.org/2006/time#intervalStartedBy",
     "baseIri" : "http://www.w3.org/2006/time",
@@ -14561,13 +14561,13 @@
     "annotations" : {
       "definition" : [ {
         "identifier" : "definition",
-        "language" : "es",
-        "value" : "Duración de una entidad temporal.",
+        "language" : "en",
+        "value" : "Duration of a temporal entity.",
         "type" : "label"
       }, {
         "identifier" : "definition",
-        "language" : "en",
-        "value" : "Duration of a temporal entity.",
+        "language" : "es",
+        "value" : "Duración de una entidad temporal.",
         "type" : "label"
       } ]
     },
@@ -14623,13 +14623,13 @@
       } ],
       "definition" : [ {
         "identifier" : "definition",
-        "language" : "es",
-        "value" : "El mes del año, cuyo valor es un miembro de la clase 'mes del año'.",
+        "language" : "en",
+        "value" : "The month of the year, whose value is a member of the class time:MonthOfYear",
         "type" : "label"
       }, {
         "identifier" : "definition",
-        "language" : "en",
-        "value" : "The month of the year, whose value is a member of the class time:MonthOfYear",
+        "language" : "es",
+        "value" : "El mes del año, cuyo valor es un miembro de la clase 'mes del año'.",
         "type" : "label"
       } ]
     },
@@ -14693,13 +14693,13 @@
     "annotations" : {
       "definition" : [ {
         "identifier" : "definition",
-        "language" : "en",
-        "value" : "Position of a time instant expressed as a TimePosition",
+        "language" : "es",
+        "value" : "Posición de un instante, expresada como una coordenada temporal o un valor nominal.",
         "type" : "label"
       }, {
         "identifier" : "definition",
-        "language" : "es",
-        "value" : "Posición de un instante, expresada como una coordenada temporal o un valor nominal.",
+        "language" : "en",
+        "value" : "Position of a time instant expressed as a TimePosition",
         "type" : "label"
       } ]
     },
@@ -14762,13 +14762,13 @@
     "annotations" : {
       "definition" : [ {
         "identifier" : "definition",
-        "language" : "en",
-        "value" : "Position of a time instant",
+        "language" : "es",
+        "value" : "Posición de un instante de tiempo.",
         "type" : "label"
       }, {
         "identifier" : "definition",
-        "language" : "es",
-        "value" : "Posición de un instante de tiempo.",
+        "language" : "en",
+        "value" : "Position of a time instant",
         "type" : "label"
       } ]
     },
@@ -14842,13 +14842,13 @@
     "annotations" : {
       "definition" : [ {
         "identifier" : "definition",
-        "language" : "en",
-        "value" : "If a proper interval T1 is intervalBefore another proper interval T2, then the end of T1 is before the beginning of T2.",
+        "language" : "es",
+        "value" : "Si un intervalo propio T1 está antes que otro intervalo propio T2, entonces el final de T1 está antes que el principio de T2.",
         "type" : "label"
       }, {
         "identifier" : "definition",
-        "language" : "es",
-        "value" : "Si un intervalo propio T1 está antes que otro intervalo propio T2, entonces el final de T1 está antes que el principio de T2.",
+        "language" : "en",
+        "value" : "If a proper interval T1 is intervalBefore another proper interval T2, then the end of T1 is before the beginning of T2.",
         "type" : "label"
       } ]
     },
