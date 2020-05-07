@@ -40,17 +40,17 @@
       "creator" : [ {
         "identifier" : "creator",
         "language" : "undefined",
+        "value" : "Oscar Corcho (Ontology Engineering Group - Universidad Politécnica de Madrid, LocaliData)",
+        "type" : "label"
+      }, {
+        "identifier" : "creator",
+        "language" : "undefined",
         "value" : "Víctor Morlán (Ayuntamiento de Zaragoza)",
         "type" : "label"
       }, {
         "identifier" : "creator",
         "language" : "undefined",
         "value" : "Miguel Angel García Delgado (Ontology Engineering Group - Universidad Politécnica de Madrid)",
-        "type" : "label"
-      }, {
-        "identifier" : "creator",
-        "language" : "undefined",
-        "value" : "Oscar Corcho (Ontology Engineering Group - Universidad Politécnica de Madrid, LocaliData)",
         "type" : "label"
       } ],
       "rights" : [ {
@@ -59,28 +59,28 @@
         "value" : "Creative Commons Attribution 4.0 International (CC BY 4.0)",
         "type" : "label"
       } ],
-      "preferredNamespaceUri" : [ {
-        "identifier" : "preferredNamespaceUri",
-        "language" : "undefined",
-        "value" : "http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento#",
-        "type" : "iri"
-      } ],
       "versionInfo" : [ {
         "identifier" : "versionInfo",
         "language" : "es",
         "value" : "Esta ontología surge de la necesidad de representar información detallada sobre alojamientos en una ciudad",
         "type" : "label"
       } ],
-      "title" : [ {
-        "identifier" : "title",
-        "language" : "es",
-        "value" : "Vocabulario para la representación de datos sobre alojamiento",
-        "type" : "label"
+      "preferredNamespaceUri" : [ {
+        "identifier" : "preferredNamespaceUri",
+        "language" : "undefined",
+        "value" : "http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento#",
+        "type" : "iri"
       } ],
       "issued" : [ {
         "identifier" : "issued",
         "language" : "undefined",
         "value" : "2014-09-15",
+        "type" : "label"
+      } ],
+      "title" : [ {
+        "identifier" : "title",
+        "language" : "es",
+        "value" : "Vocabulario para la representación de datos sobre alojamiento",
         "type" : "label"
       } ]
     }
@@ -465,7 +465,7 @@
     },
     "superproperty" : [ "7" ],
     "domain" : "4",
-    "attributes" : [ "external", "object" ],
+    "attributes" : [ "object", "external" ],
     "id" : "6"
   }, {
     "range" : "10",
@@ -562,7 +562,7 @@
     },
     "superproperty" : [ "7" ],
     "domain" : "4",
-    "attributes" : [ "external", "object" ],
+    "attributes" : [ "object", "external" ],
     "id" : "27"
   }, {
     "iri" : "http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento#categoria",
@@ -631,7 +631,7 @@
     },
     "domain" : "4",
     "subproperty" : [ "6", "27" ],
-    "attributes" : [ "external", "object" ],
+    "attributes" : [ "object", "external" ],
     "id" : "7"
   }, {
     "range" : "1",
