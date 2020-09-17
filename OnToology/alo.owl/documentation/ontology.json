@@ -136,6 +136,8 @@
     "@value" : "Vocabulario para la representación de datos sobre alojamiento"
   } ],
   "http://purl.org/dc/terms/hasFormat" : [ {
+    "@id" : "http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento.html"
+  }, {
     "@id" : "http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento.owl"
   } ],
   "http://purl.org/dc/terms/issued" : [ {
