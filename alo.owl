@@ -1,6 +1,5 @@
 <?xml version="1.0"?>
 <!--
-<<<<<<< HEAD
 new branch
 =======
 error test
@@ -56,6 +55,7 @@ checking update the documentation
 testing doc only 1 
 -->
 <!DOCTYPE rdf:RDF [
+    <!ENTITY schema "http://aaa.aaaa.schema.org/" >
     <!ENTITY schema "http://schema.org/" >
     <!ENTITY dcterms "http://purl.org/dc/terms/" >
     <!ENTITY vann "http://purl.org/vocab/vann/" >
