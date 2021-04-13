@@ -24,8 +24,8 @@ It is obvious that not all the pitfalls are equally important; their impact in t
 
     
 
-#### P13. Inverse relationships not explicitly declared <img src="https://raw.githubusercontent.com/OnToology/oops-report/master/sample/minor.png" height="15px"> (4 cases detected).
-*This pitfall appears when any relationship (except for those that are defined as symmetric properties using owl:SymmetricProperty) does not have an inverse relationship (owl:inverseOf) defined within the ontology.*
+#### P10. Missing disjointness <img src="https://raw.githubusercontent.com/OnToology/oops-report/master/sample/important.png" height="15px"> (1 cases detected).
+*The ontology lacks disjoint axioms between classes or between properties that should be defined as disjoint. This pitfall is related with the guidelines provided in [6], [2] and [7].*
 
     
 
@@ -39,13 +39,13 @@ It is obvious that not all the pitfalls are equally important; their impact in t
 
     
 
-#### P10. Missing disjointness <img src="https://raw.githubusercontent.com/OnToology/oops-report/master/sample/important.png" height="15px"> (1 cases detected).
-*The ontology lacks disjoint axioms between classes or between properties that should be defined as disjoint. This pitfall is related with the guidelines provided in [6], [2] and [7].*
+#### P04. Creating unconnected ontology elements <img src="https://raw.githubusercontent.com/OnToology/oops-report/master/sample/minor.png" height="15px"> (3 cases detected).
+*Ontology elements (classes, object properties and datatype properties) are created isolated, with no relation to the rest of the ontology.*
 
     
 
-#### P04. Creating unconnected ontology elements <img src="https://raw.githubusercontent.com/OnToology/oops-report/master/sample/minor.png" height="15px"> (3 cases detected).
-*Ontology elements (classes, object properties and datatype properties) are created isolated, with no relation to the rest of the ontology.*
+#### P13. Inverse relationships not explicitly declared <img src="https://raw.githubusercontent.com/OnToology/oops-report/master/sample/minor.png" height="15px"> (4 cases detected).
+*This pitfall appears when any relationship (except for those that are defined as symmetric properties using owl:SymmetricProperty) does not have an inverse relationship (owl:inverseOf) defined within the ontology.*
 
     
 
