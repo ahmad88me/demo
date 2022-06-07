@@ -1,0 +1,21 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1000"
+node [shape = rectangle, color="black"]; "base:Hotel" "http://aaa.aaaa.schema.org/Motel" "base:Hostal" "http://aaa.aaaa.schema.org/LodgingBusiness" "cruzar:Alojamiento" "http://aaa.aaaa.schema.org/Hostel" "base:Alojamiento" "http://aaa.aaaa.schema.org/Hotel" "geonames:Feature" "base:Apartahotel" "http://aaa.aaaa.schema.org/BedAndBreakfast" "base:Albergue" ; /*classes style*/
+	"base:Alojamiento" -> "cruzar:Alojamiento" [ label = "rdfs:subClassOf" ];
+	"base:Alojamiento" -> "http://aaa.aaaa.schema.org/LodgingBusiness" [ label = "rdfs:subClassOf" ];
+	"base:Alojamiento" -> "geonames:Feature" [ label = "rdfs:subClassOf" ];
+	"base:Albergue" -> "base:Alojamiento" [ label = "rdfs:subClassOf" ];
+	"base:Albergue" -> "http://aaa.aaaa.schema.org/Hostel" [ label = "rdfs:subClassOf" ];
+	"base:Hostal" -> "base:Alojamiento" [ label = "rdfs:subClassOf" ];
+	"base:Hostal" -> "http://aaa.aaaa.schema.org/LodgingBusiness" [ label = "rdfs:subClassOf" ];
+	"http://aaa.aaaa.schema.org/Hostel" -> "http://aaa.aaaa.schema.org/LodgingBusiness" [ label = "rdfs:subClassOf" ];
+	"base:Hotel" -> "base:Alojamiento" [ label = "rdfs:subClassOf" ];
+	"base:Hotel" -> "http://aaa.aaaa.schema.org/Hotel" [ label = "rdfs:subClassOf" ];
+	"http://aaa.aaaa.schema.org/Hotel" -> "http://aaa.aaaa.schema.org/LodgingBusiness" [ label = "rdfs:subClassOf" ];
+	"http://aaa.aaaa.schema.org/BedAndBreakfast" -> "http://aaa.aaaa.schema.org/LodgingBusiness" [ label = "rdfs:subClassOf" ];
+	"base:Apartahotel" -> "base:Alojamiento" [ label = "rdfs:subClassOf" ];
+	"base:Apartahotel" -> "http://aaa.aaaa.schema.org/LodgingBusiness" [ label = "rdfs:subClassOf" ];
+	"http://aaa.aaaa.schema.org/Motel" -> "http://aaa.aaaa.schema.org/LodgingBusiness" [ label = "rdfs:subClassOf" ];
+
+}
