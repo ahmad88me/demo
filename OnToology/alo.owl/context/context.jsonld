@@ -14,7 +14,7 @@
       "@id" : "http://creativecommons.org/ns#license"
     },
     "LodgingBusiness" : {
-      "@id" : "http://aaa.aaaa.schema.org/LodgingBusiness"
+      "@id" : "http://schema.org/LodgingBusiness"
     },
     "numCamas" : {
       "@id" : "http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento#numCamas",
@@ -44,7 +44,7 @@
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     },
     "BedAndBreakfast" : {
-      "@id" : "http://aaa.aaaa.schema.org/BedAndBreakfast"
+      "@id" : "http://schema.org/BedAndBreakfast"
     },
     "featureClass" : {
       "@id" : "http://geonames.org/ontology#featureClass",
@@ -82,10 +82,10 @@
       "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
     },
     "Hostel" : {
-      "@id" : "http://aaa.aaaa.schema.org/Hostel"
+      "@id" : "http://schema.org/Hostel"
     },
     "Motel" : {
-      "@id" : "http://aaa.aaaa.schema.org/Motel"
+      "@id" : "http://schema.org/Motel"
     },
     "hasFormat" : {
       "@id" : "http://purl.org/dc/terms/hasFormat"
