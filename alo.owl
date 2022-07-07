@@ -3,7 +3,6 @@
 new branch
 =======
 error test
->>>>>>> 428f7cd636f085b4cbef23cf8a747efcafe0f516
 fix flag
 another
 another
@@ -55,7 +54,6 @@ checking update the documentation
 testing doc only 1 
 -->
 <!DOCTYPE rdf:RDF [
-    <!ENTITY schema "http://aaa.aaaa.schema.org/" >
     <!ENTITY schema "http://schema.org/" >
     <!ENTITY dcterms "http://purl.org/dc/terms/" >
     <!ENTITY vann "http://purl.org/vocab/vann/" >
