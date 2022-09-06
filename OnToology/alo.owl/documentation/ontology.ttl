@@ -138,30 +138,6 @@ rdfs:label rdf:type owl:AnnotationProperty .
 #    Classes
 #################################################################
 
-###  http://aaa.aaaa.schema.org/BedAndBreakfast
-<http://aaa.aaaa.schema.org/BedAndBreakfast> rdf:type owl:Class ;
-                                             rdfs:subClassOf <http://aaa.aaaa.schema.org/LodgingBusiness> .
-
-
-###  http://aaa.aaaa.schema.org/Hostel
-<http://aaa.aaaa.schema.org/Hostel> rdf:type owl:Class ;
-                                    rdfs:subClassOf <http://aaa.aaaa.schema.org/LodgingBusiness> .
-
-
-###  http://aaa.aaaa.schema.org/Hotel
-<http://aaa.aaaa.schema.org/Hotel> rdf:type owl:Class ;
-                                   rdfs:subClassOf <http://aaa.aaaa.schema.org/LodgingBusiness> .
-
-
-###  http://aaa.aaaa.schema.org/LodgingBusiness
-<http://aaa.aaaa.schema.org/LodgingBusiness> rdf:type owl:Class .
-
-
-###  http://aaa.aaaa.schema.org/Motel
-<http://aaa.aaaa.schema.org/Motel> rdf:type owl:Class ;
-                                   rdfs:subClassOf <http://aaa.aaaa.schema.org/LodgingBusiness> .
-
-
 ###  http://geonames.org/ontology#Feature
 <http://geonames.org/ontology#Feature> rdf:type owl:Class .
 
@@ -170,9 +146,33 @@ rdfs:label rdf:type owl:AnnotationProperty .
 <http://idi.fundacionctic.org/cruzar/turismo#Alojamiento> rdf:type owl:Class .
 
 
+###  http://schema.org/BedAndBreakfast
+<http://schema.org/BedAndBreakfast> rdf:type owl:Class ;
+                                    rdfs:subClassOf <http://schema.org/LodgingBusiness> .
+
+
+###  http://schema.org/Hostel
+<http://schema.org/Hostel> rdf:type owl:Class ;
+                           rdfs:subClassOf <http://schema.org/LodgingBusiness> .
+
+
+###  http://schema.org/Hotel
+<http://schema.org/Hotel> rdf:type owl:Class ;
+                          rdfs:subClassOf <http://schema.org/LodgingBusiness> .
+
+
+###  http://schema.org/LodgingBusiness
+<http://schema.org/LodgingBusiness> rdf:type owl:Class .
+
+
+###  http://schema.org/Motel
+<http://schema.org/Motel> rdf:type owl:Class ;
+                          rdfs:subClassOf <http://schema.org/LodgingBusiness> .
+
+
 ###  http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento#Albergue
 :Albergue rdf:type owl:Class ;
-          rdfs:subClassOf <http://aaa.aaaa.schema.org/Hostel> ,
+          rdfs:subClassOf <http://schema.org/Hostel> ,
                           :Alojamiento ;
           <http://purl.org/dc/terms/issued> "2015-03-06"^^xsd:dateTime ;
           rdfs:comment "Albergue"@es ;
@@ -182,9 +182,9 @@ rdfs:label rdf:type owl:AnnotationProperty .
 
 ###  http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento#Alojamiento
 :Alojamiento rdf:type owl:Class ;
-             rdfs:subClassOf <http://aaa.aaaa.schema.org/LodgingBusiness> ,
-                             <http://geonames.org/ontology#Feature> ,
+             rdfs:subClassOf <http://geonames.org/ontology#Feature> ,
                              <http://idi.fundacionctic.org/cruzar/turismo#Alojamiento> ,
+                             <http://schema.org/LodgingBusiness> ,
                              [ rdf:type owl:Restriction ;
                                owl:onProperty <http://geonames.org/ontology#featureClass> ;
                                owl:hasValue <http://geonames.org/ontology#S>
@@ -201,7 +201,7 @@ rdfs:label rdf:type owl:AnnotationProperty .
 
 ###  http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento#Apartahotel
 :Apartahotel rdf:type owl:Class ;
-             rdfs:subClassOf <http://aaa.aaaa.schema.org/LodgingBusiness> ,
+             rdfs:subClassOf <http://schema.org/LodgingBusiness> ,
                              :Alojamiento ;
              <http://purl.org/dc/terms/issued> "2015-03-06"^^xsd:dateTime ;
              rdfs:comment "Apartahotel"@es ;
@@ -211,7 +211,7 @@ rdfs:label rdf:type owl:AnnotationProperty .
 
 ###  http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento#Hostal
 :Hostal rdf:type owl:Class ;
-        rdfs:subClassOf <http://aaa.aaaa.schema.org/LodgingBusiness> ,
+        rdfs:subClassOf <http://schema.org/LodgingBusiness> ,
                         :Alojamiento ;
         <http://purl.org/dc/terms/issued> "2015-03-06"^^xsd:dateTime ;
         rdfs:comment "Hostal"@es ;
@@ -221,7 +221,7 @@ rdfs:label rdf:type owl:AnnotationProperty .
 
 ###  http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento#Hotel
 :Hotel rdf:type owl:Class ;
-       rdfs:subClassOf <http://aaa.aaaa.schema.org/Hotel> ,
+       rdfs:subClassOf <http://schema.org/Hotel> ,
                        :Alojamiento ;
        <http://purl.org/dc/terms/issued> "2015-03-06"^^xsd:dateTime ;
        rdfs:comment "Hotel"@es ;
