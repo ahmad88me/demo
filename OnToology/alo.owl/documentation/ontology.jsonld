@@ -27,33 +27,6 @@
     "@value" : "RDF"
   } ]
 }, {
-  "@id" : "http://aaa.aaaa.schema.org/BedAndBreakfast",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://aaa.aaaa.schema.org/LodgingBusiness"
-  } ]
-}, {
-  "@id" : "http://aaa.aaaa.schema.org/Hostel",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://aaa.aaaa.schema.org/LodgingBusiness"
-  } ]
-}, {
-  "@id" : "http://aaa.aaaa.schema.org/Hotel",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://aaa.aaaa.schema.org/LodgingBusiness"
-  } ]
-}, {
-  "@id" : "http://aaa.aaaa.schema.org/LodgingBusiness",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
-}, {
-  "@id" : "http://aaa.aaaa.schema.org/Motel",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://aaa.aaaa.schema.org/LodgingBusiness"
-  } ]
-}, {
   "@id" : "http://creativecommons.org/ns#license",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
@@ -113,6 +86,33 @@
 }, {
   "@id" : "http://purl.org/vocab/vann/preferredNamespaceUri",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://schema.org/BedAndBreakfast",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://schema.org/LodgingBusiness"
+  } ]
+}, {
+  "@id" : "http://schema.org/Hostel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://schema.org/LodgingBusiness"
+  } ]
+}, {
+  "@id" : "http://schema.org/Hotel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://schema.org/LodgingBusiness"
+  } ]
+}, {
+  "@id" : "http://schema.org/LodgingBusiness",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://schema.org/Motel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://schema.org/LodgingBusiness"
+  } ]
 }, {
   "@id" : "http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento",
   "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
@@ -183,7 +183,7 @@
     "@value" : "Albergue"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://aaa.aaaa.schema.org/Hostel"
+    "@id" : "http://schema.org/Hostel"
   }, {
     "@id" : "http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento#Alojamiento"
   } ]
@@ -206,11 +206,11 @@
     "@value" : "Alojamiento"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://aaa.aaaa.schema.org/LodgingBusiness"
-  }, {
     "@id" : "http://geonames.org/ontology#Feature"
   }, {
     "@id" : "http://idi.fundacionctic.org/cruzar/turismo#Alojamiento"
+  }, {
+    "@id" : "http://schema.org/LodgingBusiness"
   }, {
     "@id" : "_:genid1"
   }, {
@@ -235,7 +235,7 @@
     "@value" : "Apartahotel"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://aaa.aaaa.schema.org/LodgingBusiness"
+    "@id" : "http://schema.org/LodgingBusiness"
   }, {
     "@id" : "http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento#Alojamiento"
   } ]
@@ -258,7 +258,7 @@
     "@value" : "Hostal"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://aaa.aaaa.schema.org/LodgingBusiness"
+    "@id" : "http://schema.org/LodgingBusiness"
   }, {
     "@id" : "http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento#Alojamiento"
   } ]
@@ -281,7 +281,7 @@
     "@value" : "Hotel"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://aaa.aaaa.schema.org/Hotel"
+    "@id" : "http://schema.org/Hotel"
   }, {
     "@id" : "http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento#Alojamiento"
   } ]
